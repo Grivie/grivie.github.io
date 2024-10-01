@@ -1,1 +1,456 @@
 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grivie - Great Living Integration</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" type="text/css" href="https://grivie.github.io/style.css">
+  </head>
+
+<body>
+    <!-- Header -->
+    <div class="header"> <input type="text" id="gsearch" name="gsearch" placeholder="{nama}, Cari apa?"> <a href="action://act/cart" class="keranjang-pic"><span class="Grivie material-icons" style="color: #bd0100; font-size: 24px;">shopping_cart</span></a> </div>
+    <script>
+    const placeholders = ["Sate", "Nasi Goreng", "Es Teler", "Rujak"];
+                    let index = 0;
+                    function changePlaceholder() {
+                      const searchInput = document.getElementById("gsearch");
+                      searchInput.setAttribute("placeholder", placeholders[index]);
+                      index = (index + 1) % placeholders.length;
+                    }
+                    // Menangani pengiriman pencarian
+                    function handleSearch(event) {
+                      if (event.key === 'Enter') {
+                        const query = document.getElementById("gsearch").value;
+                        // Mengalihkan ke action pencarian dengan query
+                        window.location.href = `action://act/search?q=${encodeURIComponent(query)}`;
+                      }
+                    }
+                    // Memastikan bahwa fungsi dijalankan setelah DOM sepenuhnya dimuat
+                    document.addEventListener("DOMContentLoaded", () => {
+                      setInterval(changePlaceholder, 4000); // Ubah setiap 4 detik
+                      // Menambahkan event listener untuk menangani pencarian saat menekan Enter
+                      document.getElementById("gsearch").addEventListener("keypress", handleSearch);
+                    });
+    </script>
+    <!-- Promo Banner -->
+    <div class="banner"> <img src="https://lh3.googleusercontent.com/d/1wJY05vcc4_3CJNeeXgGMy2FKc0RZ7UT3" alt="Promo Banner"> </div>
+    <!-- Balance Section -->
+    <div class="balance-section">
+        <div class="balance">
+            <div class="rupiah"> <i class="material-icons" style="color: #176533;">account_balance_wallet</i> {saldo} </div>
+            <div class="coins">{poin} poin</div>
+            <!-- Coins di bawah -->
+        </div>
+        <div class="actions">
+            <!-- Topup --><a href="action://act/topup" style="text-decoration: none;">
+        <button>
+        <i class="material-icons">upload</i>
+        <p>
+            Topup
+        </p>
+        </button>
+        </a>
+            <!-- Tarik --><a href="action://m/2252142692466f512b6c68534.51356705" style="text-decoration: none;">
+        <button>
+        <i class="material-icons">download</i>
+        <p>
+            Tarik
+        </p>
+        </button>
+        </a>
+            <!-- Transfer --><a href="action://m/66984420ad9d7" style="text-decoration: none;">
+        <button>
+        <i class="material-icons">smartphone</i>
+        <p>
+            Pulsa
+        </p>
+        </button>
+        </a> </div>
+    </div>
+    <!-- Icon Section -->
+    <div class="icon-section">
+        <div class="icon"> <a href="action://p/6698fa13f2133"><img src="https://lh3.googleusercontent.com/d/1L_h82Lydi3tsd7kKKd7vFJr2fL4pO7Of" alt=""></a>
+            <p> Ojekan </p>
+        </div>
+        <div class="icon"> <a href="action://p/6698f9c5e6068"><img src="https://lh3.googleusercontent.com/d/1p7Dgf6YSqbo0-tRAJ0zErgsd7TCVVy9G" alt=""></a>
+            <p> Mobilan </p>
+        </div>
+        <div class="icon"> <a href="action://m/6698443b759b3"><img " src="https://lh3.googleusercontent.com/d/1BW5ZNtp1XjUG4pi5oIMmA6p1vbI5sV8s" alt=""></a>
+            <p> Panganan </p>
+        </div>
+        <div class="icon"> <a href="action://p/6698f9bf9332f"><img src="https://lh3.googleusercontent.com/d/1LNshdsJ13Sshn5TkScxsxIXK6eaDjXux" alt=""></a>
+            <p> Kurir </p>
+        </div>
+        <div class="icon"> <a href="action://m/1052172472466d83bda6bb734.41151134"><img src="https://lh3.googleusercontent.com/d/1MP109kBFoSZNMAJyBTq5R4uKi0fuDzTG" alt=""></a>
+            <p> G-Shop </p>
+        </div>
+        <div class="icon"> <a href="action://p/66990715dfccc"><img src="https://lh3.googleusercontent.com/d/1v2Z9UwhvC277gvDJo2U6IXzCHtrASwQk" alt=""></a>
+            <p> Apotik </p>
+        </div>
+        <div class="icon"> <a href="action://p/66a5db2b7e6c4"><img src="https://lh3.googleusercontent.com/d/16IJEsxvVgvOuqa1UixV2AZpCBeUh4dVp" alt=""></a>
+            <p> Laundry </p>
+        </div>
+        <div class="icon"> <img src="https://lh3.googleusercontent.com/d/1irXMzYkEk8UH_9ikjB7q35ZXBrAcClrk" alt="Lainnya" onclick="toggleMoreMenu()">
+            <p> Lainnya </p>
+        </div>
+        <!-- Menu tambahan disembunyikan -->
+        <div class="icon"> <a href="action://p/66a5e1e9d847c"><img src="https://lh3.googleusercontent.com/d/1chcmodY3gIk66VTKhKHN9ABWZRK4z8rZ" alt=""></a>
+            <p> Digital </p>
+        </div>
+        <div class="icon"> <a href="action://p/66a5e19219d4b"><img src="https://lh3.googleusercontent.com/d/1oQmcxNVsrHZyYA9IEhX2JzQttUZRV4bP" alt=""></a>
+            <p> Travel </p>
+        </div>
+        <div class="icon"> <a href="action://f/66d0b4e7a8d79"><img src="https://lh3.googleusercontent.com/d/1N0W0IPRhz14zY3tpUKTT7rk2z-ZuQYwj" alt=""></a>
+            <p> Wedding </p>
+        </div>
+        <div class="icon"> <a href="action://p/66a5dfed67082"><img src="https://lh3.googleusercontent.com/d/1lgAVUzPGzpxnfFRFEePiG9fgwd40PbQX" alt=""></a>
+            <p> Barbershop </p>
+        </div>
+        <div class="icon"> <a href="action://p/6698fad49c8ba"><img src="https://lh3.googleusercontent.com/d/16N8Ye-fGMJMDsqZ1WZValcZxjLq7Tlxi" alt=""></a>
+            <p> Rental </p>
+        </div>
+    </div>
+    <script>
+    function toggleMoreMenu() {
+                            // Menampilkan atau menyembunyikan menu tambahan
+                            const icons = document.querySelectorAll('.icon-section .icon');
+                            icons.forEach((icon, index) => {
+                                if (index >= 8) { // Tampilkan ikon tambahan
+                                    icon.style.display = (icon.style.display === 'block') ? 'none' : 'block';
+                                }
+                            });
+                        }
+                        // Tampilkan beberapa ikon pada load
+                        window.onload = function() {
+                            const icons = document.querySelectorAll('.icon-section .icon');
+                            for (let i = 0; i < 8; i++) {
+                                icons[i].style.display = 'block';
+                            }
+                        };
+    </script>
+    <div class="item-container">
+        <div class="header">
+            <div class="header-text">
+                <div class="text-title">
+                    <p> Buka <b>Sekarang!</b> </p>
+                </div>
+                <div class="text-description">Malem-malem Laper, Tapi Mager?</div>
+                <div class="text-description">Temukan apa yang masih buka 👉</div>
+            </div> <a href="action://act/nearme/24jam" class="button-24jam">24 Jam</a> </div>
+        <hr class="divider"> </div>
+
+
+            <div class="item-container" style="margin-top: 10px;">
+        <div style="border-radius: 10px; text-align: center; background-color: #186634; padding: 30px -30px;">
+            <marquee behavior="scroll" direction="left" scrollamount="5">
+                <p style="color: white; font-size: 16px; margin: 0;"> Yang Menarik Di <b>Oktober!</b> </p>
+            </marquee>
+        </div>
+    </div>
+    <div class="item-container">
+        <p style="margin-top: 25px; margin-bottom: 0px;"> <span class="material-icons" style="color: #bd0100; vertical-align: middle;">store</span> Resto dengan rating Jempolan! </p>
+        <h6 style="margin-left: 20px; font-size: 0.8em; margin-bottom: 15px; color: gray; animation: blink 2s infinite;">Iklan</h6>
+    </div>
+    <style>
+    @keyframes blink {
+                        0%, 100% { opacity: 1; }
+                        50% { opacity: 0; }
+                    }
+    </style>
+    </head>
+
+<div class="item-container" style="margin-top: -20px;">
+    <section class="jmslider-grivie">
+        <div class="jmslider-grivie__item">
+            <a href="action://p/66e1849a439f6">
+                <img src="https://lh3.googleusercontent.com/u/0/d/1xI5goGvgArDNXsbHnFdWTYAMhw78rd2p" alt="Slide 1" loading="lazy">
+            </a>
+        </div>      
+        <div class="jmslider-grivie__item">
+            <a href="action://p/66b2eafc61d05">
+                <img src="https://lh3.googleusercontent.com/u/0/d/1braxgS_66FDwpPkioXBXg-QgYFYr2mba" alt="Slide 2">
+            </a>
+        </div>
+        <div class="jmslider-grivie__item">
+            <a href="action://p/66bb39e6e86fc">
+                <img src="https://lh3.googleusercontent.com/u/0/d/1F7DAPT9gzO3VZneWVSo8_77tj41oXXHt" alt="Slide 3" loading="lazy">
+            </a>
+        </div>
+
+        
+
+
+
+    </section>
+</div>
+
+
+<script>
+function ExposeBlocks( options ) {
+  
+  this.settings = {
+    padding: 0,
+    ease: 3,
+    element: ".jmslider-grivie",
+    ...options 
+  };
+  
+  this.scrollers = [];
+  
+  let $scrollers = document.querySelectorAll( this.settings.element );
+  
+  if ( !$scrollers.length ) {
+    console.warn( "no elements to apply Exposé to" );
+    return;
+  }
+  
+  const init = () => {
+    const observer = new IntersectionObserver( scrollChecker, { threshold: 0 } ); 
+    $scrollers.forEach(($scroller) => {
+      if ( $scroller.offsetTop >= window.innerHeight ) {
+        observer.observe( $scroller );
+      }
+    });
+  }
+  
+  const clamp = (val,max = 100,min = 0) => {
+    return Math.min(max, Math.max(min, val));
+  }
+
+  const easeFactory = (k) => {
+    const base = (t) => (1 / (1 + Math.exp(-k * t))) - 0.5;
+    const correction = 0.5 / base(1);
+    return function (t) {
+      t = clamp(t);
+      return correction * base(2 * t - 1) + 0.5;
+    };
+  }
+
+  const splice = (arr, item) => {
+    if (!arr || !item) return;
+    const indexOf = arr.indexOf( item );
+    if ( indexOf >= 0 ) {
+      arr.splice( indexOf, 1 );
+    }
+  }
+    
+  const handleScroller = (event) => {
+
+    const w = {};
+    w.height = window.innerHeight;
+    w.top = window.scrollY;
+    w.middle = window.scrollY + w.height / 2;
+
+    this.scrollers.forEach((scroller) => {
+
+      const s = {};
+      const padding = scroller.dataset.exposePadding ? parseInt( scroller.dataset.exposePadding ) : this.settings.padding;
+      const ease = scroller.dataset.exposeEase ? parseInt( scroller.dataset.exposeEase ) : this.settings.ease;
+      const easer = easeFactory( ease );
+      
+      s.height = scroller.offsetHeight + padding * 2;
+      s.width = scroller.offsetWidth;
+      s.top = scroller.offsetTop - padding;
+      s.middle = s.top + s.height / 2;
+
+      s.onePercent = (scroller.scrollWidth - s.width) / 100;
+      s.fromMiddle = clamp( (s.middle - w.middle) / (w.height - s.height), 1, -1 );
+      s.fromScrollerEnd = ( s.fromMiddle * -1 + 1 ) / 2;
+      s.percentScrolled = s.fromScrollerEnd * 100;
+      s.easedPercentScrolled = easer( s.fromScrollerEnd ) * 100;
+
+      scroller.dataset.ignoreScroll = true;
+      scroller.scrollLeft = s.onePercent * s.easedPercentScrolled;
+
+    });
+
+  };
+
+  const handleInterrupts = (e) => {
+    const ignore = e.target.dataset.ignoreScroll === "true";
+    e.target.dataset.ignoreScroll = false;
+    if ( !ignore ) {
+      splice( this.scrollers, e.target );
+    }
+  };
+
+  const addInterrupts = () => {
+    this.scrollers.forEach((scroller) => {
+      scroller.addEventListener( "scroll", handleInterrupts, { passive: true });
+    });
+  }
+
+  const removeInterrupts = () => {
+    this.scrollers.forEach((scroller) => {
+      scroller.removeEventListener( "scroll", handleInterrupts, { passive: true });
+    });
+  };
+
+  const addScroller = () => {
+    window.addEventListener( "scroll", handleScroller, { passive: true });
+    addInterrupts();
+  };
+
+  const removeScroller = () => {
+    window.removeEventListener( "scroll", handleScroller, { passive: true });
+    removeInterrupts();
+  };
+
+  const scrollChecker = (entries, observer) => {
+    entries.forEach((entry) => {
+      if ( entry.isIntersecting ) {
+        this.scrollers.push( entry.target );
+      } else {
+        splice( this.scrollers, entry.target );
+      }
+    });
+    if ( this.scrollers.length ) {
+      addScroller();
+    } else {
+      removeScroller();
+    }
+  }
+
+  init();
+  return this;
+  
+};
+
+new ExposeBlocks({
+  padding: 50
+});
+</script>
+
+
+    <div class="item-container" style="margin-top: -25px;">
+        <div style="padding: 10px; border-radius: 5px; text-align: left; margin-bottom: 0;">
+            <p style="color: black;"> <span class="material-icons" style="color: #bd0100; vertical-align: middle;">store</span> Outlet Terdekat dari kamu! </p>
+        </div>
+    </div>
+    <div class="item-container" style="margin-bottom: 125px;">
+        <div class="separatori" style="clear: both; ">
+            <div class="w3-animate-left" style=" overflow: auto;height: auto; margin-bottom: 0px; border-radius: 0px 0px 0px 0px; ">
+                <div style="background: none; height: 0%; overflow: value; width: 550%; margin-bottom: 10px;">
+                    <div class='productTerbaru'>{lokasi_terdekat}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+        <div class="bottom-menu">
+            <div class="menu-item"> <span class="material-icons" onclick="hidePromoBox()" style="cursor: pointer;" id="close-btn">home</span>
+                <p> Beranda </p> 
+            </div>
+            <div class="menu-item" onclick="showPromoBox()"> <span class="material-icons">local_activity</span>
+                <p> Promo </p>
+            </div>
+            <div id="promoBox" class="promo-box" style="display: none;">
+                <p> Belum tersedia promo buat kamu. </p> <span class="material-icons" onclick="hidePromoBox()" style="cursor: pointer;">close</span> </div>
+            <div id="blurBackground" class="blur-background"></div>
+            <div class="menu-item"> <a href="action://act/message_list">
+                <span class="material-icons">chat</span>
+            </a>
+                <p> Chat </p> <span class="badge">{jumlah_pesan}</span>
+                <!-- Menambahkan elemen jumlah pesan -->
+            </div>
+            <div class="menu-item" id="profile-item"> <span class="profile profile-bottom">
+                <img src="{foto}" alt="img" style="width: 35px; height: 35px; border-radius: 50%; object-fit: cover;">
+            </span>
+                <p> Profile </p>
+            </div>
+            <!-- Full-Screen Profile Box -->
+            <div class="profile-fullscreen" id="profile-fullscreen">
+                <div class="profile-container">
+                    <div class="profile-header"> <img src="{foto}" alt="Profile Picture" class="profile-pic">
+                        <div class="profile-info">
+                            <h2 class="profile-name">{nama}</h2>
+                            <p class="profile-phone">{hp}</p>
+                            <p class="profile-email">{email}</p>
+                        </div> <span class="close-btn" id="logout"> </span> </div>
+                    <div class="account-section"> <a href="action://act/message_list" class="account-item" style="text-decoration: none;">
+                        <span class="material-icons">inbox</span>
+                        <span class="account-text">Inbox</span>
+                        <div class="badge">{jumlah_pesan}</div>
+                    </a>
+                        <div class="account-item"> <span class="material-icons">account_balance_wallet</span> <span class="account-text">Saldo Kamu:</span> <span class="account-saldo">{saldo}</span> </div>
+                    </div>
+                    <div class="info-section">
+                        <div class="info-item"> <span class="material-icons">card_giftcard</span> <span class="info-text">Voucher</span> </div>
+                        <div class="info-item"> <span class="material-icons">group_add</span> <span class="info-text">Jumlah Referral</span>
+                            <div class="badge">{jumlah_referral}</div>
+                        </div>
+                        <div class="info-item" id="shareReferral"> <span class="material-icons">share</span> <span class="info-text">Share Referral</span> </div>
+                        <a href="action://m/3610002552466e1cf0c9c2764.77389698" style="text-decoration: none;">
+                            <div class="info-item"> <span class="material-icons">shopping_cart</span> <span class="info-text">Fitur Mitra Jualan</span> </div>
+                        </a> <a href="action://act/admin" style="text-decoration: none;" class="info-item">
+                        <span class="material-icons">support_agent</span>
+                        <span class="info-text">Bantuan</span>
+                    </a> <a href="action://act/profile" style="text-decoration: none;" class="info-item">
+                        <span class="material-icons">settings</span>
+                        <span class="info-text">Pengaturan</span>
+                    </a> </div>
+                </div>
+            </div>
+        </div>
+        <script>
+        function showPromoBox() {
+                    document.getElementById("promoBox").style.display = "block";
+                    document.getElementById("blurBackground").style.display = "block"; // Menampilkan efek blur
+                    document.body.style.overflow = "hidden"; // Mencegah scrolling
+                }
+        
+                function hidePromoBox() {
+                    document.getElementById("promoBox").style.display = "none";
+                    document.getElementById("blurBackground").style.display = "none"; // Menyembunyikan efek blur
+                    document.body.style.overflow = "auto"; // Mengembalikan scrolling
+                }
+        
+                // Open the full-screen profile box
+                document.getElementById('profile-item').addEventListener('click', function() {
+                    document.getElementById('profile-fullscreen').style.display = 'block';
+                });
+        
+                // Close the full-screen profile box
+                document.getElementById('close-btn').addEventListener('click', function() {
+                    document.getElementById('profile-fullscreen').style.display = 'none';
+                });
+        
+                // Close the full-screen profile box when clicking outside of it
+                document.getElementById('profile-fullscreen').addEventListener('click', function(event) {
+                    if (event.target === this) {
+                        this.style.display = 'none';
+                    }
+                });
+        
+                // Swipe to close the full-screen profile box
+                let touchStartX = 0;
+                document.getElementById('profile-fullscreen').addEventListener('touchstart', function(event) {
+                    touchStartX = event.touches[0].clientX; // Ambil posisi sentuh awal
+                });
+                document.getElementById('profile-fullscreen').addEventListener('touchend', function(event) {
+                    const touchEndX = event.changedTouches[0].clientX; // Ambil posisi sentuh akhir
+                    const swipeDistance = touchEndX - touchStartX; // Hitung jarak geser
+                    // Jika geseran ke kiri cukup jauh, tutup box
+                    if (swipeDistance < -100) {
+                        this.style.display = 'none'; // Tutup box jika swipe kiri lebih dari 100px
+                    }
+                });
+        
+                document.getElementById('shareReferral').addEventListener('click', function() {
+                    const nama = '{nama}'; // Ganti dengan nama yang sesuai
+                    const username = '{Username}'; // Ganti dengan username yang sesuai
+                    const message = `Hallo kak 🙋‍♂️⚓\nSaya *{nama}* ingin mengajak Anda untuk *Mendownload* Aplikasi ini\n\n*DOWNLOAD Sekarang dan dapatkan penghasilan tambahan* 👐👐👐\nhttps://play.google.com/store/apps/details?id=com.mygrivieindonesia.grivieindonesia\n\nJangan lupa masukkan code ini *{username}* ketika Register Dan dapatkan Promo-promo menarik di dalamnya`;
+                    const url = `https://api.whatsapp.com/send?text=${encodeURIComponent(message)}`;
+                    window.open(url, '_blank');
+                });
+        </script>
+    </body>
+
+</html>
