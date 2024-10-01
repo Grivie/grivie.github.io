@@ -1,4 +1,3 @@
-
 /* General styling */
       body {
           font-family: 'Josefin Sans' !important;
@@ -473,42 +472,37 @@
 }
 
         
-body {
-    overflow: hidden; /* Mencegah scrolling saat box ditampilkan */
-}
-
-.promo-box {
-    position: fixed;
-    bottom: calc(81px); /* Mengkalkulasi jarak dari bawah untuk menyisakan ruang */
-    left: 50%;
-    transform: translateX(-50%);
-    width: 100%;
-    max-width: 600px; /* Batas maksimal lebar box */
-    height: 70vh; /* Tinggi box 70% dari layar */
-    padding: 20px;
-    background-color: white;
-    border-radius: 30px 30px 0 0; /* Sudut atas melengkung */
-    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2); /* Bayangan lebih dominan ke atas */
-    z-index: 1000;
-    text-align: center;
-    backdrop-filter: blur(5px); /* Efek blur pada konten belakang */
-    border-top: 5px solid #bd0100; /* Border warna merah di bagian atas */
-}
-
-.menu-item {
-    cursor: pointer;
-}
-
-.blur-background {
-    display: none; /* Awalnya disembunyikan */
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 999;
-}
--index: 500; /* Di bawah promo box */
+        body {
+            overflow: hidden; /* Mencegah scrolling saat box ditampilkan */
+        }
+        
+        .promo-box {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 20px;
+            background-color: white;
+            border-radius: 15px; /* Sudut box melengkung */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            z-index: 1000;
+            text-align: center;
+            backdrop-filter: blur(5px); /* Efek blur pada konten belakang */
+        }
+        
+        .menu-item {
+            cursor: pointer;
+        }
+        
+        .blur-background {
+            display: none; /* Awalnya disembunyikan */
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5); /* Latar belakang semi-transparan */
+            z-index: 500; /* Di bawah promo box */
         }
         
         /* Menghapus garis bawah pada link */
