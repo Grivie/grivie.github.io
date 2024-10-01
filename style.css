@@ -58,34 +58,7 @@
           height: auto;
           border-radius: 15px;
       }
-      /* Icon section */
-      .icon-section {
-          display: flex;
-          flex-wrap: wrap;
-          justify-content: space-between;
-          margin-top: 30px;
-          padding: 0px;
-          background-color: #ffffff;
-      }
-      .icon-section .icon {
-          text-align: center;
-          flex: 1 1 calc(25% - 10px);
-          margin: 0px;
-          cursor: pointer;
-          display: none;
-      }
-      .icon-section .icon img {
-          width: 125px;
-          height: 125px;
-          object-fit: cover; /* Memastikan gambar menutupi area dan tetap dalam aspek rasio */
-          position: relative; /* Set posisi relatif untuk elemen ikon */
-          margin-top: -30px;
-      }
-      .icon-section .icon p {
-          font-size: 14px; /* Ukuran font tetap 12px */
-          color: #333;
-          margin-top: -25px;
-      }
+     
       /* Coin balance and actions */
       .balance-section {
           background-color: #ffffff;
