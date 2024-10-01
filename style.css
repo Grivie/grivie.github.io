@@ -452,20 +452,21 @@ body {
 }
 .promo-box {
     position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 20px;
+    bottom: 0; /* Posisikan dari bawah */
+    left: 0;
+    width: 100%; /* Full width */
+    height: calc(70%); /* Tinggi 70% dari bawah ke atas */
     background-color: white;
-    border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-top-left-radius: 15px; /* Sudut melengkung di kiri atas */
+    border-top-right-radius: 15px; /* Sudut melengkung di kanan atas */
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
     z-index: 1000;
     text-align: center;
     backdrop-filter: blur(5px);
+    border: 5px solid #bd0100; /* Border merah di atas */
+    box-sizing: border-box; /* Agar border masuk dalam ukuran box */
 }
-.menu-item {
-    cursor: pointer;
-}
+
 .blur-background {
     display: none;
     position: fixed;
@@ -476,6 +477,7 @@ body {
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 500;
 }
+
 a {
     text-decoration: none;
 }
