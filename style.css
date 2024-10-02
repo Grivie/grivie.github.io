@@ -566,6 +566,7 @@ body {
 .jmslider-grivie__item {
     position: relative; /* Memungkinkan popup diposisikan relatif terhadap gambar */
 }
+
 .blur-background {
     filter: blur(5px); /* Membuat gambar menjadi blur */
     transition: filter 0.3s ease;
@@ -573,32 +574,33 @@ body {
 
 /* Popup styling tanpa background */
 .popupcabang-overlay {
-    display: none;
-    position: absolute;
+    display: none; /* Sembunyikan overlay secara default */
+    position: absolute; /* Memungkinkan overlay menutupi gambar */
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
+    width: 100%; /* Lebar 100% untuk menutupi gambar */
+    height: 100%; /* Tinggi 100% untuk menutupi gambar */
+    z-index: 10; /* Pastikan overlay di atas konten lainnya */
+    background-color: rgba(0, 0, 0, 0.5); /* Tambahkan latar belakang semi-transparan */
 }
 
 .popupcabang-content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    position: absolute; /* Memungkinkan konten diposisikan di tengah overlay */
+    top: 50%; /* Posisi vertikal di tengah */
+    left: 50%; /* Posisi horizontal di tengah */
+    transform: translate(-50%, -50%); /* Memindahkan konten agar tepat di tengah */
     background-color: rgba(255, 255, 255, 0.8); /* Warna putih semi-transparan */
-    padding: 10px;
+    padding: 20px; /* Padding lebih besar untuk lebih nyaman */
     border-radius: 12px; /* Membuat sudut melengkung */
     text-align: center;
-    width: 60%;
-    max-width: 250px; /* Memperkecil ukuran popup */
-    height: auto; /* Mengatur tinggi sesuai konten */
+    width: 80%; /* Lebar konten yang lebih responsif */
+    max-width: 300px; /* Ukuran maksimum */
+    height: auto; /* Tinggi otomatis sesuai konten */
 }
 
 .popupcabang-content h2 {
     margin-top: 0;
-    font-size: 16px;
+    font-size: 18px; /* Ukuran font yang lebih besar untuk judul */
 }
 
 .popupcabang-buttons {
@@ -609,7 +611,7 @@ body {
 
 .popupcabang-content a {
     padding: 10px;
-    background-color: #bd0100;
+    background-color: #bd0100; /* Warna tombol */
     color: white;
     text-decoration: none;
     border-radius: 8px; /* Sudut melengkung untuk button */
@@ -619,7 +621,7 @@ body {
 }
 
 .popupcabang-content a:hover {
-    background-color: #a00000;
+    background-color: #a00000; /* Warna saat hover */
 }
 
 .popupcabang-close {
@@ -629,6 +631,7 @@ body {
     color: black;
     cursor: pointer;
     font-size: 14px;
+    background-color: #e0e0e0; /* Tambahkan latar belakang untuk tombol tutup */
 }
 
 
