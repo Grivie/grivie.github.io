@@ -228,7 +228,6 @@
                         window.open(url, '_blank');
                     });
 
-Popup Cabang
 // Open popup and blur image for the second image
 function openPopup2() {
     document.getElementById('popupcabang2').style.display = 'block';
