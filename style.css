@@ -434,7 +434,7 @@
 	 object-fit: cover;
 }
  .promo-box {
-	 height: calc(60% - 81px);
+	 height: calc(50% - 81px);
 	/* Menyisakan 70% dari tinggi layar minus tinggi menu */
 	 position: fixed;
 	 bottom: 81px;
