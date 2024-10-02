@@ -1,16 +1,4 @@
-body {
-	 font-family: "Josefin Sans" !important;
-	 margin: 0;
-	 padding: 0;
-	 background-color: #ffffff;
-}
- a {
-	 text-decoration: none;
-}
- a:hover {
-	 text-decoration: underline;
-}
- .account-item, .info-item {
+.account-item, .info-item {
 	 margin-bottom: 10px;
 }
  .header {
