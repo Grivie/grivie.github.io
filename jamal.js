@@ -227,3 +227,28 @@
                         const url = `https://api.whatsapp.com/send?text=${encodeURIComponent(message)}`;
                         window.open(url, '_blank');
                     });
+
+Popup Cabang
+// Open popup and blur image for the second image
+function openPopup2() {
+    document.getElementById('popupcabang2').style.display = 'block';
+    document.getElementById('popup-image-2').classList.add('blur-background');
+}
+
+// Close popup and remove blur for the second image
+function closePopup2() {
+    document.getElementById('popupcabang2').style.display = 'none';
+    document.getElementById('popup-image-2').classList.remove('blur-background');
+}
+
+// Open popup and blur image
+function openPopup() {
+    document.getElementById('popupcabang').style.display = 'block';
+    document.getElementById('popup-image').classList.add('blur-background');
+}
+
+// Close popup and remove blur
+function closePopup() {
+    document.getElementById('popupcabang').style.display = 'none';
+    document.getElementById('popup-image').classList.remove('blur-background');
+}
