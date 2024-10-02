@@ -1,21 +1,32 @@
+      const placeholders = ["Sate", "Nasi Goreng", "Es Teler", "Rujak"];
+let index = 0;
 
-    
-    function toggleMoreMenu() {
-                                // Menampilkan atau menyembunyikan menu tambahan
-                                const icons = document.querySelectorAll('.icon-section .icon');
-                                icons.forEach((icon, index) => {
-                                    if (index >= 8) { // Tampilkan ikon tambahan
-                                        icon.style.display = (icon.style.display === 'block') ? 'none' : 'block';
-                                    }
-                                });
-                            }
-                            // Tampilkan beberapa ikon pada load
-                            window.onload = function() {
-                                const icons = document.querySelectorAll('.icon-section .icon');
-                                for (let i = 0; i < 8; i++) {
-                                    icons[i].style.display = 'block';
-                                }
-                            };
+function changePlaceholder() {
+  const searchInput = document.getElementById("gsearch");
+  if (searchInput) {
+    searchInput.setAttribute("placeholder", placeholders[index]);
+    index = (index + 1) % placeholders.length;
+  }
+}
+
+function handleSearch(event) {
+  if (event.key === 'Enter') {
+    const query = document.getElementById("gsearch").value;
+    if (query) {
+      // Redirect to search action with query
+      window.location.href = `action://act/search?q=${encodeURIComponent(query)}`;
+    }
+  }
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+  setInterval(changePlaceholder, 4000); // Change every 4 seconds
+
+  const searchInput = document.getElementById("gsearch");
+  if (searchInput) {
+    searchInput.addEventListener("keydown", handleSearch); // Use keydown instead of keypress
+  }
+});
 
 
 function ExposeBlocks( options ) {
