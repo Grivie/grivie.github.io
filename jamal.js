@@ -1,32 +1,4 @@
-const placeholders = ["Sate", "Nasi Goreng", "Es Teler", "Rujak"];
-let index = 0;
 
-function changePlaceholder() {
-  const searchInput = document.getElementById("gsearch");
-  if (searchInput) {
-    searchInput.setAttribute("placeholder", placeholders[index]);
-    index = (index + 1) % placeholders.length;
-  }
-}
-
-function handleSearch(event) {
-  if (event.key === 'Enter') {
-    const query = document.getElementById("gsearch").value;
-    if (query) {
-      // Redirect to search action with query
-      window.location.href = `action://act/search?q=${encodeURIComponent(query)}`;
-    }
-  }
-}
-
-document.addEventListener("DOMContentLoaded", () => {
-  setInterval(changePlaceholder, 4000); // Change every 4 seconds
-
-  const searchInput = document.getElementById("gsearch");
-  if (searchInput) {
-    searchInput.addEventListener("keydown", handleSearch); // Use keydown instead of keypress
-  }
-});
     
     function toggleMoreMenu() {
                                 // Menampilkan atau menyembunyikan menu tambahan
