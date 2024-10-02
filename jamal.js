@@ -1,27 +1,32 @@
-    const placeholders = ["Sate", "Nasi Goreng", "Es Teler", "Rujak"];
-                        let index = 0;
-                        function changePlaceholder() {
-                          const searchInput = document.getElementById("gsearch");
-                          searchInput.setAttribute("placeholder", placeholders[index]);
-                          index = (index + 1) % placeholders.length;
-                        }
-                        // Menangani pengiriman pencarian
-                        function handleSearch(event) {
-                          if (event.key === 'Enter') {
-                            const query = document.getElementById("gsearch").value;
-                            // Mengalihkan ke action pencarian dengan query
-                            window.location.href = `action://act/search?q=${encodeURIComponent(query)}`;
-                          }
-                        }
-                        // Memastikan bahwa fungsi dijalankan setelah DOM sepenuhnya dimuat
-                        document.addEventListener("DOMContentLoaded", () => {
-                          setInterval(changePlaceholder, 4000); // Ubah setiap 4 detik
-                          // Menambahkan event listener untuk menangani pencarian saat menekan Enter
-                          document.getElementById("gsearch").addEventListener("keypress", handleSearch);
-                        });
-    
+const placeholders = ["Sate", "Nasi Goreng", "Es Teler", "Rujak"];
+let index = 0;
 
+function changePlaceholder() {
+  const searchInput = document.getElementById("gsearch");
+  if (searchInput) {
+    searchInput.setAttribute("placeholder", placeholders[index]);
+    index = (index + 1) % placeholders.length;
+  }
+}
 
+function handleSearch(event) {
+  if (event.key === 'Enter') {
+    const query = document.getElementById("gsearch").value;
+    if (query) {
+      // Redirect to search action with query
+      window.location.href = `action://act/search?q=${encodeURIComponent(query)}`;
+    }
+  }
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+  setInterval(changePlaceholder, 4000); // Change every 4 seconds
+
+  const searchInput = document.getElementById("gsearch");
+  if (searchInput) {
+    searchInput.addEventListener("keydown", handleSearch); // Use keydown instead of keypress
+  }
+});
 
     
     function toggleMoreMenu() {
