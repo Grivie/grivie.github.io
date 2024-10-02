@@ -12,9 +12,12 @@ function changePlaceholder() {
 function handleSearch(event) {
   if (event.key === 'Enter') {
     const query = document.getElementById("gsearch").value;
+    console.log("Pencarian dilakukan dengan query:", query); // Tambahkan log untuk debug
     if (query) {
       // Redirect to search action with query
       window.location.href = `action://act/search?q=${encodeURIComponent(query)}`;
+    } else {
+      console.log("Input pencarian kosong."); // Tambahkan log jika tidak ada query
     }
   }
 }
@@ -25,8 +28,11 @@ document.addEventListener("DOMContentLoaded", () => {
   const searchInput = document.getElementById("gsearch");
   if (searchInput) {
     searchInput.addEventListener("keydown", handleSearch); // Use keydown instead of keypress
+  } else {
+    console.log("Elemen input pencarian tidak ditemukan."); // Tambahkan log jika elemen tidak ditemukan
   }
 });
+
 
 // Toggle Menu Function
 function toggleMoreMenu() {
