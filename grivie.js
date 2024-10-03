@@ -1,27 +1,39 @@
-const placeholders = ["Sate", "Nasi Goreng", "Es Teler", "Rujak"];
-let index = 0;
-function changePlaceholder() {
-    const searchInput = document.getElementById("gsearch");
-    if (searchInput) {
-        searchInput.setAttribute("placeholder", placeholders[index]);
-        index = (index + 1) % placeholders.length;
+    
+    document.getElementById('searchForm').addEventListener('submit', function(event) {
+        event.preventDefault();
+        const input = document.getElementById('searchInput').value;
+        const formattedInput = input.split(' ').join('_'); // Mengganti spasi dengan underscore
+        const url = `https://app.grivie.id/search/${formattedInput}`;
+        window.location.href = url; // Redirect ke URL hasil pencarian
+    });
+
+        // Ganti nama sesuai kebutuhan
+    const nama = "{nama}";
+
+    // Array makanan acak
+    const makanan = [
+        "Nasi Goreng",
+        "Mie Ayam",
+        "Sate Ayam",
+        "Bakso",
+        "Rendang",
+        "Gado-Gado",
+        "Soto Ayam",
+        "Martabak",
+        "Ayam Goreng",
+        "Pizza"
+    ];
+
+    // Fungsi untuk mengupdate placeholder
+    function updatePlaceholder() {
+        const randomMakanan = makanan[Math.floor(Math.random() * makanan.length)];
+        const placeholderText = `${randomMakanan}?`;
+        document.getElementById("searchInput").placeholder = placeholderText;
     }
-}
-function handleSearch(event) {
-    if (event.key === "Enter") {
-        const query = document.getElementById("gsearch").value;
-        if (query) {
-            window.location.href = `action://act/search?q=${encodeURIComponent(query)}`;
-        }
-    }
-}
-document.addEventListener("DOMContentLoaded", () => {
-    setInterval(changePlaceholder, 4000);
-    const searchInput = document.getElementById("gsearch");
-    if (searchInput) {
-        searchInput.addEventListener("keydown", handleSearch);
-    }
-});
+
+    // Update placeholder setiap 3 detik
+    setInterval(updatePlaceholder, 3000);
+
 
 document.addEventListener("DOMContentLoaded", function () {
     const itemRows = document.querySelectorAll(".item-row");
@@ -105,3 +117,4 @@ function closePopup() {
     document.getElementById("popupcabang").style.display = "none";
     document.getElementById("popup-image").classList.remove("blur-background");
 }
+
