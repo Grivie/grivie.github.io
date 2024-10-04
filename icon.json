@@ -1,0 +1,20 @@
+{
+  "name": "Grivie",
+  "short_name": "Grivie",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#bd0100",
+  "icons": [
+    {
+      "src": "/path/to/icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/path/to/icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
