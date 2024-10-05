@@ -1,92 +1,93 @@
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grivie - Great Living Integration</title>
-    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
-</head>
-
-<style>
-    .item-row {
-        background: white;
-        border-radius: 10px;
-        width: 200px;
-        margin-right: 10px;
-        flex-shrink: 0;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        overflow: hidden;
-        font-family: "Josefin Sans", sans-serif;
-        text-decoration: none;
-        transition: background-color 0.1s ease-in-out;
-        scroll-snap-align: start;
-        animation: slideIn 0.5s forwards;
-    }
-    
-    .rating {
-        display: flex;
-        margin-top: -15px;
-        margin-left: 70%;
-    }
-    
-    .star {
-        font-size: 10px;
-        color: gold;
-        margin-top: 5px;
-    }
-    
-    .item-image {
-        border-radius: 10px;
-        width: 100%;
-        height: auto;
-        overflow: hidden;
-        position: relative;
-    }
-    
-    .item-details {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        padding: 5px;
-        text-align: center;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-    
-    .item-price {
-        color: #cc0404;
-        font-weight: bold;
-        font-size: 12px !important;
-        margin-left: 5px;
-        flex-grow: 1;
-    }
-    
-    .item-title {
-        font-weight: bold;
-        color: black;
-        font-size: 12px;
-        margin-left: 5px;
-    }
-</style>
-
-<div class="carousel-container" style="margin-bottom: 120px">{produk_baru}</div>
-
-<script>
-    document.addEventListener("DOMContentLoaded", function () {
-        const itemRows = document.querySelectorAll(".item-row");
-        itemRows.forEach((itemRow) => {
-            const randomRating = Math.floor(Math.random() * 3) + 3;
-            let stars = "";
-            for (let j = 0; j < 5; j++) {
-                stars += `<span class="star">${j < randomRating ? "★" : "☆"}</span>`;
-            }
-            const rating = document.createElement("div");
-            rating.classList.add("rating");
-            rating.innerHTML = stars;
-            itemRow.appendChild(rating);
-        });
-    });
-</script>
+document.write('<head>');
+document.write('    <meta charset="UTF-8">');
+document.write('    <meta name="viewport" content="width=device-width, initial-scale=1.0">');
+document.write('    <title>Grivie - Great Living Integration</title>');
+document.write('    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">');
+document.write('    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">');
+document.write('</head>');
+document.write('');
+document.write('<style>');
+document.write('    .item-row {');
+document.write('        background: white;');
+document.write('        border-radius: 10px;');
+document.write('        width: 200px;');
+document.write('        margin-right: 10px;');
+document.write('        flex-shrink: 0;');
+document.write('        display: flex;');
+document.write('        flex-direction: column;');
+document.write('        align-items: center;');
+document.write('        overflow: hidden;');
+document.write('        font-family: "Josefin Sans", sans-serif;');
+document.write('        text-decoration: none;');
+document.write('        transition: background-color 0.1s ease-in-out;');
+document.write('        scroll-snap-align: start;');
+document.write('        animation: slideIn 0.5s forwards;');
+document.write('    }');
+document.write('    ');
+document.write('    .rating {');
+document.write('        display: flex;');
+document.write('        margin-top: -15px;');
+document.write('        margin-left: 70%;');
+document.write('    }');
+document.write('    ');
+document.write('    .star {');
+document.write('        font-size: 10px;');
+document.write('        color: gold;');
+document.write('        margin-top: 5px;');
+document.write('    }');
+document.write('    ');
+document.write('    .item-image {');
+document.write('        border-radius: 10px;');
+document.write('        width: 100%;');
+document.write('        height: auto;');
+document.write('        overflow: hidden;');
+document.write('        position: relative;');
+document.write('    }');
+document.write('    ');
+document.write('    .item-details {');
+document.write('        position: absolute;');
+document.write('        bottom: 0;');
+document.write('        left: 0;');
+document.write('        right: 0;');
+document.write('        padding: 5px;');
+document.write('        text-align: center;');
+document.write('        display: flex;');
+document.write('        justify-content: space-between;');
+document.write('        align-items: center;');
+document.write('    }');
+document.write('    ');
+document.write('    .item-price {');
+document.write('        color: #cc0404;');
+document.write('        font-weight: bold;');
+document.write('        font-size: 12px !important;');
+document.write('        margin-left: 5px;');
+document.write('        flex-grow: 1;');
+document.write('    }');
+document.write('    ');
+document.write('    .item-title {');
+document.write('        font-weight: bold;');
+document.write('        color: black;');
+document.write('        font-size: 12px;');
+document.write('        margin-left: 5px;');
+document.write('    }');
+document.write('</style>');
+document.write('');
+document.write('<div class="carousel-container" style="margin-bottom: 120px">{produk_baru}</div>');
+document.write('');
+document.write('<script>');
+document.write('    document.addEventListener("DOMContentLoaded", function () {');
+document.write('        const itemRows = document.querySelectorAll(".item-row");');
+document.write('        itemRows.forEach((itemRow) => {');
+document.write('            const randomRating = Math.floor(Math.random() * 3) + 3;');
+document.write('            let stars = "";');
+document.write('            for (let j = 0; j < 5; j++) {');
+document.write('                stars += `<span class="star">${j < randomRating ? "★" : "☆"}</span>`;');
+document.write('            }');
+document.write('            const rating = document.createElement("div");');
+document.write('            rating.classList.add("rating");');
+document.write('            rating.innerHTML = stars;');
+document.write('            itemRow.appendChild(rating);');
+document.write('        });');
+document.write('    });');
+document.write('</script>');
+document.write('');
