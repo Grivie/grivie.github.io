@@ -1,132 +1,126 @@
-body {
-    font-family: 'Josefin Sans', sans-serif; /* Menggunakan Josefin Sans */
-    margin: 0; /* Hapus margin untuk body */
-    padding: 20px; /* Berikan padding di dalam body */
-}
+        .voucher-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center; /* Pusatkan kontainer voucher */
+        }
+        
+        .voucher {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 16px; /* Mengatur radius agar lebih bulat */
+            padding: 15px;
+            width: calc(100% - 50px); /* Full width dengan margin */
+            max-width: 600px; /* Batas maksimum untuk kontainer */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            position: relative;
+            overflow: hidden; /* Mencegah overflow konten */
+            font-size: 14px; /* Ukuran font default */
+        }
 
-.voucher-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center; /* Pusatkan kontainer voucher */
-}
+        .voucher p {
+            margin: 0 0 10px;
+            font-size: 1.2em; /* Ukuran font untuk nama mitra */
+        }
 
-.voucher {
-    background-color: white;
-    border: 1px solid #ddd;
-    border-radius: 16px; /* Mengatur radius agar lebih bulat */
-    padding: 15px;
-    width: calc(100% - 50px); /* Full width dengan margin */
-    max-width: 600px; /* Batas maksimum untuk kontainer */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    position: relative;
-    overflow: hidden; /* Mencegah overflow konten */
-    font-size: 14px; /* Ukuran font default */
-}
+        .voucher p {
+            margin: 5px 0;
+        }
 
-.voucher p {
-    margin: 0 0 10px;
-    font-size: 1.2em; /* Ukuran font untuk nama mitra */
-}
+        .voucher-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
 
-.voucher p {
-    margin: 5px 0;
-}
+        .left-column {
+            width: 60%; /* 60% untuk kolom kiri */
+            position: relative; /* Agar garis pemisah dapat ditambahkan */
+        }
 
-.voucher-content {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
+        .right-column {
+            width: 40%; /* 40% untuk kolom kanan */
+            text-align: right;
+            border-left: 2px solid #bd0100; /* Garis pemisah merah */
+            padding-left: 10px; /* Spasi di sebelah kiri untuk konten */
+        }
 
-.left-column {
-    width: 60%; /* 60% untuk kolom kiri */
-    position: relative; /* Agar garis pemisah dapat ditambahkan */
-}
+        .code-container {
+            display: flex;
+            align-items: center;
+            justify-content: center; /* Centerkan konten dalam box */
+            border: 1px dashed #bd0100; /* Garis putus-putus merah */
+            padding: 8px;
+            border-radius: 4px;
+            background-color: #f9f9f9;
+            margin-top: 10px;
+            overflow: hidden; /* Mencegah kode voucher melebihi kotak */
+            white-space: nowrap; /* Mencegah teks untuk membungkus */
+        }
 
-.right-column {
-    width: 40%; /* 40% untuk kolom kanan */
-    text-align: right;
-    border-left: 2px solid #bd0100; /* Garis pemisah merah */
-    padding-left: 10px; /* Spasi di sebelah kiri untuk konten */
-}
+        .code {
+            display: inline-block; /* Mengatur elemen inline-block */
+            max-width: 100%; /* Batas maksimum 100% dari container */
+            overflow: hidden; /* Menghindari overflow */
+            text-align: center; /* Teks di tengah */
+            font-size: calc(1rem + 1vw); /* Ukuran font otomatis sesuai ukuran viewport */
+        }
 
-.code-container {
-    display: flex;
-    align-items: center;
-    justify-content: center; /* Centerkan konten dalam box */
-    border: 1px dashed #bd0100; /* Garis putus-putus merah */
-    padding: 8px;
-    border-radius: 4px;
-    background-color: #f9f9f9;
-    margin-top: 10px;
-    overflow: hidden; /* Mencegah kode voucher melebihi kotak */
-    white-space: nowrap; /* Mencegah teks untuk membungkus */
-}
+        .copy-icon {
+            cursor: pointer;
+            color: #bd0100;
+            margin-left: 8px;
+        }
 
-.code {
-    display: inline-block; /* Mengatur elemen inline-block */
-    max-width: 100%; /* Batas maksimum 100% dari container */
-    overflow: hidden; /* Menghindari overflow */
-    text-align: center; /* Teks di tengah */
-    font-size: calc(1rem + 1vw); /* Ukuran font otomatis sesuai ukuran viewport */
-}
+        /* Setengah lingkaran di bagian atas dan bawah */
+        .voucher::before, .voucher::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            width: 100%;
+            height: 10px; /* Tinggi garis pemisah */
+            background-color: #bd0100; /* Warna merah Grivie */
+            border-radius: 50%; /* Membuat efek lingkaran */
+        }
 
-.copy-icon {
-    cursor: pointer;
-    color: #bd0100;
-    margin-left: 8px;
-}
+        .voucher::before {
+            top: -10px; /* Posisi setengah lingkaran atas */
+        }
 
-/* Setengah lingkaran di bagian atas dan bawah */
-.voucher::before, .voucher::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    width: 100%;
-    height: 10px; /* Tinggi garis pemisah */
-    background-color: #bd0100; /* Warna merah Grivie */
-    border-radius: 50%; /* Membuat efek lingkaran */
-}
+        .voucher::after {
+            bottom: -10px; /* Posisi setengah lingkaran bawah */
+        }
 
-.voucher::before {
-    top: -10px; /* Posisi setengah lingkaran atas */
-}
+        .button-promo {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #bd0100; /* Warna merah Grivie */
+            color: white; /* Warna font putih */
+            padding: 4px 8px; /* Padding lebih kecil */
+            border-radius: 4px; /* Radius border */
+            text-decoration: none; /* Hapus garis bawah */
+            font-weight: bold;
+            margin-top: 5px; /* Spasi atas untuk tombol */
+            font-size: 12px; /* Ukuran font lebih kecil */
+        }
 
-.voucher::after {
-    bottom: -10px; /* Posisi setengah lingkaran bawah */
-}
+        .button-promo .material-icons {
+            margin-right: 5px; /* Spasi antara icon dan teks */
+        }
 
-.button-promo {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #bd0100; /* Warna merah Grivie */
-    color: white; /* Warna font putih */
-    padding: 4px 8px; /* Padding lebih kecil */
-    border-radius: 4px; /* Radius border */
-    text-decoration: none; /* Hapus garis bawah */
-    font-weight: bold;
-    margin-top: 5px; /* Spasi atas untuk tombol */
-    font-size: 12px; /* Ukuran font lebih kecil */
-}
+        .voucher .voucher-label {
+            font-size: 12px; /* Ukuran font kecil untuk label */
+            color: #555; /* Warna abu-abu */
+            margin-top: 5px; /* Spasi atas untuk label */
+        }
 
-.button-promo .material-icons {
-    margin-right: 5px; /* Spasi antara icon dan teks */
-}
-
-.voucher .voucher-label {
-    font-size: 12px; /* Ukuran font kecil untuk label */
-    color: #555; /* Warna abu-abu */
-    margin-top: 5px; /* Spasi atas untuk label */
-}
-
-/* Responsif untuk ukuran font */
-@media (max-width: 768px) {
-    .voucher {
-        font-size: 12px; /* Ukuran font lebih kecil pada layar kecil */
-    }
-    .voucher h3 {
-        font-size: 1em; /* Ukuran font untuk nama mitra lebih kecil */
-    }
-}
+        /* Responsif untuk ukuran font */
+        @media (max-width: 768px) {
+            .voucher {
+                font-size: 12px; /* Ukuran font lebih kecil pada layar kecil */
+            }
+            .voucher h3 {
+                font-size: 1em; /* Ukuran font untuk nama mitra lebih kecil */
+            }
+        }
