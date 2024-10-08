@@ -456,21 +456,19 @@ body {
     object-fit: cover;
 }
 .promo-box {
-    height: calc(57% - 81px);
+    height: calc(100% - 80px);
     position: fixed;
-    bottom: 81px;
+    bottom: 75px;
     left: 0;
     width: 100%;
-    background-color: white;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
+    background-color: rgba(189, 1, 0, 0.8); /* Merah Grivie dengan transparansi 80% */
     z-index: 1000;
     text-align: center;
-    backdrop-filter: blur(5px);
-    border-top: 5px solid #bd0100;
+    backdrop-filter: blur(10px); /* Tambahan efek blur jika diinginkan */
     box-sizing: border-box;
     overflow: hidden;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 .profile-fullscreen {
     display: none;
