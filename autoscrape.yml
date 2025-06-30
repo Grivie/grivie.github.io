@@ -1,0 +1,44 @@
+name: Daily Jagel Scraper
+
+on:
+  schedule:
+    # Jadwalkan untuk berjalan setiap hari pada pukul 00:00 UTC (jam 7 pagi WIB)
+    # Anda bisa menyesuaikan waktu cron job ini.
+    # Contoh: '0 0 * * *' berarti setiap hari jam 00:00 UTC.
+    # Untuk jam 7 pagi WIB, itu adalah jam 00:00 UTC (karena WIB = UTC+7)
+    - cron: '0 0 * * *' 
+  workflow_dispatch:
+    # Ini memungkinkan Anda menjalankan workflow secara manual dari tab Actions di GitHub
+
+jobs:
+  scrape_and_upload:
+    runs-on: ubuntu-latest # Jalankan di lingkungan Ubuntu terbaru
+
+    steps:
+    - name: Checkout repository # Langkah pertama: Ambil kode repositori Anda
+      uses: actions/checkout@v4
+
+    - name: Set up Python # Langkah kedua: Siapkan Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.9' # Anda bisa ganti versi Python jika diperlukan
+
+    - name: Install dependencies # Langkah ketiga: Instal library yang dibutuhkan
+      run: |
+        python -m pip install --upgrade pip
+        pip install selenium undetected-chromedriver PyGithub # Hapus -q karena tidak ada output di CI/CD
+        # Tambahkan instalasi Chrome
+        sudo apt-get update
+        sudo apt-get install -y google-chrome-stable
+
+    - name: Run scraper and upload to GitHub # Langkah keempat: Jalankan script Python Anda
+      env:
+        # Gunakan secret yang sudah Anda buat
+        GITHUB_TOKEN: ${{ secrets.GH_TOKEN }} 
+        # Tentukan nama repositori Anda
+        REPO_NAME: "grivie/grivie.github.io" # GANTI DENGAN REPO_NAME ANDA
+      run: |
+        # Pastikan script Python Anda bernama scrape_and_upload.py
+        # Jika nama file script Anda berbeda, ganti di sini
+        python scrape_and_upload.py
+        
