@@ -1,44 +1,46 @@
-name: Daily Jagel Scraper
+name: Daily Jagel Scraper # Nama workflow Anda
 
 on:
   schedule:
-    # Jadwalkan untuk berjalan setiap hari pada pukul 00:00 UTC (jam 7 pagi WIB)
-    # Anda bisa menyesuaikan waktu cron job ini.
-    # Contoh: '0 0 * * *' berarti setiap hari jam 00:00 UTC.
-    # Untuk jam 7 pagi WIB, itu adalah jam 00:00 UTC (karena WIB = UTC+7)
+    # Jadwalkan untuk berjalan setiap hari pada pukul 00:00 UTC.
+    # Karena WIB adalah UTC+7, ini berarti jam 07:00 pagi WIB.
+    # Jika Anda ingin menyesuaikan waktu, cari 'cron job generator UTC' di Google.
+    # Contoh: '30 22 * * *' akan berjalan jam 22:30 UTC = 05:30 pagi WIB.
     - cron: '0 0 * * *' 
   workflow_dispatch:
-    # Ini memungkinkan Anda menjalankan workflow secara manual dari tab Actions di GitHub
+    # Opsi ini memungkinkan Anda menjalankan workflow secara manual dari tab Actions di GitHub.
 
 jobs:
   scrape_and_upload:
-    runs-on: ubuntu-latest # Jalankan di lingkungan Ubuntu terbaru
+    runs-on: ubuntu-latest # Workflow akan berjalan di lingkungan Ubuntu terbaru GitHub.
 
     steps:
-    - name: Checkout repository # Langkah pertama: Ambil kode repositori Anda
+    - name: Checkout repository # Langkah pertama: Mengambil kode repositori Anda.
       uses: actions/checkout@v4
 
-    - name: Set up Python # Langkah kedua: Siapkan Python
+    - name: Set up Python # Langkah kedua: Menyiapkan lingkungan Python.
       uses: actions/setup-python@v5
       with:
-        python-version: '3.9' # Anda bisa ganti versi Python jika diperlukan
+        python-version: '3.9' # Anda bisa mengubah versi Python jika script Anda membutuhkannya.
 
-    - name: Install dependencies # Langkah ketiga: Instal library yang dibutuhkan
+    - name: Install dependencies # Langkah ketiga: Menginstal library Python dan Chrome.
       run: |
         python -m pip install --upgrade pip
-        pip install selenium undetected-chromedriver PyGithub # Hapus -q karena tidak ada output di CI/CD
-        # Tambahkan instalasi Chrome
+        # Menginstal library Python. Hapus -q karena tidak ada output di CI/CD.
+        pip install selenium undetected-chromedriver PyGithub 
+        # Menambahkan repositori Google Chrome dan menginstal Chrome secara eksplisit.
         sudo apt-get update
         sudo apt-get install -y google-chrome-stable
 
-    - name: Run scraper and upload to GitHub # Langkah keempat: Jalankan script Python Anda
+    - name: Run scraper and upload to GitHub # Langkah keempat: Menjalankan script Python dan mengunggah hasilnya.
       env:
-        # Gunakan secret yang sudah Anda buat
-        GITHUB_TOKEN: ${{ secrets.GH_TOKEN }} 
-        # Tentukan nama repositori Anda
-        REPO_NAME: "grivie/grivie.github.io" # GANTI DENGAN REPO_NAME ANDA
+        # PENTING: Menggunakan nama secret yang Anda berikan: GRIVIETOKEN
+        GITHUB_TOKEN: ${{ secrets.GRIVIETOKEN }} 
+        # Tentukan nama repositori Anda dalam format "owner/repo_name".
+        # Sesuaikan dengan repositori GitHub Pages Anda (misalnya, "username_anda/username_anda.github.io").
+        REPO_NAME: "grivie/grivie.github.io" # PASTIKAN INI ADALAH NAMA REPOSITORI ANDA YANG BENAR!
       run: |
-        # Pastikan script Python Anda bernama scrape_and_upload.py
-        # Jika nama file script Anda berbeda, ganti di sini
+        # Pastikan nama file script Python Anda sesuai di sini.
+        # Jika Anda menamai script Anda 'scrape_and_upload.py', biarkan seperti ini.
         python scrape_and_upload.py
-        
+
