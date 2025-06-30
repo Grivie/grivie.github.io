@@ -1,0 +1,842 @@
+[
+    {
+        "nama_produk": "Sosis Bakar",
+        "harga": "Rp 5.000",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/Sosis-Bakar-Jumbo-Mini--0-816685786af4160d.jpg",
+        "url_produk": "https://www.jagel.id/list/sosis-bakar-5468976",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "Rujak",
+        "harga": "Rp 6.000",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/Rujak-0-6026857858b6322a.jpg",
+        "url_produk": "https://www.jagel.id/list/rujak-5468968",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "Empek-empek",
+        "harga": "Rp 16.000",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/Empek-empek-0-8606847a5e503f1d.jpg",
+        "url_produk": "https://www.jagel.id/list/empek-empek-5458462",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "Tahu Mercon Isi Ayam Suwir Atau Bakso Mercon",
+        "harga": "Rp 3.500",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/Tahu-Mercon-Isi-Ayam-Suwir-Atau-Bakso-Mercon-0-2526847a5579ecc6.jpg",
+        "url_produk": "https://www.jagel.id/list/tahu-mercon-isi-ayam-suwir-atau-bakso-me-5458445",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "Nasi Jagung",
+        "harga": "Rp 10.000",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/Nasi-Jagung--0-9866822f496d069b.jpg",
+        "url_produk": "https://www.jagel.id/list/nasi-jagung--5429190",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "Mix Sosis Chillioil",
+        "harga": "Rp 11.000",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/Mix-Sosis-Chillioil-0-479680f11cd09aa0.jpg",
+        "url_produk": "https://www.jagel.id/list/mix-sosis-chillioil-5412807",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "KEBAB BEEF",
+        "harga": "Rp 17.000",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/KEBAB-BEEF--0-48367cfd79dca011.jpg",
+        "url_produk": "https://www.jagel.id/list/kebab-beef--5351434",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "BURGER Chicken Crispy",
+        "harga": "Rp 16.000",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/BURGER-Chicken-Crispy--0-28867cfd720269ae.jpg",
+        "url_produk": "https://www.jagel.id/list/burger-chicken-crispy--5351428",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "KEBAB BEEF",
+        "harga": "Rp 17.000",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/KEBAB-BEEF--0-70767cfd689c04dc.jpg",
+        "url_produk": "https://www.jagel.id/list/kebab-beef--5351417",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "BURGER Beef",
+        "harga": "Rp 19.000",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/BURGER-Beef-0-25267cfd61235d95.jpg",
+        "url_produk": "https://www.jagel.id/list/burger-beef-5351414",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "KEBAB IDOLA",
+        "harga": "Rp 19.000",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/KEBAB-BINTANG--0-61367cd9da442661.jpg",
+        "url_produk": "https://www.jagel.id/list/kebab-idola--5349491",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "Es YOUGHURT MILK",
+        "harga": "Rp 10.000",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/Es-YOUGHURT-MILK--0-17967cd73dd62a66.jpg",
+        "url_produk": "https://www.jagel.id/list/es-youghurt-milk--5349185",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "Sosis Bakar",
+        "harga": "Rp 5.000",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/Sosis-Bakar-Jumbo-Mini--0-816685786af4160d.jpg",
+        "url_produk": "https://www.jagel.id/list/sosis-bakar-5468976",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "Rujak",
+        "harga": "Rp 6.000",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/Rujak-0-6026857858b6322a.jpg",
+        "url_produk": "https://www.jagel.id/list/rujak-5468968",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "Empek-empek",
+        "harga": "Rp 16.000",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/Empek-empek-0-8606847a5e503f1d.jpg",
+        "url_produk": "https://www.jagel.id/list/empek-empek-5458462",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "Tahu Mercon Isi Ayam Suwir Atau Bakso Mercon",
+        "harga": "Rp 3.500",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/Tahu-Mercon-Isi-Ayam-Suwir-Atau-Bakso-Mercon-0-2526847a5579ecc6.jpg",
+        "url_produk": "https://www.jagel.id/list/tahu-mercon-isi-ayam-suwir-atau-bakso-me-5458445",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "Nasi Jagung",
+        "harga": "Rp 10.000",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/Nasi-Jagung--0-9866822f496d069b.jpg",
+        "url_produk": "https://www.jagel.id/list/nasi-jagung--5429190",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "Mix Sosis Chillioil",
+        "harga": "Rp 11.000",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/Mix-Sosis-Chillioil-0-479680f11cd09aa0.jpg",
+        "url_produk": "https://www.jagel.id/list/mix-sosis-chillioil-5412807",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "KEBAB BEEF",
+        "harga": "Rp 17.000",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/KEBAB-BEEF--0-48367cfd79dca011.jpg",
+        "url_produk": "https://www.jagel.id/list/kebab-beef--5351434",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "BURGER Chicken Crispy",
+        "harga": "Rp 16.000",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/BURGER-Chicken-Crispy--0-28867cfd720269ae.jpg",
+        "url_produk": "https://www.jagel.id/list/burger-chicken-crispy--5351428",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "KEBAB BEEF",
+        "harga": "Rp 17.000",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/KEBAB-BEEF--0-70767cfd689c04dc.jpg",
+        "url_produk": "https://www.jagel.id/list/kebab-beef--5351417",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "BURGER Beef",
+        "harga": "Rp 19.000",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/BURGER-Beef-0-25267cfd61235d95.jpg",
+        "url_produk": "https://www.jagel.id/list/burger-beef-5351414",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "KEBAB IDOLA",
+        "harga": "Rp 19.000",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/KEBAB-BINTANG--0-61367cd9da442661.jpg",
+        "url_produk": "https://www.jagel.id/list/kebab-idola--5349491",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "Es YOUGHURT MILK",
+        "harga": "Rp 10.000",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/Es-YOUGHURT-MILK--0-17967cd73dd62a66.jpg",
+        "url_produk": "https://www.jagel.id/list/es-youghurt-milk--5349185",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "Es DURIAN MILK",
+        "harga": "Rp 11.000",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/Es-DURIAN-MILK--0-52167cd73774657f.jpg",
+        "url_produk": "https://www.jagel.id/list/es-durian-milk--5349184",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "Es MOJHITO MELON",
+        "harga": "Rp 8.000",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/Es-MOJHITO-MELON-0-48767cd715891499.jpg",
+        "url_produk": "https://www.jagel.id/list/es-mojhito-melon-5349171",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "Es MOJHITO STROBERI",
+        "harga": "Rp 8.000",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/Es-MOJHITO-STROBERI-0-31967cd710d4a87e.jpg",
+        "url_produk": "https://www.jagel.id/list/es-mojhito-stroberi-5349170",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "Es MOJHITO ORANGE",
+        "harga": "Rp 8.000",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/Es-MOJHITO-ORANGE-0-24467cd70a1cda09.jpg",
+        "url_produk": "https://www.jagel.id/list/es-mojhito-orange-5349169",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "Esteh Manis Original Jasmine Tea",
+        "harga": "Rp 5.000",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/Esteh-Manis-Original-Jasmine-Tea-0-97467cd5bc8dcfa8.jpg",
+        "url_produk": "https://www.jagel.id/list/esteh-manis-original-jasmine-tea-5349118",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "Es Teh Stroberi",
+        "harga": "Rp 7.000",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/Es-Teh-Stroberi-0-69567cd5b6703eda.jpg",
+        "url_produk": "https://www.jagel.id/list/es-teh-stroberi-5349104",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "ES TEH LECY",
+        "harga": "Rp 7.000",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/ES-TEH-APEL-0-88067cd59fa292da.jpg",
+        "url_produk": "https://www.jagel.id/list/es-teh-lecy-5349087",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "Es TEH APEL",
+        "harga": "Rp 7.000",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/Es-TEH-APEL-0-12167cd598300a72.jpg",
+        "url_produk": "https://www.jagel.id/list/es-teh-apel-5349086",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "Es NUTRISARI ORANGE",
+        "harga": "Rp 5.000",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/Es-NUTRISARI-ORANGE-0-19067cd569253f92.jpg",
+        "url_produk": "https://www.jagel.id/list/es-nutrisari-orange-5349085",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "Es JOSUA",
+        "harga": "Rp 8.500",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/Es-JOSUA--0-28467cd56439d4c9.jpg",
+        "url_produk": "https://www.jagel.id/list/es-josua--5349084",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "ES CHOCOLATOS",
+        "harga": "Rp 9.000",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/ES-CHOCOLATOS--0-96667cd55d27964c.jpg",
+        "url_produk": "https://www.jagel.id/list/es-chocolatos--5349083",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "Es MILK TEA korean Strobery",
+        "harga": "Rp 8.500",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/Es-MILK-TEA-korean-Strobery--0-33267cd55771a76c.jpg",
+        "url_produk": "https://www.jagel.id/list/es-milk-tea-korean-strobery--5349082",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "ES MILK TEA ORIGINAL PUTIH",
+        "harga": "Rp 8.000",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/ES-MILK-TEA-ORIGINAL-PUTIH-0-38867cd550294515.jpg",
+        "url_produk": "https://www.jagel.id/list/es-milk-tea-original-putih-5349080",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "Es Milk Tea Chocolate",
+        "harga": "Rp 8.000",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/Es-Milk-Tea-Chocolate-0-45367cd54b71a1f8.jpg",
+        "url_produk": "https://www.jagel.id/list/es-milk-tea-chocolate-5349078",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "Es MILO",
+        "harga": "Rp 8.900",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/Es-MILO--0-15167cd54207fd1b.jpg",
+        "url_produk": "https://www.jagel.id/list/es-milo--5349073",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "ES GOOD DAY CAPPUCINO GRANDE",
+        "harga": "Rp 9.000",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/ES-GOOD-DAY-CAPPUCINO-GRANDE-0-29867cd5387dd3ef.jpg",
+        "url_produk": "https://www.jagel.id/list/es-good-day-cappucino-grande-5349071",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "ES GOOD DAY FREEZE",
+        "harga": "Rp 9.000",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/ES-GOOD-DAY-FREEZE--0-45267cd531ea5c10.jpg",
+        "url_produk": "https://www.jagel.id/list/es-good-day-freeze--5349070",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "Otak-otak Krispy",
+        "harga": "Rp 12.000",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/Otak-otak-Krispy-0-11267ca142a58418.jpg",
+        "url_produk": "https://www.jagel.id/list/otak-otak-krispy-5347144",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "HOT MIE",
+        "harga": "Rp 12.000",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/HOT-MIE-0-34067be58b990822.jpg",
+        "url_produk": "https://www.jagel.id/list/hot-mie-5336504",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "HOT CIRENG",
+        "harga": "Rp 10.000",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/HOT-CIRENG-0-36767be55d85992b.jpg",
+        "url_produk": "https://www.jagel.id/list/hot-cireng-5336476",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "Es Teler Sultan",
+        "harga": "Rp 10.000",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/Es-Teler-Sultan--0-75967b96b488e234.jpg",
+        "url_produk": "https://www.jagel.id/list/es-teler-sultan--5330292",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "Minuman Sticky Milk Tea",
+        "harga": "Rp 7.000",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/Minuman--Sticky-Milk-Tea-0-53067b96a98dc4bb.jpg",
+        "url_produk": "https://www.jagel.id/list/minuman--sticky-milk-tea-5330288",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "Dimsum Saos Mentai",
+        "harga": "Rp 18.500",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/Dimsum-Saos-Mentai-0-31367a081cc659fe.jpg",
+        "url_produk": "https://www.jagel.id/list/dimsum-saos-mentai-5297216",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "Dimsum Saos Creamy",
+        "harga": "Rp 18.500",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/Dimsum-Saos-Creamy-0-75867a0818e2fa0c.jpg",
+        "url_produk": "https://www.jagel.id/list/dimsum-saos-creamy-5297209",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "Dimsum Saos Bolognese",
+        "harga": "Rp 18.500",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/Dimsum-Saos-Bolognese-0-93567a0812f77cfc.jpg",
+        "url_produk": "https://www.jagel.id/list/dimsum-saos-bolognese-5297206",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "Taro",
+        "harga": "Rp 5.500",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/Taro-0-744679f2dca39ba4.jpg",
+        "url_produk": "https://www.jagel.id/list/taro-5295765",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "Markisa",
+        "harga": "Rp 4.500",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/Markisa-0-305679efabcd76ca.jpg",
+        "url_produk": "https://www.jagel.id/list/markisa-5295537",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "Leci",
+        "harga": "Rp 4.500",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/Leci-0-959679efa8f2d609.jpg",
+        "url_produk": "https://www.jagel.id/list/leci-5295536",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "Sirsak",
+        "harga": "Rp 4.500",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/Sirsak-0-444679efa670be04.jpg",
+        "url_produk": "https://www.jagel.id/list/sirsak-5295535",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "Choco Malt",
+        "harga": "Rp 5.500",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/Choco-Malt-0-214679ef9f743dd6.jpg",
+        "url_produk": "https://www.jagel.id/list/choco-malt-5295534",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "Jeruk Mandarin",
+        "harga": "Rp 4.500",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/Jeruk-Mandarin-0-48167874d4e603e2.jpg",
+        "url_produk": "https://www.jagel.id/list/jeruk-mandarin-5272706",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "Apel",
+        "harga": "Rp 4.500",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/Apel-0-36767874d032695a.jpg",
+        "url_produk": "https://www.jagel.id/list/apel-5272703",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "Avocado",
+        "harga": "Rp 5.500",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/Avocado-0-181678638158ed2b.jpg",
+        "url_produk": "https://www.jagel.id/list/avocado-5271705",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "Chocolate",
+        "harga": "Rp 5.500",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/Chocolate-0-3136786379fc64e7.jpg",
+        "url_produk": "https://www.jagel.id/list/chocolate-5271691",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "Red Velvet",
+        "harga": "Rp 5.500",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/Red-Velvet-0-3836780efe1c33c2.jpg",
+        "url_produk": "https://www.jagel.id/list/red-velvet-5266924",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "Permen Karet",
+        "harga": "Rp 5.500",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/Permen-Karet-0-2876780ef8d35c4f.jpg",
+        "url_produk": "https://www.jagel.id/list/permen-karet-5266922",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "Green Tea - Matcha",
+        "harga": "Rp 5.500",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/Green-Tea---Matcha-0-5546780ef11855e2.jpg",
+        "url_produk": "https://www.jagel.id/list/green-tea---matcha-5266919",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "Royal Choco",
+        "harga": "Rp 5.500",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/Royal-Choco-0-5526780ee950bdee.jpg",
+        "url_produk": "https://www.jagel.id/list/royal-choco-5266911",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "Thai Tea",
+        "harga": "Rp 5.500",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/Thai-Tea-0-2016780ee36756bd.jpg",
+        "url_produk": "https://www.jagel.id/list/thai-tea-5266909",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "Jagung Manis",
+        "harga": "Rp 5.500",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/Jagung-Manis-0-7426780eb840f2c8.jpg",
+        "url_produk": "https://www.jagel.id/list/jagung-manis-5266904",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "Taro",
+        "harga": "Rp 5.500",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/Taro-0-7246780eb2d9772a.jpg",
+        "url_produk": "https://www.jagel.id/list/taro-5266902",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "PKP Bakso Selimut Telur Kuah Pedas Bisa Original",
+        "harga": "Rp 19.000",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/Pentol-Selimut-Telur-0-800677756ab65e3c.jpg",
+        "url_produk": "https://www.jagel.id/list/pkp-bakso-selimut-telur-kuah-pedas-bisa--5204158",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "Bakso Urat",
+        "harga": "Rp 6.000",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/Bakso-Urat-0-910676e5d5f03e0d.jpg",
+        "url_produk": "https://www.jagel.id/list/bakso-urat-5190969",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "RISOLES",
+        "harga": "Rp 10.000",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/RISOLES--0-477676cedc4db133.jpg",
+        "url_produk": "https://www.jagel.id/list/risoles--5189254",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "Mie Judes Toping Lengkap",
+        "harga": "Rp 14.000",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/Mie-Judes-Toping-Lengkap-0-993676cadf08909c.jpg",
+        "url_produk": "https://www.jagel.id/list/mie-judes-toping-lengkap-5189082",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "Mie Judes Toping Pangsit Ayam",
+        "harga": "Rp 12.000",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/Mie-Judes-Toping-Pangsit-Ayam-0-132676cac5a0301d.jpg",
+        "url_produk": "https://www.jagel.id/list/mie-judes-toping-pangsit-ayam-5189073",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "Mie JuDes Topping Smoke Beef",
+        "harga": "Rp 9.500",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/Mie-JuDes-Topping-Smoke-Beef-0-707676caa8073af6.jpg",
+        "url_produk": "https://www.jagel.id/list/mie-judes-topping-smoke-beef-5189072",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "Tahu Bakso Chili Oil",
+        "harga": "Rp 11.000",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/Tahu-Bakso-Chili-Oil-0-908676aa69ac1d4d.jpg",
+        "url_produk": "https://www.jagel.id/list/tahu-bakso-chili-oil-5187112",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "RICEBOWL AYAM SAMBEL MATAH",
+        "harga": "Rp 11.000",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/RICEBOWL-AYAM-SAMBEL-MATAH-0-327676a241f28b2a.jpg",
+        "url_produk": "https://www.jagel.id/list/ricebowl-ayam-sambel-matah-5186628",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "RICEBOWL SPICY CHICKEN",
+        "harga": "Rp 11.000",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/RICEBOWL-SPICY-CHICKEN-0-950676a23a09c886.jpg",
+        "url_produk": "https://www.jagel.id/list/ricebowl-spicy-chicken-5186624",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "RICEBOWL CABE GARAM",
+        "harga": "Rp 11.000",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/RICEBOWL-CABE-GARAM-0-861676a2338f0e53.jpg",
+        "url_produk": "https://www.jagel.id/list/ricebowl-cabe-garam-5186623",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "Daging Silice Fatmix",
+        "harga": "Rp 40",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/Daging-Silice-Fatmix-0-5556766b68babcd3.jpg",
+        "url_produk": "https://www.jagel.id/list/daging-silice-fatmix-5183397",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "Mie Ju-Des Polos",
+        "harga": "Rp 8.500",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/Mie-Ju-Des-Polos-0-38767652f0658c21.jpg",
+        "url_produk": "https://www.jagel.id/list/mie-ju-des-polos-5181834",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "Beef Mix Silice",
+        "harga": "Rp 62.000",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/Beef-Mix-Silice-0-48667652b960b165.jpg",
+        "url_produk": "https://www.jagel.id/list/beef-mix-silice-5181816",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "Beef Shortplat",
+        "harga": "Rp 79.000",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/Beef-Shortplat--0-90167652a9b02580.jpg",
+        "url_produk": "https://www.jagel.id/list/beef-shortplat--5181813",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "Mie NYEMEK",
+        "harga": "Rp 12.000",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/Mie-NYEMEK-0-7686762c0817ab7c.jpg",
+        "url_produk": "https://www.jagel.id/list/mie-nyemek-5179331",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "Es teh JUMBO",
+        "harga": "Rp 4.000",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/Es-teh-JUMBO-0-588676284a81689b.jpg",
+        "url_produk": "https://www.jagel.id/list/es-teh-jumbo-5179133",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "udang keju",
+        "harga": "Rp 10.000",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/udang-keju-0-56867628342860e0.jpg",
+        "url_produk": "https://www.jagel.id/list/udang-keju-5179118",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "Siomay ayam",
+        "harga": "Rp 10.000",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/Siomay-ayam-0-398676282a9441bb.jpg",
+        "url_produk": "https://www.jagel.id/list/siomay-ayam-5179116",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "Es Jeruk Peras",
+        "harga": "Rp 5.000",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/Es-Jeruk-Peras-0-277675ecdd5114b9.jpg",
+        "url_produk": "https://www.jagel.id/list/es-jeruk-peras-5173842",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "Es Teh Original",
+        "harga": "Rp 4.000",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/Es-Teh-Original-0-130675ecb46988d7.jpg",
+        "url_produk": "https://www.jagel.id/list/es-teh-original-5173816",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "Es Teh Bunga Rosella",
+        "harga": "Rp 4.000",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/Es-Teh-Bunga-Rosella-0-430675ecb05ede3a.jpg",
+        "url_produk": "https://www.jagel.id/list/es-teh-bunga-rosella-5173814",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "Es Teh Hijau",
+        "harga": "Rp 4.000",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/Es-Teh-Hijau-0-403675ec92b0ae3d.jpg",
+        "url_produk": "https://www.jagel.id/list/es-teh-hijau-5173811",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "Es Teh Bungah Telang",
+        "harga": "Rp 4.000",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/Es-Teh-Bungah-Telang-0-517675ec70dbea06.jpg",
+        "url_produk": "https://www.jagel.id/list/es-teh-bungah-telang-5173794",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "Tempura Ikan",
+        "harga": "Rp 4.500",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/Tempura-Ikan-0-815675d6466cc6a4.jpg",
+        "url_produk": "https://www.jagel.id/list/tempura-ikan-5172396",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "Kebab",
+        "harga": "Rp 5.500",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/Kebab-0-722675a88a2bcbf2.jpg",
+        "url_produk": "https://www.jagel.id/list/kebab-5169107",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "XIEZUKA BOBA",
+        "harga": "Rp 14.000",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/Xiezuka-Boba-0-3936758f1dbdbf74.jpg",
+        "url_produk": "https://www.jagel.id/list/xiezuka-boba-5167572",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "oreo komplit 3 rasa",
+        "harga": "Rp 30.000",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/oreo-keju-coklat--0-89167584b6522405.jpg",
+        "url_produk": "https://www.jagel.id/list/oreo-komplit-3-rasa-5167269",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "ketan kacang",
+        "harga": "Rp 17.000",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/ketan-kacang--0-95667584b1e1881a.jpg",
+        "url_produk": "https://www.jagel.id/list/ketan-kacang--5167268",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "ketan keju",
+        "harga": "Rp 17.000",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/ketan-keju-0-40367584ae91a655.jpg",
+        "url_produk": "https://www.jagel.id/list/ketan-keju-5167267",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "ketan coklat",
+        "harga": "Rp 17.000",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/ketan-coklat--0-47067584a9246fe3.jpg",
+        "url_produk": "https://www.jagel.id/list/ketan-coklat--5167258",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "ketan kelapa",
+        "harga": "Rp 15.000",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/ketan-kelapa--0-65267584a4c8bf29.jpg",
+        "url_produk": "https://www.jagel.id/list/ketan-kelapa--5167257",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "milo kacang",
+        "harga": "Rp 25.000",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/milo-kacang--0-75967584a124c439.jpg",
+        "url_produk": "https://www.jagel.id/list/milo-kacang--5167256",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "milo coklat",
+        "harga": "Rp 25.000",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/milo-coklat--0-771675849bb77729.jpg",
+        "url_produk": "https://www.jagel.id/list/milo-coklat--5167255",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "milo keju",
+        "harga": "Rp 25.000",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/milo-keju--0-5376758497b1e0d9.jpg",
+        "url_produk": "https://www.jagel.id/list/milo-keju--5167254",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "Milo pisang",
+        "harga": "Rp 25.000",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/Milo-pisang--0-967675849284369b.jpg",
+        "url_produk": "https://www.jagel.id/list/milo-pisang--5167245",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "oreo pisang",
+        "harga": "Rp 25.000",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/oreo-pisang--0-9586758489cccf73.jpg",
+        "url_produk": "https://www.jagel.id/list/oreo-pisang--5167237",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "Oreo keju",
+        "harga": "Rp 25.000",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/Oreo-keju-0-813675848306231a.jpg",
+        "url_produk": "https://www.jagel.id/list/oreo-keju-5167230",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "Oreo kacang",
+        "harga": "Rp 25.000",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/Oreo-kacang--0-127675847cb358d7.jpg",
+        "url_produk": "https://www.jagel.id/list/oreo-kacang--5167228",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "oreo coklat",
+        "harga": "Rp 25.000",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/oreo-coklat--0-6446758478913627.jpg",
+        "url_produk": "https://www.jagel.id/list/oreo-coklat--5167220",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "pisang keju",
+        "harga": "Rp 20.000",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/pisang-keju--0-8686758475809145.jpg",
+        "url_produk": "https://www.jagel.id/list/pisang-keju--5167219",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "Sosis Goreng",
+        "harga": "Rp 7.000",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/Sossis-Goreng--0-630675809c6b25f0.jpg",
+        "url_produk": "https://www.jagel.id/list/sosis-goreng--5166988",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "pisang coklat",
+        "harga": "Rp 23.000",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/-pisang-coklat--0-78767569c8f52a7f.jpg",
+        "url_produk": "https://www.jagel.id/list/-pisang-coklat--5165007",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "keju kacang",
+        "harga": "Rp 23.000",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/-keju-kacang--0-61967569bbf4eba5.jpg",
+        "url_produk": "https://www.jagel.id/list/-keju-kacang--5165006",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "keju coklat",
+        "harga": "Rp 23.000",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/terang-bulan-keju-coklat--0-43567567471780cc.jpg",
+        "url_produk": "https://www.jagel.id/list/-keju-coklat--5164809",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "coklat kacang",
+        "harga": "Rp 23.000",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/terang-bulan-coklat-kacang--0-47967567141c18a9.jpg",
+        "url_produk": "https://www.jagel.id/list/-coklat-kacang--5164796",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "keju",
+        "harga": "Rp 18.000",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/terang-bulan-keju-0-969675670c4e153f.jpg",
+        "url_produk": "https://www.jagel.id/list/-keju-5164794",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "kacang",
+        "harga": "Rp 18.000",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/terang-bulan-kacang-0-3706756704e16fdd.jpg",
+        "url_produk": "https://www.jagel.id/list/-kacang-5164792",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "coklat",
+        "harga": "Rp 18.000",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/coklat---0-60867566f2b91faa.jpg",
+        "url_produk": "https://www.jagel.id/list/coklat---5164782",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "terang bulan melon",
+        "harga": "Rp 15.000",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/terang-bulan-melon-0-65067566ebfd729f.jpg",
+        "url_produk": "https://www.jagel.id/list/terang-bulan-melon-5164781",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "terang bulan blueberry",
+        "harga": "Rp 15.000",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/terang-bulan-blueberry--0-38567566e9830335.jpg",
+        "url_produk": "https://www.jagel.id/list/terang-bulan-blueberry--5164780",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "terang bulan strawberry",
+        "harga": "Rp 15.000",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/terang-bulan-strawberry--0-20067566e2e4375b.jpg",
+        "url_produk": "https://www.jagel.id/list/terang-bulan-strawberry--5164772",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "terang bulan pisang",
+        "harga": "Rp 14.000",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/terang-bulan-pisang--0-58267566dce963ef.jpg",
+        "url_produk": "https://www.jagel.id/list/terang-bulan-pisang--5164771",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "martabak telor 4 bebek",
+        "harga": "Rp 55.000",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/martabak-telor-4-bebek-0-5196755bae37c256.jpg",
+        "url_produk": "https://www.jagel.id/list/martabak-telor-4-bebek-5164380",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "martabak telor 3 bebek",
+        "harga": "Rp 38.000",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/martabak-telor-3-bebek-0-3226755ba6aece3c.jpg",
+        "url_produk": "https://www.jagel.id/list/martabak-telor-3-bebek-5164373",
+        "id_produk_unik": null
+    },
+    {
+        "nama_produk": "martabak telor 2 bebek",
+        "harga": "Rp 25.000",
+        "url_gambar": "https://www.jagel.id/api/listimage/v/martabak-telor-2-bebek-0-5356755b9d4aeb79.jpg",
+        "url_produk": "https://www.jagel.id/list/martabak-telor-2-bebek-5164371",
+        "id_produk_unik": null
+    }
+]
