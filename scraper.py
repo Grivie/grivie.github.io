@@ -9,7 +9,10 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 import undetected_chromedriver as uc
 
-CONFIG
+TARGET_URL = "https://www.jagel.id/app/grivie-447992/g-food-3131950"
+OUTPUT_FILENAME = "product.json"
+PAGES_FOR_UPDATE = 5
+PAGES_FOR_FULL_SCRAPE = 999
 
 def setup_driver():
     print("✨ Initializing virtual browser...")
