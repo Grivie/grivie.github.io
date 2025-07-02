@@ -29,23 +29,25 @@ def setup_driver():
     print("✅ Browser virtual berhasil diinisialisasi!")
     return driver
 
-def scrape_products(driver, base_url):
-    """Fungsi utama untuk melakukan scraping produk. (Fungsi ini tidak berubah)"""
+def scrape_products(driver, base_url, max_pages):
+    """Fungsi utama untuk melakukan scraping produk, dengan batas halaman dinamis."""
     all_products = []
     page_index = 0
-    max_pages = 3 
     LOAD_TIMEOUT_SEC = 30
     SLEEP_AFTER_LOAD_SEC = 5
 
     print(f"\n🚀 Memulai proses scraping dari: {base_url}")
-    print(f"🔩 Mode Percobaan: Akan mengambil maksimal {max_pages} halaman.")
+    if max_pages >= 999:
+        print("🔩 Mode: Scrape Penuh (semua halaman).")
+    else:
+        print(f"🔩 Mode: Update Rutin (maksimal {max_pages} halaman).")
     print("---" * 15)
 
     while page_index < max_pages:
         current_page_number_display = page_index + 1
         current_page_url = f"{base_url}/{page_index}" if page_index > 0 else base_url
 
-        print(f"\n📚 Mengunjungi halaman ke-{current_page_number_display} dari {max_pages}...")
+        print(f"\n📚 Mengunjungi halaman ke-{current_page_number_display}...")
 
         try:
             driver.get(current_page_url)
@@ -54,15 +56,15 @@ def scrape_products(driver, base_url):
             )
             time.sleep(SLEEP_AFTER_LOAD_SEC)
         except TimeoutException:
-            print(f"⚠️ Timeout: Halaman ke-{current_page_number_display} tidak memuat. Proses dihentikan.")
+            print(f"⚠️ Timeout atau halaman terakhir. Proses scraping dihentikan.")
             break
         except Exception as e:
-            print(f"❌ ERROR: Gagal membuka halaman ke-{current_page_number_display}. Detail: {e}")
+            print(f"❌ ERROR: Gagal membuka halaman. Detail: {e}")
             break
 
         product_cards = driver.find_elements(By.CSS_SELECTOR, "div.component-list-item")
         if not product_cards:
-            print(f"🔍 Tidak ada produk ditemukan di halaman ke-{current_page_number_display}. Proses dihentikan.")
+            print(f"🔍 Tidak ada produk ditemukan. Menganggap ini halaman terakhir.")
             break
 
         products_on_page = []
@@ -85,60 +87,44 @@ def scrape_products(driver, base_url):
                 print(f"\n   └── ⚠️ Gagal memproses produk #{i+1}. Error: {e}")
                 continue
         all_products.extend(products_on_page)
-        
-        if not products_on_page:
-            break
         page_index += 1
     
-    print(f"\n✅ Scraping selesai. Total produk ditemukan: {len(all_products)}.")
+    print(f"\n✅ Scraping selesai. Total produk ditemukan sesi ini: {len(all_products)}.")
     return all_products
 
 def update_and_save_data(scraped_products, filename="product.json"):
-    """
-    Fungsi baru untuk membaca data lama, menggabungkan dengan data baru,
-    dan menyimpan hasilnya.
-    """
-    # Langkah 1: Baca data lama jika file sudah ada
+    """Membaca data lama, menggabungkan dengan data baru, dan menyimpan."""
     try:
         with open(filename, 'r', encoding='utf-8') as f:
             old_products_list = json.load(f)
-        # Ubah list lama menjadi dictionary untuk pencarian cepat berdasarkan item_id
         old_products_map = {product['item_id']: product for product in old_products_list}
         print(f"📖 Berhasil membaca {len(old_products_map)} produk dari '{filename}'.")
     except (FileNotFoundError, json.JSONDecodeError):
         old_products_map = {}
         print(f"File '{filename}' tidak ditemukan atau kosong. Akan membuat file baru.")
 
-    # Jika scraping gagal atau tidak menghasilkan apa-apa, jangan lanjutkan.
     if not scraped_products:
         print("Scraping tidak menghasilkan data baru. Proses update dibatalkan.")
-        # Jika ada data lama, simpan kembali untuk memastikan format tetap benar.
         if old_products_map:
              with open(filename, 'w', encoding='utf-8') as f:
                 json.dump(list(old_products_map.values()), f, indent=4, ensure_ascii=False)
         return
 
-    # Langkah 2: Lakukan proses update
     updated_count = 0
     added_count = 0
-    
-    # Gunakan data lama sebagai basis
     final_data_map = old_products_map.copy()
 
     for product in scraped_products:
         item_id = product['item_id']
         if item_id in final_data_map:
-            # Jika produk sudah ada, perbarui datanya
             final_data_map[item_id].update(product)
             updated_count += 1
         else:
-            # Jika produk baru, tambahkan
             final_data_map[item_id] = product
             added_count += 1
     
     print(f"📊 Proses merge selesai: {updated_count} produk diperbarui, {added_count} produk baru ditambahkan.")
 
-    # Langkah 3: Ubah kembali ke format list dan simpan
     final_product_list = list(final_data_map.values())
     
     print(f"\n💾 Menyimpan total {len(final_product_list)} produk ke file '{filename}'...")
@@ -149,20 +135,28 @@ def update_and_save_data(scraped_products, filename="product.json"):
 
 if __name__ == "__main__":
     TARGET_BASE_URL = "https://www.jagel.id/app/grivie-447992/g-food-3131950"
-    
+    FILENAME = "product.json"
+
+    # --- LOGIKA UTAMA ADA DI SINI ---
+    # Cek apakah file sudah ada untuk menentukan jumlah halaman yang akan di-scrape
+    if os.path.exists(FILENAME):
+        # Jika file ada, ini adalah update rutin. Hanya scrape 5 halaman.
+        max_pages_to_scrape = 5
+    else:
+        # Jika file tidak ada, ini adalah proses pertama. Scrape semua halaman.
+        # Angka 999 digunakan sebagai representasi "tak terbatas", loop akan berhenti sendiri.
+        max_pages_to_scrape = 999 
+
     driver = None
     try:
         driver = setup_driver()
-        scraped_products = scrape_products(driver, TARGET_BASE_URL)
-        update_and_save_data(scraped_products)
+        # Kirim batas halaman ke fungsi scraping
+        scraped_products = scrape_products(driver, TARGET_BASE_URL, max_pages_to_scrape)
+        update_and_save_data(scraped_products, FILENAME)
         
     except Exception as e:
         print(f"\n❌ Terjadi kesalahan fatal: {e}")
-        # Bahkan jika ada error, kita bisa coba menyimpan data lama yang sudah dibaca
-        # untuk mencegah kehilangan data total (opsional, tergantung kebutuhan).
-        # Untuk saat ini kita biarkan agar tidak ada perubahan jika ada error fatal.
     finally:
         if driver:
             driver.quit()
             print("\nBrowser virtual ditutup.")
-
