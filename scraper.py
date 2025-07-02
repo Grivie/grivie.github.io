@@ -14,7 +14,7 @@ PAGES_FOR_UPDATE = 5
 PAGES_FOR_FULL_SCRAPE = 999
 
 def setup_driver():
-    print("✨ Initializing virtual browser...")
+    print("✨ Memulai peramban virtual...")
     options = uc.ChromeOptions()
     options.add_argument('--headless')
     options.add_argument('--no-sandbox')
@@ -22,11 +22,11 @@ def setup_driver():
     options.add_argument('--disable-gpu')
 
     try:
-        driver = uc.Chrome(options=options, browser_executable_path='/usr/bin/chromium-browser')
-        print("✅ Browser initialized successfully.")
+        driver = uc.Chrome(options=options)
+        print("✅ Peramban berhasil dimulai.")
         return driver
     except Exception as e:
-        print(f"❌ Critical Error: Failed to initialize browser driver: {e}", file=sys.stderr)
+        print(f"❌ Kesalahan Kritis: Gagal memulai driver peramban: {e}", file=sys.stderr)
         sys.exit(1)
 
 def _get_element_attribute(parent, selector, attribute, default="N/A"):
@@ -40,15 +40,15 @@ def _get_element_attribute(parent, selector, attribute, default="N/A"):
 
 def scrape_products(driver, base_url, max_pages):
     all_products = []
-    mode = "Full Scrape" if max_pages >= PAGES_FOR_FULL_SCRAPE else f"Routine Update ({max_pages} pages)"
-    print(f"\n🚀 Starting data retrieval from {base_url}")
+    mode = "Proses Penuh" if max_pages >= PAGES_FOR_FULL_SCRAPE else f"Update Rutin ({max_pages} halaman)"
+    print(f"\n🚀 Memulai pengambilan data dari {base_url}")
     print(f"🔩 Mode: {mode}")
     print("---" * 15)
 
     page_num = 0
     for page_num in range(max_pages):
         current_url = f"{base_url}/{page_num}" if page_num > 0 else base_url
-        sys.stdout.write(f"\r📚 Processing page: {page_num + 1}...")
+        sys.stdout.write(f"\r📚 Memproses halaman: {page_num + 1}...")
         sys.stdout.flush()
 
         try:
@@ -82,9 +82,9 @@ def scrape_products(driver, base_url, max_pages):
             }
             all_products.append(product_data)
 
-    print(f"\n{'---'*15}\n✅ Data retrieval complete.")
-    print(f"   - Total Pages Visited: {page_num + 1}")
-    print(f"   - Products Found (This Session): {len(all_products)}")
+    print(f"\n{'---'*15}\n✅ Pengambilan data selesai.")
+    print(f"   - Total Halaman Dikunjungi: {page_num + 1}")
+    print(f"   - Produk Ditemukan (Sesi Ini): {len(all_products)}")
     print("-" * 20)
     return all_products
 
@@ -93,12 +93,12 @@ def save_data(products_to_save, filename):
     try:
         with open(filename, 'r', encoding='utf-8') as f:
             data_map = {p['item_id']: p for p in json.load(f)}
-        print(f"📖 Loaded {len(data_map)} existing products from '{filename}'.")
+        print(f"📖 Memuat {len(data_map)} produk dari database '{filename}'.")
     except (FileNotFoundError, json.JSONDecodeError):
-        print(f"📖 Database '{filename}' not found or invalid. Creating a new one.")
+        print(f"📖 Database '{filename}' tidak ditemukan atau rusak. Membuat yang baru.")
 
     if not products_to_save:
-        print("🟡 No new products found. Database remains unchanged.")
+        print("🟡 Tidak ada produk baru ditemukan. Database tidak diubah.")
         return
 
     updated_count = sum(1 for p in products_to_save if p['item_id'] in data_map)
@@ -107,13 +107,13 @@ def save_data(products_to_save, filename):
     for product in products_to_save:
         data_map[product['item_id']] = product
 
-    print(f"📊 Merge result: {updated_count} products updated, {added_count} new products added.")
+    print(f"📊 Hasil gabungan: {updated_count} produk diperbarui, {added_count} produk baru ditambahkan.")
     
     final_product_list = list(data_map.values())
-    print(f"\n💾 Saving {len(final_product_list)} total products to '{filename}'...")
+    print(f"\n💾 Menyimpan {len(final_product_list)} total produk ke '{filename}'...")
     with open(filename, 'w', encoding='utf-8') as f:
         json.dump(final_product_list, f, indent=4, ensure_ascii=False)
-    print("🎉 File updated successfully.")
+    print("🎉 File berhasil diperbarui.")
 
 def main():
     max_pages = PAGES_FOR_FULL_SCRAPE if not os.path.exists(OUTPUT_FILENAME) else PAGES_FOR_UPDATE
@@ -123,11 +123,11 @@ def main():
         scraped_data = scrape_products(driver, TARGET_URL, max_pages)
         save_data(scraped_data, OUTPUT_FILENAME)
     except Exception as e:
-        print(f"\n❌ An unexpected error occurred in the main process: {e}", file=sys.stderr)
+        print(f"\n❌ Terjadi kesalahan tak terduga dalam proses utama: {e}", file=sys.stderr)
     finally:
         if driver:
             driver.quit()
-            print("\nBrowser closed.")
+            print("\nPeramban ditutup.")
 
 if __name__ == "__main__":
     main()
