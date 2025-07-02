@@ -1,4 +1,4 @@
-name: Scrape Jagel Data
+name: Grivie Scrapers
 
 on:
   schedule:
@@ -36,6 +36,7 @@ jobs:
         run: python scraper.py
 
       - name: Commit dan push jika ada perubahan
+        id: commit
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Update: Sinkronisasi data produk setiap jam"
@@ -43,3 +44,16 @@ jobs:
           commit_user_name: GitHub Actions Bot
           commit_user_email: actions@github.com
           commit_author: GitHub Actions Bot <actions@github.com>
+
+      # --- LANGKAH NOTIFIKASI WHATSAPP (LANGSUNG) ---
+      - name: Kirim notifikasi WhatsApp jika ada perubahan
+        if: steps.commit.outputs.changes_detected == 'true'
+        run: |
+          curl -X POST \
+          -H "Authorization: xZK6mMwiSqnJgaqtBqEHF2REyHeeCwqYnVQLgNvJ3hbe" \
+          -H "Content-Type: application/json" \
+          -d '{
+            "target": "6285736058049",
+            "message": "✅ Scraping data produk berhasil diperbarui."
+          }' \
+          https://api.fonnte.com/send
