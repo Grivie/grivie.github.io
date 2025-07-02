@@ -1,6 +1,6 @@
 [
     {
-        "nama_produk": "Sosis Bakar",
+        "nama_produk": "Sosis Bakar jamal",
         "harga": "Rp 5.000",
         "url_gambar": "https://www.jagel.id/api/listimage/v/Sosis-Bakar-Jumbo-Mini--0-816685786af4160d.jpg",
         "url_produk": "action://p/685786af4160d",
@@ -11,8 +11,8 @@
         "item_description": "N/A"
     },
     {
-        "nama_produk": "Rujak",
-        "harga": "Rp 6.000",
+        "nama_produk": "Rujak jm",
+        "harga": "Rp 600000.000",
         "url_gambar": "https://www.jagel.id/api/listimage/v/Rujak-0-6026857858b6322a.jpg",
         "url_produk": "action://p/6857858b6322a",
         "item_id": "6857858b6322a",
