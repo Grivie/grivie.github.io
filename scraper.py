@@ -30,7 +30,7 @@ def setup_driver():
     return driver
 
 def scrape_products(driver, base_url):
-    """Fungsi utama untuk melakukan scraping produk."""
+    """Fungsi utama untuk melakukan scraping produk. (Fungsi ini tidak berubah)"""
     all_products = []
     page_index = 0
     max_pages = 3 
@@ -68,66 +68,84 @@ def scrape_products(driver, base_url):
         products_on_page = []
         for i, card in tqdm(enumerate(product_cards), total=len(product_cards), desc=f"   Processing page {current_page_number_display}", unit=" product"):
             try:
-                # --- PERUBAHAN UTAMA ADA DI SINI ---
-                # Mengambil semua data yang Anda inginkan
-                
-                name = card.find_element(By.CSS_SELECTOR, 'h4.item-name a').text.strip()
-                price = card.find_element(By.CSS_SELECTOR, 'p.item-price').text.strip()
-                image_url = card.find_element(By.TAG_NAME, 'img').get_attribute('src')
                 product_unique_id = card.find_element(By.CSS_SELECTOR, 'input.item-listid').get_attribute('value')
-                
-                # Mengambil data tambahan dengan cara yang aman (jika elemen tidak ada, diisi "N/A")
-                item_stock = card.find_element(By.CSS_SELECTOR, 'input.item-stock').get_attribute('value') if card.find_elements(By.CSS_SELECTOR, 'input.item-stock') else "N/A"
-                item_sold = card.find_element(By.CSS_SELECTOR, 'input.item-sold').get_attribute('value') if card.find_elements(By.CSS_SELECTOR, 'input.item-sold') else "N/A"
-                item_seen = card.find_element(By.CSS_SELECTOR, 'input.item-seen').get_attribute('value') if card.find_elements(By.CSS_SELECTOR, 'input.item-seen') else "N/A"
-                
-                # Mencoba mengambil deskripsi dari elemen <p> atau <input>
-                item_description_element = card.find_elements(By.CSS_SELECTOR, 'p.item-description')
-                if item_description_element and item_description_element[0].text.strip():
-                    item_description = item_description_element[0].text.strip()
-                else:
-                    item_description_input = card.find_elements(By.CSS_SELECTOR, 'input.item-description')
-                    item_description = item_description_input[0].get_attribute('value') if item_description_input else "N/A"
-
-                # Menyusun dictionary dengan semua data
                 product_data = {
-                    'nama_produk': name,
-                    'harga': price,
-                    'url_gambar': image_url,
+                    'nama_produk': card.find_element(By.CSS_SELECTOR, 'h4.item-name a').text.strip(),
+                    'harga': card.find_element(By.CSS_SELECTOR, 'p.item-price').text.strip(),
+                    'url_gambar': card.find_element(By.TAG_NAME, 'img').get_attribute('src'),
                     'url_produk': f"action://p/{product_unique_id}",
                     'item_id': product_unique_id,
-                    'item_stock': item_stock,
-                    'item_sold': item_sold,
-                    'item_seen': item_seen,
-                    'item_description': item_description
+                    'item_stock': card.find_element(By.CSS_SELECTOR, 'input.item-stock').get_attribute('value') if card.find_elements(By.CSS_SELECTOR, 'input.item-stock') else "N/A",
+                    'item_sold': card.find_element(By.CSS_SELECTOR, 'input.item-sold').get_attribute('value') if card.find_elements(By.CSS_SELECTOR, 'input.item-sold') else "N/A",
+                    'item_seen': card.find_element(By.CSS_SELECTOR, 'input.item-seen').get_attribute('value') if card.find_elements(By.CSS_SELECTOR, 'input.item-seen') else "N/A",
+                    'item_description': card.find_element(By.CSS_SELECTOR, 'p.item-description').text.strip() or (card.find_elements(By.CSS_SELECTOR, 'input.item-description') and card.find_element(By.CSS_SELECTOR, 'input.item-description').get_attribute('value')) or "N/A"
                 }
                 products_on_page.append(product_data)
-
             except Exception as e:
                 print(f"\n   └── ⚠️ Gagal memproses produk #{i+1}. Error: {e}")
                 continue
-
-        if not products_on_page:
-            print(f"\n🚫 Tidak ada produk baru yang berhasil diekstrak. Proses dihentikan.")
-            break
-
         all_products.extend(products_on_page)
-        print(f"✅ Halaman ke-{current_page_number_display} selesai! Ditemukan {len(products_on_page)} produk. Total: {len(all_products)}.")
+        
+        if not products_on_page:
+            break
         page_index += 1
-        time.sleep(2)
-
+    
+    print(f"\n✅ Scraping selesai. Total produk ditemukan: {len(all_products)}.")
     return all_products
 
-def save_to_json(data, filename="product.json"):
-    """Menyimpan data ke file JSON."""
-    if not data:
-        print("\n😢 Tidak ada produk untuk disimpan.")
+def update_and_save_data(scraped_products, filename="product.json"):
+    """
+    Fungsi baru untuk membaca data lama, menggabungkan dengan data baru,
+    dan menyimpan hasilnya.
+    """
+    # Langkah 1: Baca data lama jika file sudah ada
+    try:
+        with open(filename, 'r', encoding='utf-8') as f:
+            old_products_list = json.load(f)
+        # Ubah list lama menjadi dictionary untuk pencarian cepat berdasarkan item_id
+        old_products_map = {product['item_id']: product for product in old_products_list}
+        print(f"📖 Berhasil membaca {len(old_products_map)} produk dari '{filename}'.")
+    except (FileNotFoundError, json.JSONDecodeError):
+        old_products_map = {}
+        print(f"File '{filename}' tidak ditemukan atau kosong. Akan membuat file baru.")
+
+    # Jika scraping gagal atau tidak menghasilkan apa-apa, jangan lanjutkan.
+    if not scraped_products:
+        print("Scraping tidak menghasilkan data baru. Proses update dibatalkan.")
+        # Jika ada data lama, simpan kembali untuk memastikan format tetap benar.
+        if old_products_map:
+             with open(filename, 'w', encoding='utf-8') as f:
+                json.dump(list(old_products_map.values()), f, indent=4, ensure_ascii=False)
         return
 
-    print(f"\n💾 Menyimpan {len(data)} produk ke file '{filename}'...")
+    # Langkah 2: Lakukan proses update
+    updated_count = 0
+    added_count = 0
+    
+    # Gunakan data lama sebagai basis
+    final_data_map = old_products_map.copy()
+
+    for product in scraped_products:
+        item_id = product['item_id']
+        if item_id in final_data_map:
+            # Jika produk sudah ada, perbarui datanya
+            final_data_map[item_id].update(product)
+            updated_count += 1
+        else:
+            # Jika produk baru, tambahkan
+            final_data_map[item_id] = product
+            added_count += 1
+    
+    print(f"📊 Proses merge selesai: {updated_count} produk diperbarui, {added_count} produk baru ditambahkan.")
+
+    # Langkah 3: Ubah kembali ke format list dan simpan
+    final_product_list = list(final_data_map.values())
+    
+    print(f"\n💾 Menyimpan total {len(final_product_list)} produk ke file '{filename}'...")
     with open(filename, 'w', encoding='utf-8') as f:
-        json.dump(data, f, indent=4, ensure_ascii=False)
-    print(f"🎉 Selamat! File '{filename}' telah berhasil disimpan.")
+        json.dump(final_product_list, f, indent=4, ensure_ascii=False)
+    print("🎉 File berhasil di-update!")
+
 
 if __name__ == "__main__":
     TARGET_BASE_URL = "https://www.jagel.id/app/grivie-447992/g-food-3131950"
@@ -135,11 +153,16 @@ if __name__ == "__main__":
     driver = None
     try:
         driver = setup_driver()
-        products = scrape_products(driver, TARGET_BASE_URL)
-        save_to_json(products)
+        scraped_products = scrape_products(driver, TARGET_BASE_URL)
+        update_and_save_data(scraped_products)
+        
     except Exception as e:
-        print(f"\n❌ Terjadi kesalahan fatal selama proses scraping: {e}")
+        print(f"\n❌ Terjadi kesalahan fatal: {e}")
+        # Bahkan jika ada error, kita bisa coba menyimpan data lama yang sudah dibaca
+        # untuk mencegah kehilangan data total (opsional, tergantung kebutuhan).
+        # Untuk saat ini kita biarkan agar tidak ada perubahan jika ada error fatal.
     finally:
         if driver:
             driver.quit()
             print("\nBrowser virtual ditutup.")
+
