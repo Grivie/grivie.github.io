@@ -1,4 +1,4 @@
-name: Jagel Scrapers
+name: Scrape Jagel Data
 
 on:
   schedule:
@@ -17,6 +17,14 @@ jobs:
       - name: Mengambil kode repositori
         uses: actions/checkout@v4
 
+      - name: Menyiapkan cache untuk dependensi Python
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
       - name: Menyiapkan Python
         uses: actions/setup-python@v5
         with:
@@ -34,7 +42,6 @@ jobs:
         run: python scraper.py
 
       - name: Commit dan push jika ada perubahan
-        id: commit
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Update: Sinkronisasi data produk setiap jam"
@@ -42,17 +49,3 @@ jobs:
           commit_user_name: GitHub Actions Bot
           commit_user_email: actions@github.com
           commit_author: GitHub Actions Bot <actions@github.com>
-
-      - name: Kirim notifikasi WhatsApp jika ada perubahan
-        if: steps.commit.outputs.changes_detected == 'true'
-        run: |
-          # Ganti dengan token dan nomor telepon Anda jika menggunakan metode langsung
-          # atau gunakan secrets jika menggunakan metode aman.
-          curl -X POST \
-          -H "Authorization: xZK6mMwiSqnJgaqtBqEHF2REyHeeCwqYnVQLgNvJ3hbe" \
-          -H "Content-Type: application/json" \
-          -d '{
-            "target": "6285736058049",
-            "message": "✅ Scraping data produk berhasil diperbarui."
-          }' \
-          https://api.fonnte.com/send
