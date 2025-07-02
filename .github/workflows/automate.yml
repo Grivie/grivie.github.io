@@ -10,6 +10,9 @@ jobs:
     name: "Menjalankan Scraping dan Menyimpan Data"
     runs-on: ubuntu-latest
 
+    permissions:
+      contents: write
+
     steps:
       - name: Mengambil kode repositori
         uses: actions/checkout@v4
