@@ -1,4 +1,4 @@
-name: Scrape Jagel Data (Efisien)
+name: Jagel Scrapers
 
 on:
   schedule:
@@ -17,36 +17,15 @@ jobs:
       - name: Mengambil kode repositori
         uses: actions/checkout@v4
 
-      - name: Menyiapkan cache untuk dependensi Python
-        # Langkah ini akan menyimpan library dari requirements.txt
-        # agar tidak perlu diunduh ulang setiap kali dijalankan.
-        uses: actions/cache@v4
-        with:
-          path: ~/.cache/pip
-          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
-          restore-keys: |
-            ${{ runner.os }}-pip-
-
       - name: Menyiapkan Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.10'
 
-      - name: Instalasi Chromium (jika belum ada)
-        # Logika ini memeriksa apakah 'chromium-browser' sudah bisa ditemukan.
-        # Jika belum, maka akan menjalankan instalasi.
-        run: |
-          if ! command -v chromium-browser &> /dev/null
-          then
-            echo "Chromium tidak ditemukan. Memulai instalasi..."
-            sudo apt-get update
-            sudo apt-get install -y chromium-browser
-          else
-            echo "Chromium sudah terpasang."
-          fi
+      - name: Instalasi Chromium Browser
+        run: sudo apt-get update && sudo apt-get install -y chromium-browser
 
       - name: Menginstal dependensi Python
-        # 'pip' akan menggunakan cache dari langkah sebelumnya jika ada.
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
@@ -70,10 +49,10 @@ jobs:
           # Ganti dengan token dan nomor telepon Anda jika menggunakan metode langsung
           # atau gunakan secrets jika menggunakan metode aman.
           curl -X POST \
-          -H "Authorization: ${{ secrets.FONNTE_TOKEN }}" \
+          -H "Authorization: xZK6mMwiSqnJgaqtBqEHF2REyHeeCwqYnVQLgNvJ3hbe" \
           -H "Content-Type: application/json" \
           -d '{
-            "target": "${{ secrets.WHATSAPP_PHONE }}",
+            "target": "6285736058049",
             "message": "✅ Scraping data produk berhasil diperbarui."
           }' \
           https://api.fonnte.com/send
