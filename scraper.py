@@ -6,7 +6,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import NoSuchElementException, TimeoutException
-from tqdm import tqdm
+# from tqdm import tqdm # TQDM tidak digunakan lagi
 
 import undetected_chromedriver as uc
 
@@ -30,13 +30,15 @@ def setup_driver():
     return driver
 
 def scrape_products(driver, base_url, max_pages):
-    """Fungsi utama untuk melakukan scraping produk, dengan batas halaman dinamis."""
+    """
+    Fungsi utama untuk scraping dengan output yang lebih ringkas.
+    """
     all_products = []
     page_index = 0
     LOAD_TIMEOUT_SEC = 30
-    SLEEP_AFTER_LOAD_SEC = 5
+    SLEEP_AFTER_LOAD_SEC = 3 # Sleep bisa dikurangi karena tidak ada output per produk
 
-    print(f"\n🚀 Memulai proses scraping dari: {base_url}")
+    print(f"\n🚀 Memulai proses scraping...")
     if max_pages >= 999:
         print("🔩 Mode: Scrape Penuh (semua halaman).")
     else:
@@ -45,30 +47,29 @@ def scrape_products(driver, base_url, max_pages):
 
     while page_index < max_pages:
         current_page_number_display = page_index + 1
+        
+        # --- PERUBAHAN TAMPILAN ---
+        # Menampilkan status di satu baris yang sama tanpa ganti baris
+        print(f"\r📚 Memproses halaman: {current_page_number_display}", end="", flush=True)
+
         current_page_url = f"{base_url}/{page_index}" if page_index > 0 else base_url
-
-        print(f"\n📚 Mengunjungi halaman ke-{current_page_number_display}...")
-
         try:
             driver.get(current_page_url)
             WebDriverWait(driver, LOAD_TIMEOUT_SEC).until(
                 EC.presence_of_element_located((By.CSS_SELECTOR, "div.component-list-item"))
             )
             time.sleep(SLEEP_AFTER_LOAD_SEC)
-        except TimeoutException:
-            print(f"⚠️ Timeout atau halaman terakhir. Proses scraping dihentikan.")
-            break
-        except Exception as e:
-            print(f"❌ ERROR: Gagal membuka halaman. Detail: {e}")
+        except (TimeoutException, Exception):
+            # Berhenti secara diam-diam jika halaman tidak ada atau error
             break
 
         product_cards = driver.find_elements(By.CSS_SELECTOR, "div.component-list-item")
         if not product_cards:
-            print(f"🔍 Tidak ada produk ditemukan. Menganggap ini halaman terakhir.")
             break
 
         products_on_page = []
-        for i, card in tqdm(enumerate(product_cards), total=len(product_cards), desc=f"   Processing page {current_page_number_display}", unit=" product"):
+        # Loop tanpa TQDM
+        for card in product_cards:
             try:
                 product_unique_id = card.find_element(By.CSS_SELECTOR, 'input.item-listid').get_attribute('value')
                 product_data = {
@@ -83,14 +84,25 @@ def scrape_products(driver, base_url, max_pages):
                     'item_description': card.find_element(By.CSS_SELECTOR, 'p.item-description').text.strip() or (card.find_elements(By.CSS_SELECTOR, 'input.item-description') and card.find_element(By.CSS_SELECTOR, 'input.item-description').get_attribute('value')) or "N/A"
                 }
                 products_on_page.append(product_data)
-            except Exception as e:
-                print(f"\n   └── ⚠️ Gagal memproses produk #{i+1}. Error: {e}")
+            except Exception:
                 continue
         all_products.extend(products_on_page)
         page_index += 1
     
-    print(f"\n✅ Scraping selesai. Total produk ditemukan sesi ini: {len(all_products)}.")
+    # --- PERUBAHAN TAMPILAN ---
+    # Membuat baris baru setelah loop selesai
+    print() 
+    # Menampilkan kotak ringkasan akhir
+    print("---" * 15)
+    print("✅ Scraping Selesai")
+    print("-" * 20)
+    print(f"  - Halaman Dikunjungi : {page_index}")
+    print(f"  - Produk Ditemukan  : {len(all_products)} (Sesi ini)")
+    print("-" * 20)
+    
     return all_products
+
+# --- (Fungsi update_and_save_data dan blok if __name__ == "__main__" tetap sama) ---
 
 def update_and_save_data(scraped_products, filename="product.json"):
     """Membaca data lama, menggabungkan dengan data baru, dan menyimpan."""
@@ -98,16 +110,13 @@ def update_and_save_data(scraped_products, filename="product.json"):
         with open(filename, 'r', encoding='utf-8') as f:
             old_products_list = json.load(f)
         old_products_map = {product['item_id']: product for product in old_products_list}
-        print(f"📖 Berhasil membaca {len(old_products_map)} produk dari '{filename}'.")
+        print(f"📖 Membaca {len(old_products_map)} produk dari database lama.")
     except (FileNotFoundError, json.JSONDecodeError):
         old_products_map = {}
-        print(f"File '{filename}' tidak ditemukan atau kosong. Akan membuat file baru.")
+        print(f"📖 Database '{filename}' tidak ditemukan, akan membuat baru.")
 
     if not scraped_products:
-        print("Scraping tidak menghasilkan data baru. Proses update dibatalkan.")
-        if old_products_map:
-             with open(filename, 'w', encoding='utf-8') as f:
-                json.dump(list(old_products_map.values()), f, indent=4, ensure_ascii=False)
+        print("🟡 Tidak ada produk baru ditemukan. Database tidak diubah.")
         return
 
     updated_count = 0
@@ -123,11 +132,11 @@ def update_and_save_data(scraped_products, filename="product.json"):
             final_data_map[item_id] = product
             added_count += 1
     
-    print(f"📊 Proses merge selesai: {updated_count} produk diperbarui, {added_count} produk baru ditambahkan.")
+    print(f"📊 Hasil Merge: {updated_count} produk diperbarui, {added_count} produk baru ditambahkan.")
 
     final_product_list = list(final_data_map.values())
     
-    print(f"\n💾 Menyimpan total {len(final_product_list)} produk ke file '{filename}'...")
+    print(f"\n💾 Menyimpan total {len(final_product_list)} produk ke database...")
     with open(filename, 'w', encoding='utf-8') as f:
         json.dump(final_product_list, f, indent=4, ensure_ascii=False)
     print("🎉 File berhasil di-update!")
@@ -137,20 +146,14 @@ if __name__ == "__main__":
     TARGET_BASE_URL = "https://www.jagel.id/app/grivie-447992/g-food-3131950"
     FILENAME = "product.json"
 
-    # --- LOGIKA UTAMA ADA DI SINI ---
-    # Cek apakah file sudah ada untuk menentukan jumlah halaman yang akan di-scrape
     if os.path.exists(FILENAME):
-        # Jika file ada, ini adalah update rutin. Hanya scrape 5 halaman.
         max_pages_to_scrape = 5
     else:
-        # Jika file tidak ada, ini adalah proses pertama. Scrape semua halaman.
-        # Angka 999 digunakan sebagai representasi "tak terbatas", loop akan berhenti sendiri.
         max_pages_to_scrape = 999 
 
     driver = None
     try:
         driver = setup_driver()
-        # Kirim batas halaman ke fungsi scraping
         scraped_products = scrape_products(driver, TARGET_BASE_URL, max_pages_to_scrape)
         update_and_save_data(scraped_products, FILENAME)
         
