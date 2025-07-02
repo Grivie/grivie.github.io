@@ -2,7 +2,6 @@ import json
 import os
 import sys
 import time
-
 from selenium.common.exceptions import NoSuchElementException, TimeoutException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
@@ -23,7 +22,7 @@ def setup_driver():
     options.add_argument('--disable-gpu')
 
     try:
-        driver = uc.Chrome(options=options)
+        driver = uc.Chrome(options=options, browser_executable_path='/usr/bin/chromium-browser')
         print("✅ Browser initialized successfully.")
         return driver
     except Exception as e:
