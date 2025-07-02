@@ -3,216 +3,396 @@
         "nama_produk": "Sosis Bakar",
         "harga": "Rp 5.000",
         "url_gambar": "https://www.jagel.id/api/listimage/v/Sosis-Bakar-Jumbo-Mini--0-816685786af4160d.jpg",
-        "url_produk": "action://p/685786af4160d"
+        "url_produk": "action://p/685786af4160d",
+        "item_id": "685786af4160d",
+        "item_stock": "0",
+        "item_sold": "0",
+        "item_seen": "16",
+        "item_description": "N/A"
     },
     {
         "nama_produk": "Rujak",
         "harga": "Rp 6.000",
         "url_gambar": "https://www.jagel.id/api/listimage/v/Rujak-0-6026857858b6322a.jpg",
-        "url_produk": "action://p/6857858b6322a"
+        "url_produk": "action://p/6857858b6322a",
+        "item_id": "6857858b6322a",
+        "item_stock": "0",
+        "item_sold": "0",
+        "item_seen": "19",
+        "item_description": "N/A"
     },
     {
         "nama_produk": "Empek-empek",
         "harga": "Rp 16.000",
         "url_gambar": "https://www.jagel.id/api/listimage/v/Empek-empek-0-8606847a5e503f1d.jpg",
-        "url_produk": "action://p/6847a5e503f1d"
+        "url_produk": "action://p/6847a5e503f1d",
+        "item_id": "6847a5e503f1d",
+        "item_stock": "0",
+        "item_sold": "0",
+        "item_seen": "15",
+        "item_description": "N/A"
     },
     {
         "nama_produk": "Tahu Mercon Isi Ayam Suwir Atau Bakso Mercon",
         "harga": "Rp 3.500",
         "url_gambar": "https://www.jagel.id/api/listimage/v/Tahu-Mercon-Isi-Ayam-Suwir-Atau-Bakso-Mercon-0-2526847a5579ecc6.jpg",
-        "url_produk": "action://p/6847a5579ecc6"
+        "url_produk": "action://p/6847a5579ecc6",
+        "item_id": "6847a5579ecc6",
+        "item_stock": "0",
+        "item_sold": "0",
+        "item_seen": "9",
+        "item_description": "N/A"
     },
     {
         "nama_produk": "Nasi Jagung",
         "harga": "Rp 10.000",
         "url_gambar": "https://www.jagel.id/api/listimage/v/Nasi-Jagung--0-9866822f496d069b.jpg",
-        "url_produk": "action://p/6822f496d069b"
+        "url_produk": "action://p/6822f496d069b",
+        "item_id": "6822f496d069b",
+        "item_stock": "0",
+        "item_sold": "0",
+        "item_seen": "30",
+        "item_description": "N/A"
     },
     {
         "nama_produk": "Mix Sosis Chillioil",
         "harga": "Rp 11.000",
         "url_gambar": "https://www.jagel.id/api/listimage/v/Mix-Sosis-Chillioil-0-479680f11cd09aa0.jpg",
-        "url_produk": "action://p/680f11cd09aa0"
+        "url_produk": "action://p/680f11cd09aa0",
+        "item_id": "680f11cd09aa0",
+        "item_stock": "0",
+        "item_sold": "0",
+        "item_seen": "42",
+        "item_description": "N/A"
     },
     {
         "nama_produk": "KEBAB BEEF",
         "harga": "Rp 17.000",
         "url_gambar": "https://www.jagel.id/api/listimage/v/KEBAB-BEEF--0-48367cfd79dca011.jpg",
-        "url_produk": "action://p/67cfd79dca011"
+        "url_produk": "action://p/67cfd79dca011",
+        "item_id": "67cfd79dca011",
+        "item_stock": "0",
+        "item_sold": "0",
+        "item_seen": "67",
+        "item_description": "N/A"
     },
     {
         "nama_produk": "BURGER Chicken Crispy",
         "harga": "Rp 16.000",
         "url_gambar": "https://www.jagel.id/api/listimage/v/BURGER-Chicken-Crispy--0-28867cfd720269ae.jpg",
-        "url_produk": "action://p/67cfd720269ae"
+        "url_produk": "action://p/67cfd720269ae",
+        "item_id": "67cfd720269ae",
+        "item_stock": "0",
+        "item_sold": "0",
+        "item_seen": "36",
+        "item_description": "N/A"
     },
     {
         "nama_produk": "KEBAB BEEF",
         "harga": "Rp 17.000",
         "url_gambar": "https://www.jagel.id/api/listimage/v/KEBAB-BEEF--0-70767cfd689c04dc.jpg",
-        "url_produk": "action://p/67cfd689c04dc"
+        "url_produk": "action://p/67cfd689c04dc",
+        "item_id": "67cfd689c04dc",
+        "item_stock": "0",
+        "item_sold": "0",
+        "item_seen": "16",
+        "item_description": "N/A"
     },
     {
         "nama_produk": "BURGER Beef",
         "harga": "Rp 19.000",
         "url_gambar": "https://www.jagel.id/api/listimage/v/BURGER-Beef-0-25267cfd61235d95.jpg",
-        "url_produk": "action://p/67cfd61235d95"
+        "url_produk": "action://p/67cfd61235d95",
+        "item_id": "67cfd61235d95",
+        "item_stock": "0",
+        "item_sold": "0",
+        "item_seen": "11",
+        "item_description": "N/A"
     },
     {
         "nama_produk": "KEBAB IDOLA",
         "harga": "Rp 19.000",
         "url_gambar": "https://www.jagel.id/api/listimage/v/KEBAB-BINTANG--0-61367cd9da442661.jpg",
-        "url_produk": "action://p/67cd9da442661"
+        "url_produk": "action://p/67cd9da442661",
+        "item_id": "67cd9da442661",
+        "item_stock": "0",
+        "item_sold": "0",
+        "item_seen": "15",
+        "item_description": "N/A"
     },
     {
         "nama_produk": "Es YOUGHURT MILK",
         "harga": "Rp 10.000",
         "url_gambar": "https://www.jagel.id/api/listimage/v/Es-YOUGHURT-MILK--0-17967cd73dd62a66.jpg",
-        "url_produk": "action://p/67cd73dd62a66"
+        "url_produk": "action://p/67cd73dd62a66",
+        "item_id": "67cd73dd62a66",
+        "item_stock": "0",
+        "item_sold": "0",
+        "item_seen": "9",
+        "item_description": "N/A"
     },
     {
         "nama_produk": "Sosis Bakar",
         "harga": "Rp 5.000",
         "url_gambar": "https://www.jagel.id/api/listimage/v/Sosis-Bakar-Jumbo-Mini--0-816685786af4160d.jpg",
-        "url_produk": "action://p/685786af4160d"
+        "url_produk": "action://p/685786af4160d",
+        "item_id": "685786af4160d",
+        "item_stock": "0",
+        "item_sold": "0",
+        "item_seen": "16",
+        "item_description": "N/A"
     },
     {
         "nama_produk": "Rujak",
         "harga": "Rp 6.000",
         "url_gambar": "https://www.jagel.id/api/listimage/v/Rujak-0-6026857858b6322a.jpg",
-        "url_produk": "action://p/6857858b6322a"
+        "url_produk": "action://p/6857858b6322a",
+        "item_id": "6857858b6322a",
+        "item_stock": "0",
+        "item_sold": "0",
+        "item_seen": "19",
+        "item_description": "N/A"
     },
     {
         "nama_produk": "Empek-empek",
         "harga": "Rp 16.000",
         "url_gambar": "https://www.jagel.id/api/listimage/v/Empek-empek-0-8606847a5e503f1d.jpg",
-        "url_produk": "action://p/6847a5e503f1d"
+        "url_produk": "action://p/6847a5e503f1d",
+        "item_id": "6847a5e503f1d",
+        "item_stock": "0",
+        "item_sold": "0",
+        "item_seen": "15",
+        "item_description": "N/A"
     },
     {
         "nama_produk": "Tahu Mercon Isi Ayam Suwir Atau Bakso Mercon",
         "harga": "Rp 3.500",
         "url_gambar": "https://www.jagel.id/api/listimage/v/Tahu-Mercon-Isi-Ayam-Suwir-Atau-Bakso-Mercon-0-2526847a5579ecc6.jpg",
-        "url_produk": "action://p/6847a5579ecc6"
+        "url_produk": "action://p/6847a5579ecc6",
+        "item_id": "6847a5579ecc6",
+        "item_stock": "0",
+        "item_sold": "0",
+        "item_seen": "9",
+        "item_description": "N/A"
     },
     {
         "nama_produk": "Nasi Jagung",
         "harga": "Rp 10.000",
         "url_gambar": "https://www.jagel.id/api/listimage/v/Nasi-Jagung--0-9866822f496d069b.jpg",
-        "url_produk": "action://p/6822f496d069b"
+        "url_produk": "action://p/6822f496d069b",
+        "item_id": "6822f496d069b",
+        "item_stock": "0",
+        "item_sold": "0",
+        "item_seen": "30",
+        "item_description": "N/A"
     },
     {
         "nama_produk": "Mix Sosis Chillioil",
         "harga": "Rp 11.000",
         "url_gambar": "https://www.jagel.id/api/listimage/v/Mix-Sosis-Chillioil-0-479680f11cd09aa0.jpg",
-        "url_produk": "action://p/680f11cd09aa0"
+        "url_produk": "action://p/680f11cd09aa0",
+        "item_id": "680f11cd09aa0",
+        "item_stock": "0",
+        "item_sold": "0",
+        "item_seen": "42",
+        "item_description": "N/A"
     },
     {
         "nama_produk": "KEBAB BEEF",
         "harga": "Rp 17.000",
         "url_gambar": "https://www.jagel.id/api/listimage/v/KEBAB-BEEF--0-48367cfd79dca011.jpg",
-        "url_produk": "action://p/67cfd79dca011"
+        "url_produk": "action://p/67cfd79dca011",
+        "item_id": "67cfd79dca011",
+        "item_stock": "0",
+        "item_sold": "0",
+        "item_seen": "67",
+        "item_description": "N/A"
     },
     {
         "nama_produk": "BURGER Chicken Crispy",
         "harga": "Rp 16.000",
         "url_gambar": "https://www.jagel.id/api/listimage/v/BURGER-Chicken-Crispy--0-28867cfd720269ae.jpg",
-        "url_produk": "action://p/67cfd720269ae"
+        "url_produk": "action://p/67cfd720269ae",
+        "item_id": "67cfd720269ae",
+        "item_stock": "0",
+        "item_sold": "0",
+        "item_seen": "36",
+        "item_description": "N/A"
     },
     {
         "nama_produk": "KEBAB BEEF",
         "harga": "Rp 17.000",
         "url_gambar": "https://www.jagel.id/api/listimage/v/KEBAB-BEEF--0-70767cfd689c04dc.jpg",
-        "url_produk": "action://p/67cfd689c04dc"
+        "url_produk": "action://p/67cfd689c04dc",
+        "item_id": "67cfd689c04dc",
+        "item_stock": "0",
+        "item_sold": "0",
+        "item_seen": "16",
+        "item_description": "N/A"
     },
     {
         "nama_produk": "BURGER Beef",
         "harga": "Rp 19.000",
         "url_gambar": "https://www.jagel.id/api/listimage/v/BURGER-Beef-0-25267cfd61235d95.jpg",
-        "url_produk": "action://p/67cfd61235d95"
+        "url_produk": "action://p/67cfd61235d95",
+        "item_id": "67cfd61235d95",
+        "item_stock": "0",
+        "item_sold": "0",
+        "item_seen": "11",
+        "item_description": "N/A"
     },
     {
         "nama_produk": "KEBAB IDOLA",
         "harga": "Rp 19.000",
         "url_gambar": "https://www.jagel.id/api/listimage/v/KEBAB-BINTANG--0-61367cd9da442661.jpg",
-        "url_produk": "action://p/67cd9da442661"
+        "url_produk": "action://p/67cd9da442661",
+        "item_id": "67cd9da442661",
+        "item_stock": "0",
+        "item_sold": "0",
+        "item_seen": "15",
+        "item_description": "N/A"
     },
     {
         "nama_produk": "Es YOUGHURT MILK",
         "harga": "Rp 10.000",
         "url_gambar": "https://www.jagel.id/api/listimage/v/Es-YOUGHURT-MILK--0-17967cd73dd62a66.jpg",
-        "url_produk": "action://p/67cd73dd62a66"
+        "url_produk": "action://p/67cd73dd62a66",
+        "item_id": "67cd73dd62a66",
+        "item_stock": "0",
+        "item_sold": "0",
+        "item_seen": "9",
+        "item_description": "N/A"
     },
     {
         "nama_produk": "Es DURIAN MILK",
         "harga": "Rp 11.000",
         "url_gambar": "https://www.jagel.id/api/listimage/v/Es-DURIAN-MILK--0-52167cd73774657f.jpg",
-        "url_produk": "action://p/67cd73774657f"
+        "url_produk": "action://p/67cd73774657f",
+        "item_id": "67cd73774657f",
+        "item_stock": "0",
+        "item_sold": "0",
+        "item_seen": "15",
+        "item_description": "N/A"
     },
     {
         "nama_produk": "Es MOJHITO MELON",
         "harga": "Rp 8.000",
         "url_gambar": "https://www.jagel.id/api/listimage/v/Es-MOJHITO-MELON-0-48767cd715891499.jpg",
-        "url_produk": "action://p/67cd715891499"
+        "url_produk": "action://p/67cd715891499",
+        "item_id": "67cd715891499",
+        "item_stock": "0",
+        "item_sold": "0",
+        "item_seen": "2",
+        "item_description": "N/A"
     },
     {
         "nama_produk": "Es MOJHITO STROBERI",
         "harga": "Rp 8.000",
         "url_gambar": "https://www.jagel.id/api/listimage/v/Es-MOJHITO-STROBERI-0-31967cd710d4a87e.jpg",
-        "url_produk": "action://p/67cd710d4a87e"
+        "url_produk": "action://p/67cd710d4a87e",
+        "item_id": "67cd710d4a87e",
+        "item_stock": "0",
+        "item_sold": "0",
+        "item_seen": "1",
+        "item_description": "N/A"
     },
     {
         "nama_produk": "Es MOJHITO ORANGE",
         "harga": "Rp 8.000",
         "url_gambar": "https://www.jagel.id/api/listimage/v/Es-MOJHITO-ORANGE-0-24467cd70a1cda09.jpg",
-        "url_produk": "action://p/67cd70a1cda09"
+        "url_produk": "action://p/67cd70a1cda09",
+        "item_id": "67cd70a1cda09",
+        "item_stock": "0",
+        "item_sold": "0",
+        "item_seen": "2",
+        "item_description": "N/A"
     },
     {
         "nama_produk": "Esteh Manis Original Jasmine Tea",
         "harga": "Rp 5.000",
         "url_gambar": "https://www.jagel.id/api/listimage/v/Esteh-Manis-Original-Jasmine-Tea-0-97467cd5bc8dcfa8.jpg",
-        "url_produk": "action://p/67cd5bc8dcfa8"
+        "url_produk": "action://p/67cd5bc8dcfa8",
+        "item_id": "67cd5bc8dcfa8",
+        "item_stock": "0",
+        "item_sold": "0",
+        "item_seen": "4",
+        "item_description": "N/A"
     },
     {
         "nama_produk": "Es Teh Stroberi",
         "harga": "Rp 7.000",
         "url_gambar": "https://www.jagel.id/api/listimage/v/Es-Teh-Stroberi-0-69567cd5b6703eda.jpg",
-        "url_produk": "action://p/67cd5b6703eda"
+        "url_produk": "action://p/67cd5b6703eda",
+        "item_id": "67cd5b6703eda",
+        "item_stock": "0",
+        "item_sold": "0",
+        "item_seen": "1",
+        "item_description": "N/A"
     },
     {
         "nama_produk": "ES TEH LECY",
         "harga": "Rp 7.000",
         "url_gambar": "https://www.jagel.id/api/listimage/v/ES-TEH-APEL-0-88067cd59fa292da.jpg",
-        "url_produk": "action://p/67cd59fa292da"
+        "url_produk": "action://p/67cd59fa292da",
+        "item_id": "67cd59fa292da",
+        "item_stock": "0",
+        "item_sold": "0",
+        "item_seen": "1",
+        "item_description": "N/A"
     },
     {
         "nama_produk": "Es TEH APEL",
         "harga": "Rp 7.000",
         "url_gambar": "https://www.jagel.id/api/listimage/v/Es-TEH-APEL-0-12167cd598300a72.jpg",
-        "url_produk": "action://p/67cd598300a72"
+        "url_produk": "action://p/67cd598300a72",
+        "item_id": "67cd598300a72",
+        "item_stock": "0",
+        "item_sold": "0",
+        "item_seen": "2",
+        "item_description": "N/A"
     },
     {
         "nama_produk": "Es NUTRISARI ORANGE",
         "harga": "Rp 5.000",
         "url_gambar": "https://www.jagel.id/api/listimage/v/Es-NUTRISARI-ORANGE-0-19067cd569253f92.jpg",
-        "url_produk": "action://p/67cd569253f92"
+        "url_produk": "action://p/67cd569253f92",
+        "item_id": "67cd569253f92",
+        "item_stock": "0",
+        "item_sold": "0",
+        "item_seen": "0",
+        "item_description": "N/A"
     },
     {
         "nama_produk": "Es JOSUA",
         "harga": "Rp 8.500",
         "url_gambar": "https://www.jagel.id/api/listimage/v/Es-JOSUA--0-28467cd56439d4c9.jpg",
-        "url_produk": "action://p/67cd56439d4c9"
+        "url_produk": "action://p/67cd56439d4c9",
+        "item_id": "67cd56439d4c9",
+        "item_stock": "0",
+        "item_sold": "0",
+        "item_seen": "0",
+        "item_description": "N/A"
     },
     {
         "nama_produk": "ES CHOCOLATOS",
         "harga": "Rp 9.000",
         "url_gambar": "https://www.jagel.id/api/listimage/v/ES-CHOCOLATOS--0-96667cd55d27964c.jpg",
-        "url_produk": "action://p/67cd55d27964c"
+        "url_produk": "action://p/67cd55d27964c",
+        "item_id": "67cd55d27964c",
+        "item_stock": "0",
+        "item_sold": "0",
+        "item_seen": "0",
+        "item_description": "N/A"
     },
     {
         "nama_produk": "Es MILK TEA korean Strobery",
         "harga": "Rp 8.500",
         "url_gambar": "https://www.jagel.id/api/listimage/v/Es-MILK-TEA-korean-Strobery--0-33267cd55771a76c.jpg",
-        "url_produk": "action://p/67cd55771a76c"
+        "url_produk": "action://p/67cd55771a76c",
+        "item_id": "67cd55771a76c",
+        "item_stock": "0",
+        "item_sold": "0",
+        "item_seen": "0",
+        "item_description": "N/A"
     }
 ]
