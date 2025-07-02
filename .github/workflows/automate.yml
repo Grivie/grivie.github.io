@@ -36,7 +36,7 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run scraper
-        run: python scrapebot.py
+        run: python scraper.py
 
       - name: Commit and push if changed
         uses: stefanzweifel/git-auto-commit-action@v5
