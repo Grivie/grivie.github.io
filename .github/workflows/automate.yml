@@ -1,4 +1,4 @@
-name: Grivie Scrapers
+name: Scrape Jagel Data
 
 on:
   schedule:
@@ -7,53 +7,36 @@ on:
 
 jobs:
   scrape-and-commit:
-    name: "Sedang Melakukan Scraping dan Simpan Data"
+    name: "Menjalankan Scraping dan Menyimpan Data"
     runs-on: ubuntu-latest
 
     steps:
-      - name: Check out source repository
+      - name: Mengambil kode repositori
         uses: actions/checkout@v4
-        with:
-          path: source-repo
 
-      - name: Set up Python
+      - name: Menyiapkan Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.10'
       
-      - name: Install Chromium Browser
-        run: sudo apt-get update && sudo apt-get install -y chromium-browser
-
-      - name: Install Python dependencies
+      - name: Menginstal Google Chrome
         run: |
-          cd source-repo
+          wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+          sudo apt install ./google-chrome-stable_current_amd64.deb -y
+
+      - name: Menginstal dependensi Python
+        run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
       
-      - name: Run scraper script
-        run: |
-          cd source-repo
-          python scraper.py
+      - name: Menjalankan skrip scraper
+        run: python scraper.py
 
-      - name: Check out data repository
-        uses: actions/checkout@v4
+      - name: Commit dan push jika ada perubahan
+        uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          repository: username/repo-data
-          path: data-repo
-          token: ${{ secrets.ACTIONS_PAT }}
-
-      - name: Move scraped file to data repository
-        run: mv source-repo/product.json data-repo/product.json
-
-      - name: Commit and push to data repository
-        run: |
-          cd data-repo
-          git config --global user.name "GitHub Actions Bot"
-          git config --global user.email "actions@github.com"
-          git add product.json
-          if ! git diff --staged --quiet; then
-            git commit -m "Update: hourly product data sync"
-            git push
-          else
-            echo "No changes to commit."
-          fi
+          commit_message: "Update: Sinkronisasi data produk setiap jam"
+          file_pattern: product.json
+          commit_user_name: GitHub Actions Bot
+          commit_user_email: actions@github.com
+          commit_author: GitHub Actions Bot <actions@github.com>
