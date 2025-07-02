@@ -33,7 +33,7 @@ def scrape_products(driver, base_url):
     """Fungsi utama untuk melakukan scraping produk."""
     all_products = []
     page_index = 0
-    max_pages = 3
+    max_pages = 3 
     LOAD_TIMEOUT_SEC = 30
     SLEEP_AFTER_LOAD_SEC = 5
 
@@ -66,23 +66,44 @@ def scrape_products(driver, base_url):
             break
 
         products_on_page = []
-        # Menggunakan enumerate untuk melacak nomor kartu
         for i, card in tqdm(enumerate(product_cards), total=len(product_cards), desc=f"   Processing page {current_page_number_display}", unit=" product"):
             try:
+                # --- PERUBAHAN UTAMA ADA DI SINI ---
+                # Mengambil semua data yang Anda inginkan
+                
                 name = card.find_element(By.CSS_SELECTOR, 'h4.item-name a').text.strip()
                 price = card.find_element(By.CSS_SELECTOR, 'p.item-price').text.strip()
                 image_url = card.find_element(By.TAG_NAME, 'img').get_attribute('src')
                 product_unique_id = card.find_element(By.CSS_SELECTOR, 'input.item-listid').get_attribute('value')
+                
+                # Mengambil data tambahan dengan cara yang aman (jika elemen tidak ada, diisi "N/A")
+                item_stock = card.find_element(By.CSS_SELECTOR, 'input.item-stock').get_attribute('value') if card.find_elements(By.CSS_SELECTOR, 'input.item-stock') else "N/A"
+                item_sold = card.find_element(By.CSS_SELECTOR, 'input.item-sold').get_attribute('value') if card.find_elements(By.CSS_SELECTOR, 'input.item-sold') else "N/A"
+                item_seen = card.find_element(By.CSS_SELECTOR, 'input.item-seen').get_attribute('value') if card.find_elements(By.CSS_SELECTOR, 'input.item-seen') else "N/A"
+                
+                # Mencoba mengambil deskripsi dari elemen <p> atau <input>
+                item_description_element = card.find_elements(By.CSS_SELECTOR, 'p.item-description')
+                if item_description_element and item_description_element[0].text.strip():
+                    item_description = item_description_element[0].text.strip()
+                else:
+                    item_description_input = card.find_elements(By.CSS_SELECTOR, 'input.item-description')
+                    item_description = item_description_input[0].get_attribute('value') if item_description_input else "N/A"
 
-                products_on_page.append({
+                # Menyusun dictionary dengan semua data
+                product_data = {
                     'nama_produk': name,
                     'harga': price,
                     'url_gambar': image_url,
-                    'url_produk': f"action://p/{product_unique_id}"
-                    # Anda bisa menambahkan kembali field lain jika diperlukan
-                })
+                    'url_produk': f"action://p/{product_unique_id}",
+                    'item_id': product_unique_id,
+                    'item_stock': item_stock,
+                    'item_sold': item_sold,
+                    'item_seen': item_seen,
+                    'item_description': item_description
+                }
+                products_on_page.append(product_data)
+
             except Exception as e:
-                # PERUBAHAN UTAMA: Cetak error agar kita tahu apa yang salah
                 print(f"\n   └── ⚠️ Gagal memproses produk #{i+1}. Error: {e}")
                 continue
 
@@ -122,4 +143,3 @@ if __name__ == "__main__":
         if driver:
             driver.quit()
             print("\nBrowser virtual ditutup.")
-
