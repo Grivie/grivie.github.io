@@ -1,6 +1,5 @@
 import time
 import json
-import re
 import os
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -20,13 +19,11 @@ def setup_driver():
     options.add_argument('--disable-dev-shm-usage')
     options.add_argument('--disable-gpu')
     
-    # Path browser di runner GitHub Actions biasanya standar
     chrome_binary_path = '/usr/bin/google-chrome'
     if os.path.exists(chrome_binary_path):
         options.binary_location = chrome_binary_path
         driver = uc.Chrome(options=options, browser_executable_path=chrome_binary_path)
     else:
-        # Fallback jika path berbeda atau untuk pengujian lokal
         driver = uc.Chrome(options=options)
         
     print("✅ Browser virtual berhasil diinisialisasi!")
@@ -36,17 +33,19 @@ def scrape_products(driver, base_url):
     """Fungsi utama untuk melakukan scraping produk."""
     all_products = []
     page_index = 0
+    max_pages = 3
     LOAD_TIMEOUT_SEC = 30
-    SLEEP_AFTER_LOAD_SEC = 5 # Durasi sleep bisa dikurangi di server
+    SLEEP_AFTER_LOAD_SEC = 5
 
     print(f"\n🚀 Memulai proses scraping dari: {base_url}")
+    print(f"🔩 Mode Percobaan: Akan mengambil maksimal {max_pages} halaman.")
     print("---" * 15)
 
-    while True:
+    while page_index < max_pages:
         current_page_number_display = page_index + 1
         current_page_url = f"{base_url}/{page_index}" if page_index > 0 else base_url
 
-        print(f"\n📚 Mengunjungi halaman ke-{current_page_number_display}...")
+        print(f"\n📚 Mengunjungi halaman ke-{current_page_number_display} dari {max_pages}...")
 
         try:
             driver.get(current_page_url)
@@ -55,7 +54,7 @@ def scrape_products(driver, base_url):
             )
             time.sleep(SLEEP_AFTER_LOAD_SEC)
         except TimeoutException:
-            print(f"⚠️ Timeout: Halaman ke-{current_page_number_display} tidak memuat. Menganggap ini halaman terakhir.")
+            print(f"⚠️ Timeout: Halaman ke-{current_page_number_display} tidak memuat. Proses dihentikan.")
             break
         except Exception as e:
             print(f"❌ ERROR: Gagal membuka halaman ke-{current_page_number_display}. Detail: {e}")
@@ -63,11 +62,12 @@ def scrape_products(driver, base_url):
 
         product_cards = driver.find_elements(By.CSS_SELECTOR, "div.component-list-item")
         if not product_cards:
-            print(f"🔍 Tidak ada produk ditemukan di halaman ke-{current_page_number_display}. Menganggap ini halaman terakhir.")
+            print(f"🔍 Tidak ada produk ditemukan di halaman ke-{current_page_number_display}. Proses dihentikan.")
             break
 
         products_on_page = []
-        for card in tqdm(product_cards, desc=f"   Processing page {current_page_number_display}", unit=" product"):
+        # Menggunakan enumerate untuk melacak nomor kartu
+        for i, card in tqdm(enumerate(product_cards), total=len(product_cards), desc=f"   Processing page {current_page_number_display}", unit=" product"):
             try:
                 name = card.find_element(By.CSS_SELECTOR, 'h4.item-name a').text.strip()
                 price = card.find_element(By.CSS_SELECTOR, 'p.item-price').text.strip()
@@ -78,19 +78,16 @@ def scrape_products(driver, base_url):
                     'nama_produk': name,
                     'harga': price,
                     'url_gambar': image_url,
-                    'url_produk': f"action://p/{product_unique_id}",
-                    'item_id': product_unique_id,
-                    'item_stock': card.find_element(By.CSS_SELECTOR, 'input.item-stock').get_attribute('value') if card.find_elements(By.CSS_SELECTOR, 'input.item-stock') else "N/A",
-                    'item_sold': card.find_element(By.CSS_SELECTOR, 'input.item-sold').get_attribute('value') if card.find_elements(By.CSS_SELECTOR, 'input.item-sold') else "N/A",
-                    'item_seen': card.find_element(By.CSS_SELECTOR, 'input.item-seen').get_attribute('value') if card.find_elements(By.CSS_SELECTOR, 'input.item-seen') else "N/A",
-                    'item_description': card.find_element(By.CSS_SELECTOR, 'p.item-description').text.strip() or card.find_element(By.CSS_SELECTOR, 'input.item-description').get_attribute('value') if card.find_elements(By.CSS_SELECTOR, 'p.item-description') else "N/A"
+                    'url_produk': f"action://p/{product_unique_id}"
+                    # Anda bisa menambahkan kembali field lain jika diperlukan
                 })
-            except Exception:
-                # Abaikan jika ada satu kartu yang gagal di-scrape
+            except Exception as e:
+                # PERUBAHAN UTAMA: Cetak error agar kita tahu apa yang salah
+                print(f"\n   └── ⚠️ Gagal memproses produk #{i+1}. Error: {e}")
                 continue
 
         if not products_on_page:
-            print(f"🚫 Tidak ada produk baru yang berhasil diekstrak dari halaman ke-{current_page_number_display}. Mengakhiri proses.")
+            print(f"\n🚫 Tidak ada produk baru yang berhasil diekstrak. Proses dihentikan.")
             break
 
         all_products.extend(products_on_page)
@@ -100,7 +97,7 @@ def scrape_products(driver, base_url):
 
     return all_products
 
-def save_to_json(data, filename="produk.json"):
+def save_to_json(data, filename="product.json"):
     """Menyimpan data ke file JSON."""
     if not data:
         print("\n😢 Tidak ada produk untuk disimpan.")
