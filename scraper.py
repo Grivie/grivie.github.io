@@ -22,7 +22,12 @@ def setup_driver():
     options.add_argument('--disable-gpu')
 
     try:
-        driver = uc.Chrome(options=options)
+        # Secara paksa menunjuk ke file binary Chromium yang sudah diinstal
+        driver = uc.Chrome(
+            options=options, 
+            browser_executable_path='/usr/bin/chromium-browser'
+        )
+        
         print("✅ Peramban berhasil dimulai.")
         return driver
     except Exception as e:
