@@ -73,7 +73,7 @@
         "link_produk": "action://p/67cfd79dca011",
         "item_stock": "0",
         "item_sold": "0",
-        "item_seen": "74",
+        "item_seen": "75",
         "item_description": ""
     },
     {
@@ -36474,5 +36474,16 @@
         "item_sold": "25",
         "item_seen": "415",
         "item_description": "N/A"
+    },
+    {
+        "item_id": "6867f404cca2a",
+        "nama_produk": "Es Cokelat Grivie",
+        "harga": "Rp 35.000",
+        "link_gambar": "https://www.jagel.id/api/listimage/v/Es-Cokelat-Grivie--0-3006867f404cca2a.jpg",
+        "link_produk": "action://p/6867f404cca2a",
+        "item_stock": "0",
+        "item_sold": "0",
+        "item_seen": "0",
+        "item_description": ""
     }
 ]
