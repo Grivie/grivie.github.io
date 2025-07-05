@@ -215,7 +215,8 @@
         "seen": 7,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "Dekat, XGR4+8WM, Jl. Dukun Anyar, Kalirejo, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia"
   },
   {
     "view_uid": "67ca13928ace0",
@@ -235,7 +236,8 @@
         "seen": 10,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "4F73+FXJ, Jl. Campurejo, Karangtumpuk, Campurejo, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "67c9a66490a84",
@@ -245,7 +247,8 @@
     "origin_lat": "-6.877402",
     "origin_lng": "112.448090",
     "seller_rating": null,
-    "products": []
+    "products": [],
+    "alamat_toko": "4CFX+57G, Paloh, Kec. Paciran, Kabupaten Lamongan, Jawa Timur 62264, Indonesia"
   },
   {
     "view_uid": "6780eb2d9772a",
@@ -255,7 +258,8 @@
     "origin_lat": null,
     "origin_lng": null,
     "seller_rating": "5.0000",
-    "products": []
+    "products": [],
+    "alamat_toko": "Koordinat tidak valid"
   },
   {
     "view_uid": "67782210ae77f",
@@ -265,7 +269,8 @@
     "origin_lat": "-6.900494",
     "origin_lng": "112.480895",
     "seller_rating": null,
-    "products": []
+    "products": [],
+    "alamat_toko": "3FXJ+P99, Jl. Raya Dalegan, Sidorejo, Campurejo, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "676a226e6a35b",
@@ -303,7 +308,8 @@
         "seen": 17,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Sitarda No.2, Bolo, Kec. Ujungpangkah, Kabupaten Gresik, Jawa Timur 61154, Indonesia"
   },
   {
     "view_uid": "67652e6944197",
@@ -350,7 +356,8 @@
         "seen": 97,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "XGP7+4XW, Jlan Raya, Bandung, Padang Bandung, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia"
   },
   {
     "view_uid": "67652a017c210",
@@ -388,7 +395,8 @@
         "seen": 43,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "4F58+46P, Jl. Raya Dalegan, Rejodadi, Dalegan, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "675ec549372a1",
@@ -444,7 +452,8 @@
         "seen": 17,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2GFQ+839, Jl. Raya Deandles, Golokan, Kec. Sidayu, Kabupaten Gresik, Jawa Timur 61153, Indonesia"
   },
   {
     "view_uid": "67558a677affa",
@@ -464,7 +473,8 @@
         "seen": 61,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "4F84+C76, Waru Lor, Campurejo, Kec. Panceng, Kabupaten Gresik, Jawa Timur 62264, Indonesia"
   },
   {
     "view_uid": "67542199c134c",
@@ -484,7 +494,8 @@
         "seen": 45,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2FG2+27Q, Tebuwung, Kec. Dukun, Kabupaten Gresik, Jawa Timur, Indonesia"
   },
   {
     "view_uid": "6753d62ec736f",
@@ -540,7 +551,8 @@
         "seen": 36,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "3GPJ+99V, Banyulegi, Banyuurip, Kec. Ujungpangkah, Kabupaten Gresik, Jawa Timur, Indonesia"
   },
   {
     "view_uid": "67531f647f50c",
@@ -722,7 +734,8 @@
         "seen": 3,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Raya Dalegan No.25, Rejodadi, Campurejo, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "6752cdc3ba1c2",
@@ -787,7 +800,8 @@
         "seen": 63,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2GHP+8R4, Golokan, Kec. Sidayu, Kabupaten Gresik, Jawa Timur 61154, Indonesia"
   },
   {
     "view_uid": "6751b7a0420d8",
@@ -816,7 +830,8 @@
         "seen": 17,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "39M2+2W9, Ringin, Payaman, Kec. Solokuro, Kabupaten Lamongan, Jawa Timur 62265, Indonesia"
   },
   {
     "view_uid": "67517bbe24cab",
@@ -845,7 +860,8 @@
         "seen": 24,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Kh. Ma'sum Sufyan No.7-8, Kalirejo, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia"
   },
   {
     "view_uid": "674d6dbe0657a",
@@ -901,7 +917,8 @@
         "seen": 33,
         "review_rating": "4.0000"
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Sitarda No.2, Bolo, Kec. Ujungpangkah, Kabupaten Gresik, Jawa Timur 61154, Indonesia"
   },
   {
     "view_uid": "674af3ec67eb7",
@@ -1056,7 +1073,8 @@
         "seen": 6,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Raya Deandles No.22, Doudo, Sekapuk, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61154, Indonesia"
   },
   {
     "view_uid": "67473afc7bb76",
@@ -1085,7 +1103,8 @@
         "seen": 18,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "4F33+H29, Banyu Tengah, Banyutengah, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "6747361e1c243",
@@ -1141,7 +1160,8 @@
         "seen": 20,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "XGV7+H8W, Kalang Anyar, Sembungan Kidul, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia"
   },
   {
     "view_uid": "673dcbb774e00",
@@ -1151,7 +1171,8 @@
     "origin_lat": "-7.131361",
     "origin_lng": "112.597033",
     "seller_rating": null,
-    "products": []
+    "products": [],
+    "alamat_toko": "VH9W+FR3, Pongangan Rejo, Pongangan, Kec. Manyar, Kabupaten Gresik, Jawa Timur 61151, Indonesia"
   },
   {
     "view_uid": "6739fc43bce16",
@@ -1161,7 +1182,8 @@
     "origin_lat": null,
     "origin_lng": null,
     "seller_rating": null,
-    "products": []
+    "products": [],
+    "alamat_toko": "Koordinat tidak valid"
   },
   {
     "view_uid": "6739fabf07be3",
@@ -1181,7 +1203,8 @@
         "seen": 20,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "3HM4+5M9, Kacak Kidul, Tambak, Kec. Ujungpangkah, Kabupaten Gresik, Jawa Timur 61154, Indonesia"
   },
   {
     "view_uid": "6739a63c97812",
@@ -1210,7 +1233,8 @@
         "seen": 60,
         "review_rating": "0"
       }
-    ]
+    ],
+    "alamat_toko": "3FVF+P46, Wonorejo, Prupuh, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "673982331cf57",
@@ -1293,7 +1317,8 @@
         "seen": 26,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "3FP9+M4P, Jl. Ki Demang Barokah, Sebero, Prupuh, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "67384762c6e2d",
@@ -1394,7 +1419,8 @@
         "seen": 15,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "48F3+G38, Gowah, Blimbing, Kec. Paciran, Kabupaten Lamongan, Jawa Timur 62264, Indonesia"
   },
   {
     "view_uid": "6738266b3e0fe",
@@ -1404,7 +1430,8 @@
     "origin_lat": "-6.875815",
     "origin_lng": "112.381112",
     "seller_rating": null,
-    "products": []
+    "products": [],
+    "alamat_toko": "Jl. Raya Daendles No.184, Kranji, Kec. Paciran, Kabupaten Lamongan, Jawa Timur 62264, Indonesia"
   },
   {
     "view_uid": "673726d709773",
@@ -1802,7 +1829,8 @@
         "seen": 4,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Raya Ps. Dukun No.100, Kalirejo, Sembungan Kidul, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia"
   },
   {
     "view_uid": "67371e8c48fdd",
@@ -1812,7 +1840,8 @@
     "origin_lat": "-6.876022",
     "origin_lng": "112.382497",
     "seller_rating": null,
-    "products": []
+    "products": [],
+    "alamat_toko": "Jl. Raya Banjarwati No.19, Kranji, Kec. Paciran, Kabupaten Lamongan, Jawa Timur 62264, Indonesia"
   },
   {
     "view_uid": "6735f8983c880",
@@ -1822,7 +1851,8 @@
     "origin_lat": null,
     "origin_lng": null,
     "seller_rating": null,
-    "products": []
+    "products": [],
+    "alamat_toko": "Koordinat tidak valid"
   },
   {
     "view_uid": "6735f7a9c4f7f",
@@ -1842,7 +1872,8 @@
         "seen": 23,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "276M+JH2, Jangkungsomo, Kec. Maduran, Kabupaten Lamongan, Jawa Timur 62261, Indonesia"
   },
   {
     "view_uid": "67346da8c2ad9",
@@ -1871,7 +1902,8 @@
         "seen": 53,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "4F48+PJC, Jl. Raya Dalegan, Rejodadi, Campurejo, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "67305ecf8154d",
@@ -1981,7 +2013,8 @@
         "seen": 211,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "4F65+8QC, Rejodadi, Campurejo, Gresik, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "6730573041f06",
@@ -2010,7 +2043,8 @@
         "seen": 20,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "4F48+XG3, Jl. Pasir Putih, RT.03/RW.06, Rejodadi, Delegan, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "673046ec5dc26",
@@ -2020,7 +2054,8 @@
     "origin_lat": "-6.917033",
     "origin_lng": "112.556628",
     "seller_rating": null,
-    "products": []
+    "products": [],
+    "alamat_toko": "3HM4+5M9, Kacak Kidul, Tambak, Kec. Ujungpangkah, Kabupaten Gresik, Jawa Timur 61154, Indonesia"
   },
   {
     "view_uid": "672f6e1159b6d",
@@ -2121,7 +2156,8 @@
         "seen": 5,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "3FP7+38 Prupuh, Kabupaten Gresik, Jawa Timur, Indonesia"
   },
   {
     "view_uid": "672ed835198aa",
@@ -2150,7 +2186,8 @@
         "seen": 113,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "XGW5+P6R, Jl. Dusun Siraman, Sembungan Kidul, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia"
   },
   {
     "view_uid": "672cb8f6d4aa6",
@@ -2224,7 +2261,8 @@
         "seen": 8,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Sumur Bengawan Lasem Sidayu No.17 RT 1, Sembung Anyar, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61153, Indonesia"
   },
   {
     "view_uid": "67299d480d1f1",
@@ -2271,7 +2309,8 @@
         "seen": 26,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "49FX+GV7, Kemantren, Kec. Paciran, Kabupaten Lamongan, Jawa Timur 62264, Indonesia"
   },
   {
     "view_uid": "67299486eafca",
@@ -2381,7 +2420,8 @@
         "seen": 75,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "4F63+G9C, Area Sawah, Campurejo, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "6729591bdede5",
@@ -2473,7 +2513,8 @@
         "seen": 38,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Raya Ps. Campurejo No.76, Campurejo, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "6728957d8f32e",
@@ -2601,7 +2642,8 @@
         "seen": 26,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "49FV+4RM, Jl. Nasional 17, Banjaranyar, Banjarwati, Kec. Paciran, Kabupaten Lamongan, Jawa Timur 62264, Indonesia"
   },
   {
     "view_uid": "67260a5665738",
@@ -2621,7 +2663,8 @@
         "seen": 10,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "4CG3+58G, Kemantren, Kec. Paciran, Kabupaten Lamongan, Jawa Timur, Indonesia"
   },
   {
     "view_uid": "67257cc2320e0",
@@ -2776,7 +2819,8 @@
         "seen": 24,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "2GQF+35V, Bolo, Kec. Ujungpangkah, Kabupaten Gresik, Jawa Timur 61154, Indonesia"
   },
   {
     "view_uid": "6722146e973f3",
@@ -2841,7 +2885,8 @@
         "seen": 27,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "WHXC+52F, Bungah, Kec. Bungah, Kabupaten Gresik, Jawa Timur 61152, Indonesia"
   },
   {
     "view_uid": "6721adb52c9a2",
@@ -2861,7 +2906,8 @@
         "seen": 30,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "4C7R+6FC, Tlogosadang, Kec. Paciran, Kabupaten Lamongan, Jawa Timur 62264, Indonesia"
   },
   {
     "view_uid": "671f7e564edb8",
@@ -2871,7 +2917,8 @@
     "origin_lat": "-7.006556",
     "origin_lng": "112.507683",
     "seller_rating": null,
-    "products": []
+    "products": [],
+    "alamat_toko": "Jl. Raya Ps. Dukun selatan No.100m, Kalirejo, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia"
   },
   {
     "view_uid": "671e2c72d961d",
@@ -2936,7 +2983,8 @@
         "seen": 3,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2GHF+QR, Sambipondok, Bolo, Kec. Ujungpangkah, Kabupaten Gresik, Jawa Timur, Indonesia"
   },
   {
     "view_uid": "671dcaa6f1721",
@@ -2956,7 +3004,8 @@
         "seen": 22,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Raya Daendles No.70, Paciran, Kec. Paciran, Kabupaten Lamongan, Jawa Timur 62264, Indonesia"
   },
   {
     "view_uid": "671ca017973c9",
@@ -2994,7 +3043,8 @@
         "seen": 42,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Raya Deandles No.72, Wadeng, Kec. Sidayu, Kabupaten Gresik, Jawa Timur 61153, Indonesia"
   },
   {
     "view_uid": "671bb5366c581",
@@ -3004,7 +3054,8 @@
     "origin_lat": "-6.972188",
     "origin_lng": "112.420417",
     "seller_rating": null,
-    "products": []
+    "products": [],
+    "alamat_toko": "2CHC+287, Jl. Karang Bolet, Wonokerto, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia"
   },
   {
     "view_uid": "671a2eb9e4d1d",
@@ -3024,7 +3075,8 @@
         "seen": 16,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Raya Paciran No.164, Paciran, Kec. Paciran, Kabupaten Lamongan, Jawa Timur 62264, Indonesia"
   },
   {
     "view_uid": "6718ac7d3d2e1",
@@ -3098,7 +3150,8 @@
         "seen": 9,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "48HW+CRF, Jl. Sendang Jethak, Paciran, Kec. Paciran, Kabupaten Lamongan, Jawa Timur 62264, Indonesia"
   },
   {
     "view_uid": "6717961955ad7",
@@ -3172,7 +3225,8 @@
         "seen": 47,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "3GR2+CQ4, Ngemboh, Ngimboh, Kec. Ujungpangkah, Kabupaten Gresik, Jawa Timur 61154, Indonesia"
   },
   {
     "view_uid": "6717632504a60",
@@ -3219,7 +3273,8 @@
         "seen": 26,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2CGC+494, Jl Guyangan, RT.14/RW.04, Wonokerto, Lowayu, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia"
   },
   {
     "view_uid": "67174ad61b449",
@@ -3311,7 +3366,8 @@
         "seen": 3,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Sari Jaya No.14, Area Sawah, Wotan, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61154, Indonesia"
   },
   {
     "view_uid": "67164cb4ee9fa",
@@ -3349,7 +3405,8 @@
         "seen": 7,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "48G3+8MJ, Gowah, Blimbing, Kec. Paciran, Kabupaten Lamongan, Jawa Timur 62264, Indonesia"
   },
   {
     "view_uid": "67161e8fba630",
@@ -3468,7 +3525,8 @@
         "seen": 8,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "49FJ+JRW, Kranji, Kec. Paciran, Kabupaten Lamongan, Jawa Timur 62264, Indonesia"
   },
   {
     "view_uid": "671604c273e69",
@@ -3497,7 +3555,8 @@
         "seen": 4,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Raya Dalegan No.41, Dalegan, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "67150b8e8c482",
@@ -3661,7 +3720,8 @@
         "seen": 6,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "XGR4+5QH, Jl. Deket - Karangbinangun, Kalirejo, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia"
   },
   {
     "view_uid": "6713829c091a8",
@@ -3699,7 +3759,8 @@
         "seen": 89,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Ps. Tradisional No.9, Cabean, Prupuh, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "6712602345324",
@@ -3709,7 +3770,8 @@
     "origin_lat": "-6.919382",
     "origin_lng": "112.439284",
     "seller_rating": null,
-    "products": []
+    "products": [],
+    "alamat_toko": "3CJQ+3QG, Lemahireng, Pantenan, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "6711e0d93bfad",
@@ -3729,7 +3791,8 @@
         "seen": 39,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "48HV+RMM, Paciran, Kec. Paciran, Kabupaten Lamongan, Jawa Timur, Indonesia"
   },
   {
     "view_uid": "670f9d5725f4f",
@@ -3803,7 +3866,8 @@
         "seen": 25,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Raya Ps. Campurejo No.Rt.08/01, Campurejo, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "670f952d8a091",
@@ -3813,7 +3877,8 @@
     "origin_lat": "-6.951483",
     "origin_lng": "112.505628",
     "seller_rating": null,
-    "products": []
+    "products": [],
+    "alamat_toko": "2GX4+873, Area Sawah, Sekapuk, Kec. Ujungpangkah, Kabupaten Gresik, Jawa Timur 61154, Indonesia"
   },
   {
     "view_uid": "670f5e0947430",
@@ -3833,7 +3898,8 @@
         "seen": 28,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "4F83+MWX, Waru Lor, Warulor, Kec. Paciran, Kabupaten Lamongan, Jawa Timur 62264, Indonesia"
   },
   {
     "view_uid": "670f08ca262e3",
@@ -3843,7 +3909,8 @@
     "origin_lat": "-6.891266",
     "origin_lng": "112.454322",
     "seller_rating": null,
-    "products": []
+    "products": [],
+    "alamat_toko": "4F53+HQ2, Jl. Telor Kuda, Area Sawah, Campurejo, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "670da93d86d13",
@@ -3899,7 +3966,8 @@
         "seen": 20,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "49FM+CVF, Kranji, Kec. Paciran, Kabupaten Lamongan, Jawa Timur 62264, Indonesia"
   },
   {
     "view_uid": "670d014ed169c",
@@ -3909,7 +3977,8 @@
     "origin_lat": "-6.874463",
     "origin_lng": "112.297599",
     "seller_rating": null,
-    "products": []
+    "products": [],
+    "alamat_toko": "Jl. Raya Daendles No.591a, Gowah, Blimbing, Kec. Paciran, Kabupaten Lamongan, Jawa Timur 62264, Indonesia"
   },
   {
     "view_uid": "670cc1fb405b1",
@@ -3938,7 +4007,8 @@
         "seen": 9,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "48HQ+FQJ, Paciran, Kec. Paciran, Kabupaten Lamongan, Jawa Timur 62264, Indonesia"
   },
   {
     "view_uid": "670cb8a9b7ad8",
@@ -3994,7 +4064,8 @@
         "seen": 29,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "49J6+WJ6, Paciran, Kec. Paciran, Kabupaten Lamongan, Jawa Timur 62264, Indonesia"
   },
   {
     "view_uid": "670cb53d2d493",
@@ -4023,7 +4094,8 @@
         "seen": 37,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Raya Prupuh No.23, Prupuh, Ketanen, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "670c9df8b3acb",
@@ -4033,7 +4105,8 @@
     "origin_lat": "-6.878821",
     "origin_lng": "112.390609",
     "seller_rating": null,
-    "products": []
+    "products": [],
+    "alamat_toko": "49CR+F72, Banjaranyar, Banjarwati, Kec. Paciran, Kabupaten Lamongan, Jawa Timur 62264, Indonesia"
   },
   {
     "view_uid": "670bd94c9c8ed",
@@ -4098,7 +4171,8 @@
         "seen": 6,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2GFP+GH6, Jl. Raya Deandles, Golokan, Kec. Sidayu, Kabupaten Gresik, Jawa Timur 61153, Indonesia"
   },
   {
     "view_uid": "670bb10958558",
@@ -4154,7 +4228,8 @@
         "seen": 10,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Raya Bungah No.3a, RW.01, Bungah, Kec. Bungah, Kabupaten Gresik, Jawa Timur 61152, Indonesia"
   },
   {
     "view_uid": "670a6b92afbbd",
@@ -4164,7 +4239,8 @@
     "origin_lat": "-6.876102",
     "origin_lng": "112.374559",
     "seller_rating": null,
-    "products": []
+    "products": [],
+    "alamat_toko": "49FF+HR7, RT.02/RW.02, Paciran, Tunggul, Kec. Paciran, Kabupaten Lamongan, Jawa Timur 62264, Indonesia"
   },
   {
     "view_uid": "670a3b94b5831",
@@ -4292,7 +4368,8 @@
         "seen": 13,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2CGC+35V, Jl. Pasar Turi, Wonokerto, Lowayu, Kec. Dukun, Kabupaten Gresik, Jawa Timur 62252, Indonesia"
   },
   {
     "view_uid": "670a19be214af",
@@ -4302,7 +4379,8 @@
     "origin_lat": null,
     "origin_lng": null,
     "seller_rating": null,
-    "products": []
+    "products": [],
+    "alamat_toko": "Koordinat tidak valid"
   },
   {
     "view_uid": "6709fddfe572b",
@@ -4484,7 +4562,8 @@
         "seen": 17,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "48HV+PQH, Paciran, Kec. Paciran, Kabupaten Lamongan, Jawa Timur 62264, Indonesia"
   },
   {
     "view_uid": "670776f1e906b",
@@ -4576,7 +4655,8 @@
         "seen": 15,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Raya Ps. Campurejo No.Rt.08/01, Campurejo, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "67068baddbad5",
@@ -4586,7 +4666,8 @@
     "origin_lat": null,
     "origin_lng": null,
     "seller_rating": "5.0000",
-    "products": []
+    "products": [],
+    "alamat_toko": "Koordinat tidak valid"
   },
   {
     "view_uid": "67067e2b5730f",
@@ -4741,7 +4822,8 @@
         "seen": 58,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "3C3J+87, Sumurber, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "670679ed840d1",
@@ -4751,7 +4833,8 @@
     "origin_lat": null,
     "origin_lng": null,
     "seller_rating": "5.0000",
-    "products": []
+    "products": [],
+    "alamat_toko": "Koordinat tidak valid"
   },
   {
     "view_uid": "6706505b3efca",
@@ -4761,7 +4844,8 @@
     "origin_lat": "-6.876942",
     "origin_lng": "112.391639",
     "seller_rating": null,
-    "products": []
+    "products": [],
+    "alamat_toko": "Jl. Raya deandles No.379, Banjaranyar, Banjarwati, Kec. Paciran, Kabupaten Lamongan, Jawa Timur 62264, Indonesia"
   },
   {
     "view_uid": "67061ea75c1ab",
@@ -4871,7 +4955,8 @@
         "seen": 2,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "4F63+R8H, Jl. Campurejo, RT.8/RW.2, Campurejo, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "67061e89bae2e",
@@ -4963,7 +5048,8 @@
         "seen": 18,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2GCR+8VV, Jl. Raya Deandles, RT.02/RW.01, Golokan, Kec. Sidayu, Kabupaten Gresik, Jawa Timur 61153, Indonesia"
   },
   {
     "view_uid": "67061300a23a5",
@@ -4973,7 +5059,8 @@
     "origin_lat": "-6.870183",
     "origin_lng": "112.340727",
     "seller_rating": null,
-    "products": []
+    "products": [],
+    "alamat_toko": "Jl. Raya Paciran No.164, Paciran, Kec. Paciran, Kabupaten Lamongan, Jawa Timur 62264, Indonesia"
   },
   {
     "view_uid": "6704d9c589101",
@@ -4993,7 +5080,8 @@
         "seen": 30,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "49FP+9W7, Banjaranyar, Banjarwati, Kec. Paciran, Kabupaten Lamongan, Jawa Timur 62264, Indonesia"
   },
   {
     "view_uid": "6704c09344fa6",
@@ -5003,7 +5091,8 @@
     "origin_lat": "-6.876223",
     "origin_lng": "112.382956",
     "seller_rating": null,
-    "products": []
+    "products": [],
+    "alamat_toko": "Jl. Raya Kranji Depan Balai, Kranji, Kec. Paciran, Kabupaten Lamongan, Jawa Timur 62264, Indonesia"
   },
   {
     "view_uid": "6704b36fbfe73",
@@ -5013,7 +5102,8 @@
     "origin_lat": "-6.877646",
     "origin_lng": "112.392073",
     "seller_rating": null,
-    "products": []
+    "products": [],
+    "alamat_toko": "Jl. Raya Dagan No.376, Banjaranyar, Banjarwati, Kec. Paciran, Kabupaten Lamongan, Jawa Timur 62264, Indonesia"
   },
   {
     "view_uid": "6703546188d79",
@@ -5051,7 +5141,8 @@
         "seen": 43,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "XFQW+6RW, Jl. Badan Baru, Kepeng, Bogobabadan, Kec. Karangbinangun, Kabupaten Lamongan, Jawa Timur 62293, Indonesia"
   },
   {
     "view_uid": "670352d486657",
@@ -5061,7 +5152,8 @@
     "origin_lat": "-6.981818",
     "origin_lng": "112.467551",
     "seller_rating": null,
-    "products": []
+    "products": [],
+    "alamat_toko": "rt 9 re 03, Mojopetung, Kec. Dukun, Kabupaten Gresik, Jawa Timur, Indonesia"
   },
   {
     "view_uid": "67032ae68c6cd",
@@ -5081,7 +5173,8 @@
         "seen": 33,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2CJ9+225, Wonokerto, Lowayu, Kec. Dukun, Kabupaten Gresik, Jawa Timur, Indonesia"
   },
   {
     "view_uid": "670202218866f",
@@ -5146,7 +5239,8 @@
         "seen": 35,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Raya Dalegan No.25, Rejodadi, Campurejo, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "67013dfe962b4",
@@ -5166,7 +5260,8 @@
         "seen": 137,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2HM3+82G, Jl. Sidodadi, Sidomulyo, Tanjangawan, Kec. Ujungpangkah, Kabupaten Gresik, Jawa Timur 61154, Indonesia"
   },
   {
     "view_uid": "67012b819459e",
@@ -5213,7 +5308,8 @@
         "seen": 33,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Sunan Drajat No.97, Banjaranyar, Banjarwati, Kec. Paciran, Kabupaten Lamongan, Jawa Timur 62264, Indonesia"
   },
   {
     "view_uid": "66ffe9ea944d5",
@@ -5332,7 +5428,8 @@
         "seen": 19,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "48G4+86 Kandangsemangkon, Kabupaten Lamongan, Jawa Timur, Indonesia"
   },
   {
     "view_uid": "66ffb48ac42b1",
@@ -5342,7 +5439,8 @@
     "origin_lat": null,
     "origin_lng": null,
     "seller_rating": null,
-    "products": []
+    "products": [],
+    "alamat_toko": "Koordinat tidak valid"
   },
   {
     "view_uid": "66ffa29b35d8a",
@@ -5425,7 +5523,8 @@
         "seen": 11,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "WHMJ+CF9, Jl. Karangrejo, Penunggulan, Karangrejo, Kec. Manyar, Kabupaten Gresik, Jawa Timur 61151, Indonesia"
   },
   {
     "view_uid": "66ffa097ce190",
@@ -5634,7 +5733,8 @@
         "seen": 3,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "3C7P+642, Siwalan, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66ff92a76050d",
@@ -5717,7 +5817,8 @@
         "seen": 21,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "38VW+X6 Sendangagung, Kabupaten Lamongan, Jawa Timur, Indonesia"
   },
   {
     "view_uid": "66ff6ab17e2cd",
@@ -6070,7 +6171,8 @@
         "seen": 2,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Griya Bungah Asri No.F20, Bungah, Kec. Bungah, Kabupaten Gresik, Jawa Timur 61152, Indonesia"
   },
   {
     "view_uid": "66ff5108aa283",
@@ -6108,7 +6210,8 @@
         "seen": 11,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Raya Bungah No.6, Lemahdelik, Kec. Bungah, Kabupaten Gresik, Jawa Timur 61152, Indonesia"
   },
   {
     "view_uid": "66fe8514adf50",
@@ -6118,7 +6221,8 @@
     "origin_lat": "-6.878968",
     "origin_lng": "112.448867",
     "seller_rating": null,
-    "products": []
+    "products": [],
+    "alamat_toko": "4CCX+CHM, Jl. Selatan Kuburan, RT.01/RW.01, Weru, Kec. Paciran, Kabupaten Lamongan, Jawa Timur 62264, Indonesia"
   },
   {
     "view_uid": "66fe7581920e0",
@@ -6147,7 +6251,8 @@
         "seen": 48,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "3GR5+X83, Jalan, Bangsalsari, Banyuurip, Kec. Ujungpangkah, Kabupaten Gresik, Jawa Timur 61154, Indonesia"
   },
   {
     "view_uid": "66fd5f5995c5f",
@@ -6230,7 +6335,8 @@
         "seen": 11,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "Sebelah Utara Masjid Alfalah Jl. Merdeka No.12, RT.6/RW.3, Mojopuro Wetan, Kec. Bungah, Kabupaten Gresik, Jawa Timur 61152, Indonesia"
   },
   {
     "view_uid": "66fd4013b6d38",
@@ -6286,7 +6392,8 @@
         "seen": 40,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "XG8J+XQ7, RT.27/RW.10, Pereng Kulon, Melirang, Kec. Bungah, Kabupaten Gresik, Jawa Timur 61152, Indonesia"
   },
   {
     "view_uid": "66fd182d9764b",
@@ -6405,7 +6512,8 @@
         "seen": 29,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "3HM4+VGG, Jl. K.H. Mawardi, Pendilwesi, Pangkah Wetan, Kec. Ujungpangkah, Kabupaten Gresik, Jawa Timur 61154, Indonesia"
   },
   {
     "view_uid": "66f7eb02a95aa",
@@ -6425,7 +6533,8 @@
         "seen": 20,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "4F27+9H5, Dalegan, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66f7ae118529a",
@@ -6463,7 +6572,8 @@
         "seen": 24,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "3GR7+9R4, Jalan, Bangsalsari, Banyuurip, Kec. Ujungpangkah, Kabupaten Gresik, Jawa Timur 61154, Indonesia"
   },
   {
     "view_uid": "66f785b08ee04",
@@ -6473,7 +6583,8 @@
     "origin_lat": null,
     "origin_lng": null,
     "seller_rating": null,
-    "products": []
+    "products": [],
+    "alamat_toko": "Koordinat tidak valid"
   },
   {
     "view_uid": "66f64bee53b0f",
@@ -6493,7 +6604,8 @@
         "seen": 61,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2FFG+RQ7, Petung, Ima An, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66f631ca18e74",
@@ -6621,7 +6733,8 @@
         "seen": 6,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "496G+WG Kranji, Kabupaten Lamongan, Jawa Timur, Indonesia"
   },
   {
     "view_uid": "66f4e82e266cb",
@@ -6758,7 +6871,8 @@
         "seen": 2,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "XHWH+WFC, Jl. Pelita III, Ngawen, Kec. Sidayu, Kabupaten Gresik, Jawa Timur 61153, Indonesia"
   },
   {
     "view_uid": "66f4c0253905e",
@@ -6768,7 +6882,8 @@
     "origin_lat": "-6.883792",
     "origin_lng": "112.291508",
     "seller_rating": null,
-    "products": []
+    "products": [],
+    "alamat_toko": "Jalan bukit Indah No.1, RT.04/RW.08, Karangbaru, Brondong, Kec. Brondong, Kabupaten Lamongan, Jawa Timur 62263, Indonesia"
   },
   {
     "view_uid": "66f4a57c2f6a1",
@@ -6824,7 +6939,8 @@
         "seen": 11,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "XH7G+6W7, Jl. Karang Kitri, Karangjarak, Kisik, Kec. Bungah, Kabupaten Gresik, Jawa Timur 61152, Indonesia"
   },
   {
     "view_uid": "66f3c813d2c29",
@@ -6934,7 +7050,8 @@
         "seen": 42,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Raya Tuban No.111, Paciran, Tunggul, Kec. Paciran, Kabupaten Lamongan, Jawa Timur 62264, Indonesia"
   },
   {
     "view_uid": "66f3b28a66c1c",
@@ -6954,7 +7071,8 @@
         "seen": 26,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "Koordinat tidak valid"
   },
   {
     "view_uid": "66f3af12463e3",
@@ -6974,7 +7092,8 @@
         "seen": 102,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "482V+H44, Sendangagung, Kec. Paciran, Kabupaten Lamongan, Jawa Timur 62264, Indonesia"
   },
   {
     "view_uid": "66f37be42e394",
@@ -7003,7 +7122,8 @@
         "seen": 31,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Raden Badrun No.#3, Pengulu, Gresik, Kabupaten Gresik, Jawa Timur 61153, Indonesia"
   },
   {
     "view_uid": "66f376cba333a",
@@ -7013,7 +7133,8 @@
     "origin_lat": "-6.871794",
     "origin_lng": "112.315262",
     "seller_rating": null,
-    "products": []
+    "products": [],
+    "alamat_toko": "48H8+648, Jl. Raya Daendles, Kandangsemangkon, Kec. Paciran, Kabupaten Lamongan, Jawa Timur 62264, Indonesia"
   },
   {
     "view_uid": "66f26ed275956",
@@ -7033,13 +7154,14 @@
         "seen": 8,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "497Q+VMX, Jl. Sunan Drajat, Drajat, Kec. Paciran, Kabupaten Lamongan, Jawa Timur 62264, Indonesia"
   },
   {
     "view_uid": "66f26ba9a6e5f",
     "title": " Mbak Gank ",
     "image": "v/-Mbak-Gank--0-64166f26ba9a6e5f.jpg",
-    "origin_address": "39G2+246, Jalan Raya, Asem, Payaman, Kec. Solokuro, Kabupat\u00e9n Lamongan, Jawa Timur 62265, Indonesia",
+    "origin_address": "39G2+246, Jalan Raya, Asem, Payaman, Kec. Solokuro, Kabupatén Lamongan, Jawa Timur 62265, Indonesia",
     "origin_lat": "-6.924894",
     "origin_lng": "112.350262",
     "seller_rating": null,
@@ -7089,7 +7211,8 @@
         "seen": 9,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "39G2+246, Jalan Raya, Asem, Payaman, Kec. Solokuro, Kabupatén Lamongan, Jawa Timur 62265, Indonesia"
   },
   {
     "view_uid": "66f21b8c9b24a",
@@ -7127,7 +7250,8 @@
         "seen": 14,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "48HV+HMH, Paciran, Kec. Paciran, Kabupaten Lamongan, Jawa Timur 62264, Indonesia"
   },
   {
     "view_uid": "66f219b2aff74",
@@ -7174,7 +7298,8 @@
         "seen": 45,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2CH9+2R6, Wonokerto, Lowayu, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia"
   },
   {
     "view_uid": "66f1f2048b82c",
@@ -7184,7 +7309,8 @@
     "origin_lat": "-6.988937",
     "origin_lng": "112.506341",
     "seller_rating": null,
-    "products": []
+    "products": [],
+    "alamat_toko": "2G64+CJF, Sembung Anyar, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61153, Indonesia"
   },
   {
     "view_uid": "66f1bf5b5aa22",
@@ -7204,7 +7330,8 @@
         "seen": 22,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Raya Daendles No.164, Paciran, Kec. Paciran, Kabupaten Lamongan, Jawa Timur 62264, Indonesia"
   },
   {
     "view_uid": "66f1834e2439a",
@@ -7242,7 +7369,8 @@
         "seen": 23,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Nenes No.29, Lowayu, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia"
   },
   {
     "view_uid": "66f17e5eb54cf",
@@ -7262,7 +7390,8 @@
         "seen": 48,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "48HW+W4R, Paciran, Kec. Paciran, Kabupaten Lamongan, Jawa Timur 62264, Indonesia"
   },
   {
     "view_uid": "66f17dec1b79f",
@@ -7272,7 +7401,8 @@
     "origin_lat": "-6.973550",
     "origin_lng": "112.477218",
     "seller_rating": null,
-    "products": []
+    "products": [],
+    "alamat_toko": "2FGG+GQH, Petung, Ima An, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66f17c5dadf78",
@@ -7400,7 +7530,8 @@
         "seen": 34,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "482X+FPF, Sendangduwur, Kec. Paciran, Kabupaten Lamongan, Jawa Timur 62264, Indonesia"
   },
   {
     "view_uid": "66f14ad0be9e1",
@@ -7410,7 +7541,8 @@
     "origin_lat": "-6.888471",
     "origin_lng": "112.457409",
     "seller_rating": null,
-    "products": []
+    "products": [],
+    "alamat_toko": "4F64+MWF, Karangtumpuk, Campurejo, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66f141fa984cc",
@@ -7430,7 +7562,8 @@
         "seen": 74,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "3HM3+396, Pendilwesi, Pangkah Wetan, Kec. Ujungpangkah, Kabupaten Gresik, Jawa Timur 61154, Indonesia"
   },
   {
     "view_uid": "66f135bcd45f7",
@@ -7540,7 +7673,8 @@
         "seen": 5,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "48G5+RWP, Jl. Raya Daendles, Kandangsemangkon, Kec. Paciran, Kabupaten Lamongan, Jawa Timur 62264, Indonesia"
   },
   {
     "view_uid": "66ef901e31d1a",
@@ -7650,7 +7784,8 @@
         "seen": 5,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2GM5+59C, Jl. Budi Utomo, Gedangan, Kec. Sidayu, Kabupaten Gresik, Jawa Timur 61153, Indonesia"
   },
   {
     "view_uid": "66eedf597507a",
@@ -7697,7 +7832,8 @@
         "seen": 42,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "WF2W+37F, Plosobuden, Kentong, Kec. Glagah, Kabupaten Lamongan, Jawa Timur 62292, Indonesia"
   },
   {
     "view_uid": "66ee7313adacd",
@@ -7780,7 +7916,8 @@
         "seen": 11,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "48FX+VM8, Paciran, Kec. Paciran, Kabupaten Lamongan, Jawa Timur 62264, Indonesia"
   },
   {
     "view_uid": "66ee2fc341a81",
@@ -7818,7 +7955,8 @@
         "seen": 53,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Kh. Ma'sum Sufyan No.11, Dukunanyar, Padang Bandung, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia"
   },
   {
     "view_uid": "66ed9451b3052",
@@ -7847,7 +7985,8 @@
         "seen": 52,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2FHH+3V9, Jl. Lohjinawi, Petung, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66ed6fffa46e2",
@@ -7894,7 +8033,8 @@
         "seen": 21,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "49FQ+7GG, Jl. Raya Banjarwati, Banjaranyar, Banjarwati, Kec. Paciran, Kabupaten Lamongan, Jawa Timur 62264, Indonesia"
   },
   {
     "view_uid": "66ecf6fb00bd0",
@@ -7923,7 +8063,8 @@
         "seen": 18,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Pelita III No.20, Asempapak, Kec. Sidayu, Kabupaten Gresik, Jawa Timur 61153, Indonesia"
   },
   {
     "view_uid": "66ecdd84c6a3c",
@@ -8015,7 +8156,8 @@
         "seen": 6,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "47HP+CCH, Jl. Raya Daendles, Brondong, Kec. Brondong, Kabupaten Lamongan, Jawa Timur 62263, Indonesia"
   },
   {
     "view_uid": "66ebd8e8d0e46",
@@ -8071,7 +8213,8 @@
         "seen": 12,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Raya Pahlawan No.53, Asempapak, Kec. Sidayu, Kabupaten Gresik, Jawa Timur 61153, Indonesia"
   },
   {
     "view_uid": "66ebc2fd6ee65",
@@ -8091,7 +8234,8 @@
         "seen": 23,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "XGX5+JC2, Jl. Raya Dukun, Sembungan Kidul, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia"
   },
   {
     "view_uid": "66ebbc79044b3",
@@ -8129,7 +8273,8 @@
         "seen": 14,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "49H9+2G9, Paciran, Tunggul, Kec. Paciran, Kabupaten Lamongan, Jawa Timur 62264, Indonesia"
   },
   {
     "view_uid": "66ebb6f914b44",
@@ -8139,7 +8284,8 @@
     "origin_lat": "-6.999540",
     "origin_lng": "112.576053",
     "seller_rating": null,
-    "products": []
+    "products": [],
+    "alamat_toko": "2H2G+5CG, Jl. Sumur Waru, Asemanis, Mojoasem, Kec. Sidayu, Kabupaten Gresik, Jawa Timur 61153, Indonesia"
   },
   {
     "view_uid": "66eba4421ff89",
@@ -8240,7 +8386,8 @@
         "seen": 2,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "4C7V+236, Jl. Raya Daendles, RT.01/RW.02, Tlogosadang, Kec. Paciran, Kabupaten Lamongan, Jawa Timur 62264, Indonesia"
   },
   {
     "view_uid": "66eb82e170e92",
@@ -8305,7 +8452,8 @@
         "seen": 39,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "Jalan bukit Indah No.1, RT.04/RW.08, Karangbaru, Brondong, Kec. Brondong, Kabupaten Lamongan, Jawa Timur 62263, Indonesia"
   },
   {
     "view_uid": "66eb7e8d9c296",
@@ -8315,7 +8463,8 @@
     "origin_lat": null,
     "origin_lng": null,
     "seller_rating": null,
-    "products": []
+    "products": [],
+    "alamat_toko": "Koordinat tidak valid"
   },
   {
     "view_uid": "66eb7d4342f7b",
@@ -8506,7 +8655,8 @@
         "seen": 1,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Kanjeng Sepuh No.2, Kauman, Pengulu, Gresik, Kabupaten Gresik, Jawa Timur 61153, Indonesia"
   },
   {
     "view_uid": "66eb0265cc565",
@@ -8760,7 +8910,8 @@
         "seen": 13,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "48GW+CJC, Jl. Sendang, Paciran, Kec. Paciran, Kabupaten Lamongan, Jawa Timur 62264, Indonesia"
   },
   {
     "view_uid": "66eaf75c31a74",
@@ -8888,7 +9039,8 @@
         "seen": 9,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "XG7G+2H6, Mojopuro Wetan, Mojopuro Gede, Kec. Bungah, Kabupaten Gresik, Jawa Timur 61152, Indonesia"
   },
   {
     "view_uid": "66eae8bf89f75",
@@ -8917,7 +9069,8 @@
         "seen": 61,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "4F84+X2G, Warulor, Kec. Paciran, Kabupaten Lamongan, Jawa Timur 62264, Indonesia"
   },
   {
     "view_uid": "66eab71b60a3f",
@@ -8955,7 +9108,8 @@
         "seen": 15,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2G57+35, Sembung Anyar, Kec. Dukun, Kabupaten Gresik, Jawa Timur, Indonesia"
   },
   {
     "view_uid": "66ea9dc1d0f7f",
@@ -9065,7 +9219,8 @@
         "seen": 38,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "3HM8+V3V, Tanjungrejo, Tambak, Kec. Ujungpangkah, Kabupaten Gresik, Jawa Timur 61154, Indonesia"
   },
   {
     "view_uid": "66ea6f13b932a",
@@ -9166,7 +9321,8 @@
         "seen": 4,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Sultan Hasanuddin Timur RT.07 RW.04 Desa Sungonlegowo Kecamtatan, Legowo, Sungonlegowo, Kec. Bungah, Kabupaten Gresik, Jawa Timur 61152, Indonesia"
   },
   {
     "view_uid": "66ea6e719a2cb",
@@ -9312,7 +9468,8 @@
         "seen": 22,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "4C7V+W5W, Jl. Hatni, Tlogoringin, Tlogosadang, Kec. Paciran, Kabupaten Lamongan, Jawa Timur 62264, Indonesia"
   },
   {
     "view_uid": "66e96e749c252",
@@ -9322,7 +9479,8 @@
     "origin_lat": "-6.867731",
     "origin_lng": "112.360918",
     "seller_rating": null,
-    "products": []
+    "products": [],
+    "alamat_toko": "49J6+X5Q, Jl. Deandels, RT.04/RW.01, Paciran, Tunggul, Kec. Paciran, Kabupaten Lamongan, Jawa Timur 62264, Indonesia"
   },
   {
     "view_uid": "66e948474d8e8",
@@ -9450,7 +9608,8 @@
         "seen": 10,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "48JP+JPJ, Jalan mangga 2, Paciran, Kec. Paciran, Kabupaten Lamongan, Jawa Timur 62264, Indonesia"
   },
   {
     "view_uid": "66e902eb3e400",
@@ -9506,13 +9665,14 @@
         "seen": 127,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "4F53+Q4W, Area Sawah, Banyutengah, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66e9027de2b9f",
     "title": "MUI FOOD",
     "image": "v/MUI-FOOD-0-23966e9027de2b9f.jpg",
-    "origin_address": "38MR+WXJ, Jalan Sendang, Majero, Sendangagung, Kec. Paciran, Kabupat\u00e9n Lamongan, Jawa Timur 62264, Indonesia",
+    "origin_address": "38MR+WXJ, Jalan Sendang, Majero, Sendangagung, Kec. Paciran, Kabupatén Lamongan, Jawa Timur 62264, Indonesia",
     "origin_lat": "-6.915174",
     "origin_lng": "112.342568",
     "seller_rating": null,
@@ -9670,7 +9830,8 @@
         "seen": 6,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "38MR+WXJ, Jalan Sendang, Majero, Sendangagung, Kec. Paciran, Kabupatén Lamongan, Jawa Timur 62264, Indonesia"
   },
   {
     "view_uid": "66e84f5234f5f",
@@ -9753,7 +9914,8 @@
         "seen": 17,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "DESA BANYUTENGAH RT/RW 003/002, Banyu Tengah, Banyutengah, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66e7e51b61fce",
@@ -9782,7 +9944,8 @@
         "seen": 53,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "4F43+GFH, Jl. Veteran, Banyu Tengah, Banyutengah, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66e7ce08a625f",
@@ -9856,7 +10019,8 @@
         "seen": 33,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2FCJ+5CV, Petung, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66e7ca714f612",
@@ -10020,7 +10184,8 @@
         "seen": 4,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2F7X+7M2, Sambogunung, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia"
   },
   {
     "view_uid": "66e7c19d3661f",
@@ -10030,7 +10195,8 @@
     "origin_lat": null,
     "origin_lng": null,
     "seller_rating": null,
-    "products": []
+    "products": [],
+    "alamat_toko": "Koordinat tidak valid"
   },
   {
     "view_uid": "66e67e9d64ffb",
@@ -10086,7 +10252,8 @@
         "seen": 29,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "4F82+JCH, Jl. Singosari, Campurejo, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66e633f95b498",
@@ -10160,7 +10327,8 @@
         "seen": 60,
         "review_rating": "0"
       }
-    ]
+    ],
+    "alamat_toko": "483G+25F, Jl. K.H. Zen, Sumuran, Sumurgayam, Kec. Paciran, Kabupaten Lamongan, Jawa Timur 62264, Indonesia"
   },
   {
     "view_uid": "66e533f1408d2",
@@ -10279,7 +10447,8 @@
         "seen": 113,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "4F47+RH8, Rejodadi, Dalegan, Kec. Panceng, Kabupaten Gresik, Jawa Timur, Indonesia"
   },
   {
     "view_uid": "66e533434f461",
@@ -10289,7 +10458,8 @@
     "origin_lat": null,
     "origin_lng": null,
     "seller_rating": "5.0000",
-    "products": []
+    "products": [],
+    "alamat_toko": "Koordinat tidak valid"
   },
   {
     "view_uid": "66e524464e9fb",
@@ -10408,7 +10578,8 @@
         "seen": 2,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Tlogo Urung No.245, Petiyin Kulon, Takerharjo, Kec. Solokuro, Kabupaten Lamongan, Jawa Timur 62265, Indonesia"
   },
   {
     "view_uid": "66e46203478bd",
@@ -10428,7 +10599,8 @@
         "seen": 20,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "3HM2+4WX, Pendilwesi, Pangkah Wetan, Kec. Ujungpangkah, Kabupaten Gresik, Jawa Timur 61154, Indonesia"
   },
   {
     "view_uid": "66e46172c832e",
@@ -10475,7 +10647,8 @@
         "seen": 10,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "XFMM+VWW, Watangan, Watangpanjang, Kec. Karangbinangun, Kabupaten Lamongan, Jawa Timur 62293, Indonesia"
   },
   {
     "view_uid": "66e44b70ab1ac",
@@ -10810,7 +10983,8 @@
         "seen": 63,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "4F64+WHV, Jl. Campurejo, Karangtumpuk, Campurejo, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66e43f480704a",
@@ -10893,7 +11067,8 @@
         "seen": 58,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Pendidikan Jl. Raya Campurejo No.784, Campurejo, Weru, Kec. Paciran, Kabupaten Lamongan, Jawa Timur 62264, Indonesia"
   },
   {
     "view_uid": "66e43b52b6cf7",
@@ -10931,7 +11106,8 @@
         "seen": 62,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "4F64+VM4, Karangtumpuk, Campurejo, Kec. Panceng, Kabupaten Gresik, Jawa Timur, Indonesia"
   },
   {
     "view_uid": "66e433f19d618",
@@ -11023,7 +11199,8 @@
         "seen": 4,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "4F82+GGF, Campurejo, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66e430aa28cbe",
@@ -11033,7 +11210,8 @@
     "origin_lat": "-6.990664",
     "origin_lng": "112.564930",
     "seller_rating": null,
-    "products": []
+    "products": [],
+    "alamat_toko": "2H57+MVV, Jl. Raya Pahlawan, Pengulu, Kec. Sidayu, Kabupaten Gresik, Jawa Timur 61153, Indonesia"
   },
   {
     "view_uid": "66e42fda5a802",
@@ -11080,7 +11258,8 @@
         "seen": 9,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Kanjeng Sepuh No.1, Pengulu, Mriyunan, Kec. Sidayu, Kabupaten Gresik, Jawa Timur 61153, Indonesia"
   },
   {
     "view_uid": "66e41aa08672d",
@@ -11100,7 +11279,8 @@
         "seen": 9,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2FF8+6JG, Jalan Raya, Mojopetung, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia"
   },
   {
     "view_uid": "66e407d95327f",
@@ -11399,7 +11579,8 @@
         "seen": 47,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "XGW5+34H, Kalirejo, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia"
   },
   {
     "view_uid": "66e404efd5f49",
@@ -11464,7 +11645,8 @@
         "seen": 7,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "498P+7P7, Jl. Sunan Drajat, Drajat, Kec. Paciran, Kabupaten Lamongan, Jawa Timur 62264, Indonesia"
   },
   {
     "view_uid": "66e3f6f41625b",
@@ -11484,7 +11666,8 @@
         "seen": 30,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "Jl.Grand Sahara Sidayu Blk. D2 No.20, Area Sawah, Purwodadi, Kec. Sidayu, Kabupaten Gresik, Jawa Timur 61153, Indonesia"
   },
   {
     "view_uid": "66e3e731e16b4",
@@ -11504,7 +11687,8 @@
         "seen": 11,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2F8V+5QF, Area Sawah, Babaksari, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia"
   },
   {
     "view_uid": "66e373b607089",
@@ -11514,7 +11698,8 @@
     "origin_lat": null,
     "origin_lng": null,
     "seller_rating": null,
-    "products": []
+    "products": [],
+    "alamat_toko": "Koordinat tidak valid"
   },
   {
     "view_uid": "66e3130724161",
@@ -11552,7 +11737,8 @@
         "seen": 15,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "498Q+7HM, Drajat, Kec. Paciran, Kabupaten Lamongan, Jawa Timur 62264, Indonesia"
   },
   {
     "view_uid": "66e312ebbe0ce",
@@ -11761,7 +11947,8 @@
         "seen": 5,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2F7X+F92, Sambogunung, Kec. Dukun, Kabupaten Gresik, Jawa Timur, Indonesia"
   },
   {
     "view_uid": "66e2a3c0d0a5e",
@@ -11826,7 +12013,8 @@
         "seen": 12,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Kalitengah No.24, Siwalan, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66e2a28bcead7",
@@ -11891,7 +12079,8 @@
         "seen": 9,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Pendidikan No.23, Banyulegi, Banyuurip, Kec. Ujungpangkah, Kabupaten Gresik, Jawa Timur 61154, Indonesia"
   },
   {
     "view_uid": "66e2719695c82",
@@ -11929,7 +12118,8 @@
         "seen": 77,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2FHH+82R, Petung, Ima An, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66e269e545794",
@@ -11939,7 +12129,8 @@
     "origin_lat": "-7.000043",
     "origin_lng": "112.582618",
     "seller_rating": null,
-    "products": []
+    "products": [],
+    "alamat_toko": "XHXM+X2Q, Ngawen, Kec. Sidayu, Kabupaten Gresik, Jawa Timur 61153, Indonesia"
   },
   {
     "view_uid": "66e263aa30150",
@@ -11977,7 +12168,8 @@
         "seen": 14,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2FF7+8JG, Jl. Raya Mojopetung, Mentaras, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia"
   },
   {
     "view_uid": "66e248998b3d9",
@@ -12033,7 +12225,8 @@
         "seen": 5,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2CXH+R78 Mesjid Baitul Amin, Jalan Raya, Lowayu, Sumurber, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66e196e37bc0b",
@@ -12043,7 +12236,8 @@
     "origin_lat": "-6.876385",
     "origin_lng": "112.385696",
     "seller_rating": null,
-    "products": []
+    "products": [],
+    "alamat_toko": "49FP+F64, Kranji, Kec. Paciran, Kabupaten Lamongan, Jawa Timur 62264, Indonesia"
   },
   {
     "view_uid": "66e190f1d5204",
@@ -12081,7 +12275,8 @@
         "seen": 24,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "49FM+C7F, Kranji, Kec. Paciran, Kabupaten Lamongan, Jawa Timur 62264, Indonesia"
   },
   {
     "view_uid": "66e1849a439f6",
@@ -12434,7 +12629,8 @@
         "seen": 32,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "3GPP+C62, Jl. Pendidikan, Banyulegi, Banyuurip, Kec. Ujungpangkah, Kabupaten Gresik, Jawa Timur 61154, Indonesia"
   },
   {
     "view_uid": "66e183c01d3bc",
@@ -12625,7 +12821,8 @@
         "seen": 106,
         "review_rating": "0"
       }
-    ]
+    ],
+    "alamat_toko": "482W+469, Sendangagung, Kec. Paciran, Kabupaten Lamongan, Jawa Timur 62264, Indonesia"
   },
   {
     "view_uid": "66e180c0641d8",
@@ -12635,7 +12832,8 @@
     "origin_lat": null,
     "origin_lng": null,
     "seller_rating": null,
-    "products": []
+    "products": [],
+    "alamat_toko": "Koordinat tidak valid"
   },
   {
     "view_uid": "66e17f8cda24d",
@@ -12645,7 +12843,8 @@
     "origin_lat": "-6.915518",
     "origin_lng": "112.409985",
     "seller_rating": null,
-    "products": []
+    "products": [],
+    "alamat_toko": "3CM5+MVJ, Dagan, Kec. Solokuro, Kabupaten Lamongan, Jawa Timur 62265, Indonesia"
   },
   {
     "view_uid": "66e060d3db1b9",
@@ -12683,7 +12882,8 @@
         "seen": 17,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "483V+C2R MA Al-Ishlah, Sendangagung, Kec. Paciran, Kabupaten Lamongan, Jawa Timur 62264, Indonesia"
   },
   {
     "view_uid": "66e0431b4d1ab",
@@ -12730,7 +12930,8 @@
         "seen": 15,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "XGR4+PX6, Jl. Raya Ps. Dukun, Kalirejo, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia"
   },
   {
     "view_uid": "66e026a561c51",
@@ -12750,7 +12951,8 @@
         "seen": 25,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "2GV3+Q4W, Doudo, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61154, Indonesia"
   },
   {
     "view_uid": "66dff95d10435",
@@ -12806,7 +13008,8 @@
         "seen": 31,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "48JH+MGW, Jl. Raya Daendles, Paciran, Kec. Paciran, Kabupaten Lamongan, Jawa Timur, Indonesia"
   },
   {
     "view_uid": "66dfe802679c1",
@@ -12970,7 +13173,8 @@
         "seen": 6,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "48JH+MGW, Jl. Raya Daendles, Paciran, Kec. Paciran, Kabupaten Lamongan, Jawa Timur, Indonesia"
   },
   {
     "view_uid": "66dfdb3ecfde9",
@@ -13143,7 +13347,8 @@
         "seen": 34,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Campurejo No.1, Karangtumpuk, Campurejo, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66dee02120c25",
@@ -13217,7 +13422,8 @@
         "seen": 42,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Ujung Pangkah No.2, RT.01, Kacak Kidul, Tambak, Kec. Ujungpangkah, Kabupaten Gresik, Jawa Timur 61154, Indonesia"
   },
   {
     "view_uid": "66de84d602867",
@@ -13264,7 +13470,8 @@
         "seen": 4,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Kanjeng Sepuh No.1, Pengulu, Mriyunan, Kec. Sidayu, Kabupaten Gresik, Jawa Timur 61153, Indonesia"
   },
   {
     "view_uid": "66dd9bb895c6c",
@@ -13320,7 +13527,8 @@
         "seen": 28,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Raya Glagah No.23, Duduk Lor, Glagah, Kec. Glagah, Kabupaten Lamongan, Jawa Timur 62292, Indonesia"
   },
   {
     "view_uid": "66dd5d1a05fc0",
@@ -13330,7 +13538,8 @@
     "origin_lat": null,
     "origin_lng": null,
     "seller_rating": "4.9671",
-    "products": []
+    "products": [],
+    "alamat_toko": "Koordinat tidak valid"
   },
   {
     "view_uid": "66dd54c4abb9f",
@@ -13386,7 +13595,8 @@
         "seen": 10,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2FQQ+546, Area Sawah, Wotan, Kec. Panceng, Kabupaten Gresik, Jawa Timur, Indonesia"
   },
   {
     "view_uid": "66dd3cd637c18",
@@ -13406,7 +13616,8 @@
         "seen": 44,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2GCP+QX6, Golokan, Kec. Sidayu, Kabupaten Gresik, Jawa Timur 61153, Indonesia"
   },
   {
     "view_uid": "66dd272568708",
@@ -13498,7 +13709,8 @@
         "seen": 9,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "4F83+PJX, Waru Lor, Warulor, Kec. Paciran, Kabupaten Lamongan, Jawa Timur 62264, Indonesia"
   },
   {
     "view_uid": "66dcf93ada9d8",
@@ -13581,7 +13793,8 @@
         "seen": 2,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2F9X+2GQ, jln belimbing, RT.01/RW.03, Sukorejo, Kec. Sidayu, Kabupaten Gresik, Jawa Timur 61153, Indonesia"
   },
   {
     "view_uid": "66dcd4a7eb7a6",
@@ -13610,7 +13823,8 @@
         "seen": 140,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2CH9+7G7, Wonokerto, Lowayu, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia"
   },
   {
     "view_uid": "66dc952052c5c",
@@ -13639,7 +13853,8 @@
         "seen": 13,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "4F73+4HF, Jalan Raya Pasar, Karangtumpuk, Campurejo, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66dc515b0ba29",
@@ -13668,7 +13883,8 @@
         "seen": 65,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "4F64+X5H, Mbabrik, Karangtumpuk, Campurejo, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66dc368acd352",
@@ -13769,7 +13985,8 @@
         "seen": 15,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2CCJ+JRV, petiyen tunggal, Lowayu, jetis, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia"
   },
   {
     "view_uid": "66dc2a610cf23",
@@ -13924,7 +14141,8 @@
         "seen": 13,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Raya Padangbandung No.20, Padang, Padang Bandung, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia"
   },
   {
     "view_uid": "66dc261ce75fe",
@@ -13934,7 +14152,8 @@
     "origin_lat": "-6.997160",
     "origin_lng": "112.425140",
     "seller_rating": null,
-    "products": []
+    "products": [],
+    "alamat_toko": "2C3F+5X6, Tiremenggal, Kec. Dukun, Kabupaten Gresik, Jawa Timur, Indonesia"
   },
   {
     "view_uid": "66dc239e4228f",
@@ -13954,7 +14173,8 @@
         "seen": 59,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "4F26+4P8, Delegan, Campurejo, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66dc20780f552",
@@ -14055,7 +14275,8 @@
         "seen": 20,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2F92+G4, Tebuwung, Kec. Dukun, Kabupaten Gresik, Jawa Timur, Indonesia"
   },
   {
     "view_uid": "66dc169e8c157",
@@ -14102,7 +14323,8 @@
         "seen": 4,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2G75+3MG, Sembung Anyar, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61153, Indonesia"
   },
   {
     "view_uid": "66dc10be13207",
@@ -14392,7 +14614,8 @@
         "seen": 37,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "XGR4+2CF, Jl. Deket - Karangbinangun, Kalirejo, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia"
   },
   {
     "view_uid": "66dbccc84bb97",
@@ -14402,7 +14625,8 @@
     "origin_lat": null,
     "origin_lng": null,
     "seller_rating": null,
-    "products": []
+    "products": [],
+    "alamat_toko": "Koordinat tidak valid"
   },
   {
     "view_uid": "66db0e0827fc1",
@@ -14683,7 +14907,8 @@
         "seen": 53,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "2F6X+QPP, Sambogunung, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia"
   },
   {
     "view_uid": "66dafb01e22fb",
@@ -14712,7 +14937,8 @@
         "seen": 21,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "3CJM+5XW, Pantenan, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66daf81a2c167",
@@ -14741,7 +14967,8 @@
         "seen": 34,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2C2W+FHV, Dukuh Kembar, Madumulyorejo, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia"
   },
   {
     "view_uid": "66daf1773ba52",
@@ -14806,7 +15033,8 @@
         "seen": 17,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Kh. Ma'sum Sufyan No.7, Kalirejo, Dukunanyar, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia"
   },
   {
     "view_uid": "66dae4c68e44b",
@@ -14853,7 +15081,8 @@
         "seen": 137,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "3C5M+526, Jalan Raya, RT.11/RW.5, Sumurber, Siwalan, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66dad81fceccd",
@@ -14873,7 +15102,8 @@
         "seen": 55,
         "review_rating": "0"
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Veteran No.48, RT.02/RW.01, Banyu Tengah, Banyutengah, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66dad7de9bda4",
@@ -14893,7 +15123,8 @@
         "seen": 30,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "Gg. Tongkol No.25, Tengkerang Sel., Kec. Bukit Raya, Kota Pekanbaru, Riau 28126, Indonesia"
   },
   {
     "view_uid": "66dad6d803de6",
@@ -14976,7 +15207,8 @@
         "seen": 49,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Raya Deandles No.16, Golokan, Kec. Sidayu, Kabupaten Gresik, Jawa Timur 61153, Indonesia"
   },
   {
     "view_uid": "66dad6d4b7b77",
@@ -15032,7 +15264,8 @@
         "seen": 40,
         "review_rating": "4.5000"
       }
-    ]
+    ],
+    "alamat_toko": "XGR4+7VP, Jl. Dusun Siraman, Kalirejo, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia"
   },
   {
     "view_uid": "66daba1eed448",
@@ -15052,7 +15285,8 @@
         "seen": 34,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "XGP3+456, Monolelo, Karangbinangun, Kec. Karangbinangun, Kabupaten Lamongan, Jawa Timur 62293, Indonesia"
   },
   {
     "view_uid": "66daad99568af",
@@ -15099,7 +15333,8 @@
         "seen": 38,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2CHC+8HX, Wonokerto, Lowayu, Kec. Dukun, Kabupaten Gresik, Jawa Timur, Indonesia"
   },
   {
     "view_uid": "66daaa829944d",
@@ -15155,7 +15390,8 @@
         "seen": 29,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "4F38+W6J, Rejodadi, Campurejo, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66da77ff926c5",
@@ -15184,7 +15420,8 @@
         "seen": 19,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "4F83+Q7, Campurejo, Kec. Panceng, Kabupaten Gresik, Jawa Timur 62264, Indonesia"
   },
   {
     "view_uid": "66da6a3f97fce",
@@ -15240,7 +15477,8 @@
         "seen": 60,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "3GQC+CRW, Mulyasari, Banyuurip, Kec. Ujungpangkah, Kabupaten Gresik, Jawa Timur, Indonesia"
   },
   {
     "view_uid": "66d9bf63941e0",
@@ -15305,7 +15543,8 @@
         "seen": 961,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "49CR+4J4, Jl. Raya deandles, Sukowati, Banjarwati, Kec. Paciran, Kabupaten Lamongan, Jawa Timur 62264, Indonesia"
   },
   {
     "view_uid": "66d9a3637f92f",
@@ -15315,7 +15554,8 @@
     "origin_lat": "-6.911571",
     "origin_lng": "112.470444",
     "seller_rating": null,
-    "products": []
+    "products": [],
+    "alamat_toko": "3FQC+74Q, Sebero, Dalegan, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66d99464baaf3",
@@ -15335,7 +15575,8 @@
         "seen": 42,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "3GR7+8R8, Jalan, Bangsalsari, Banyuurip, Kec. Ujungpangkah, Kabupaten Gresik, Jawa Timur 61154, Indonesia"
   },
   {
     "view_uid": "66d90fdd150a2",
@@ -15427,7 +15668,8 @@
         "seen": 20,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "4CCX+2XX, Weru, Campurejo, Kec. Panceng, Kabupaten Gresik, Jawa Timur 62264, Indonesia"
   },
   {
     "view_uid": "66d87aa3e87d7",
@@ -15474,7 +15716,8 @@
         "seen": 23,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2F6W+G9J, Jl.kh. Ahmad Dahlan, RT.006/RW.002, Saniworejo, Sambogunung, Kec. Dukun, Kabupaten Gresik, Jawa Timur, Indonesia"
   },
   {
     "view_uid": "66d8728da4667",
@@ -15539,7 +15782,8 @@
         "seen": 5,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2FG2+9HW, Jl. Raya Mentaras, RT.6/RW.05, Tebuwung, Mentaras, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia"
   },
   {
     "view_uid": "66d81a8b7ac8e",
@@ -15577,7 +15821,8 @@
         "seen": 32,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "4F93+657, Sidokumpul, Kec. Paciran, Kabupaten Lamongan, Jawa Timur, Indonesia"
   },
   {
     "view_uid": "66d80678f09a2",
@@ -15633,7 +15878,8 @@
         "seen": 9,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "XFWC+F9F, Jalan Kyai Jembadin, Sekargadung, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia"
   },
   {
     "view_uid": "66d803d9371d4",
@@ -15797,7 +16043,8 @@
         "seen": 129,
         "review_rating": "4.8889"
       }
-    ]
+    ],
+    "alamat_toko": "3FQ4+QX5, Ketanen, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66d7ea57e66a8",
@@ -15807,7 +16054,8 @@
     "origin_lat": null,
     "origin_lng": null,
     "seller_rating": null,
-    "products": []
+    "products": [],
+    "alamat_toko": "Koordinat tidak valid"
   },
   {
     "view_uid": "66d7dd02649bc",
@@ -15827,7 +16075,8 @@
         "seen": 57,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Kabupaten No.5, Area Sawah, Nogotirto, Kec. Gamping, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55293, Indonesia"
   },
   {
     "view_uid": "66d720e35c778",
@@ -15865,7 +16114,8 @@
         "seen": 50,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "XGQ5+R6P, Sembungan Kidul, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia"
   },
   {
     "view_uid": "66d7129d9b76a",
@@ -15903,7 +16153,8 @@
         "seen": 61,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2H57+PGC, Kauman, Kec. Sidayu, Kabupaten Gresik, Jawa Timur 61153, Indonesia"
   },
   {
     "view_uid": "66d70aee89703",
@@ -15941,7 +16192,8 @@
         "seen": 19,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2H57+PHC, Jl. Pemuda, Kauman, Gresik, Kabupaten Gresik, Jawa Timur 61153, Indonesia"
   },
   {
     "view_uid": "66d703f46a59f",
@@ -16042,7 +16294,8 @@
         "seen": 164,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Raya Canga'an No.19, Cangaan, Kec. Ujungpangkah, Kabupaten Gresik, Jawa Timur 61154, Indonesia"
   },
   {
     "view_uid": "66d6f6a6b2193",
@@ -16071,7 +16324,8 @@
         "seen": 5,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2CP7+5MH, Wonokerto, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia"
   },
   {
     "view_uid": "66d6e8c451ed8",
@@ -16100,7 +16354,8 @@
         "seen": 101,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Raya Canga'an No.19, Cangaan, Kec. Ujungpangkah, Kabupaten Gresik, Jawa Timur 61154, Indonesia"
   },
   {
     "view_uid": "66d6db1e29a00",
@@ -16165,7 +16420,8 @@
         "seen": 22,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2FQP+JH3, Wotan, Kec. Panceng, Kabupaten Gresik, Jawa Timur, Indonesia"
   },
   {
     "view_uid": "66d6d9b0aa483",
@@ -16175,7 +16431,8 @@
     "origin_lat": "-6.990673",
     "origin_lng": "112.563818",
     "seller_rating": null,
-    "products": []
+    "products": [],
+    "alamat_toko": "2H57+PGC, Kauman, Kec. Sidayu, Kabupaten Gresik, Jawa Timur 61153, Indonesia"
   },
   {
     "view_uid": "66d6bae5758a4",
@@ -16195,7 +16452,8 @@
         "seen": 114,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "29H9+P5G, Brangsi, Kec. Laren, Kabupaten Lamongan, Jawa Timur 62262, Indonesia"
   },
   {
     "view_uid": "66d6b6969b69f",
@@ -16251,7 +16509,8 @@
         "seen": 11,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2F7F+V5C, Jl. Tunjung Biru, Ima An, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia"
   },
   {
     "view_uid": "66d6a6223606e",
@@ -16271,7 +16530,8 @@
         "seen": 17,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2G55+PPG, Sembung Anyar, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61153, Indonesia"
   },
   {
     "view_uid": "66d6a60c240ab",
@@ -16309,7 +16569,8 @@
         "seen": 114,
         "review_rating": "4.6667"
       }
-    ]
+    ],
+    "alamat_toko": "2CM9+747, Jl. Banyu Biru, RT.32/RW.08, Wonokerto, Lowayu, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia"
   },
   {
     "view_uid": "66d6941652b10",
@@ -16392,7 +16653,8 @@
         "seen": 21,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "XGW5+64V, Jl. Ps. Dukun Raya, Sambogunung, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia"
   },
   {
     "view_uid": "66d68f12005bc",
@@ -16466,7 +16728,8 @@
         "seen": 43,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2H67+6Q5, Jl. Kanjeng Sepuh, Pengulu, Gresik, Kabupaten Gresik, Jawa Timur 61153, Indonesia"
   },
   {
     "view_uid": "66d60e7267643",
@@ -16522,7 +16785,8 @@
         "seen": 20,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "3F2V+RP6, Area Sawah, Wotan, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66d58e98e175f",
@@ -16532,7 +16796,8 @@
     "origin_lat": "-6.887118",
     "origin_lng": "112.453901",
     "seller_rating": null,
-    "products": []
+    "products": [],
+    "alamat_toko": "4F73+4HF, Jalan Raya Pasar, Karangtumpuk, Campurejo, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66d5817870209",
@@ -16597,7 +16862,8 @@
         "seen": 5,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2H67+3V6, Pengulu, Gresik, Kabupaten Gresik, Jawa Timur 61153, Indonesia"
   },
   {
     "view_uid": "66d57bc850c8b",
@@ -16626,7 +16892,8 @@
         "seen": 12,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "4F74+93Q, Jl. Campurejo, Karangtumpuk, Campurejo, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66d55db6e8df4",
@@ -16655,7 +16922,8 @@
         "seen": 32,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2H58+J7H, Mriyunan, Kec. Sidayu, Kabupaten Gresik, Jawa Timur 61153, Indonesia"
   },
   {
     "view_uid": "66d540b29305e",
@@ -16665,7 +16933,8 @@
     "origin_lat": "-6.965791",
     "origin_lng": "112.424082",
     "seller_rating": null,
-    "products": []
+    "products": [],
+    "alamat_toko": "Jl. Raya Lowayu, Lowayu, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia"
   },
   {
     "view_uid": "66d456803a6bc",
@@ -16712,7 +16981,8 @@
         "seen": 20,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "3HM3+RRV, Pendilwesi, Pangkah Wetan, Kec. Ujungpangkah, Kabupaten Gresik, Jawa Timur, Indonesia"
   },
   {
     "view_uid": "66d455a2c9810",
@@ -16768,7 +17038,8 @@
         "seen": 119,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "3GR6+MC, Bangsalsari, Banyuurip, Kec. Ujungpangkah, Kabupaten Gresik, Jawa Timur, Indonesia"
   },
   {
     "view_uid": "66d33a662b4a8",
@@ -16842,7 +17113,8 @@
         "seen": 14,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2CG9+JQC, Jalan Sumber Rejo, RT.20/RW.05, Wonokerto, Lowayu, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia"
   },
   {
     "view_uid": "66d3298ba0f06",
@@ -16852,7 +17124,8 @@
     "origin_lat": "-6.980743",
     "origin_lng": "112.542389",
     "seller_rating": null,
-    "products": []
+    "products": [],
+    "alamat_toko": "2G9R+PX2, Golokan, Kec. Sidayu, Kabupaten Gresik, Jawa Timur 61153, Indonesia"
   },
   {
     "view_uid": "66d2ff3ad0de3",
@@ -16944,7 +17217,8 @@
         "seen": 25,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2CHC+287, Jl. Karang Bolet, Wonokerto, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia"
   },
   {
     "view_uid": "66d2a75966f2d",
@@ -17009,7 +17283,8 @@
         "seen": 4,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2G9W+8F4, Jl. Raya Deandles, Golokan, Kec. Sidayu, Kabupaten Gresik, Jawa Timur 61153, Indonesia"
   },
   {
     "view_uid": "66d291e9d5076",
@@ -17074,7 +17349,8 @@
         "seen": 31,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "4F58+36M, Jl. Pasir Putih, Rejodadi, Campurejo, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66d290a6eb0cf",
@@ -17130,7 +17406,8 @@
         "seen": 31,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "XGX5+RJ9, Dsn gopaan, RT.9 rw2, Sembung Anyar, Kec. Dukun, Kabupaten Gresik, Jawa Timur, Indonesia"
   },
   {
     "view_uid": "66d26c2eccd89",
@@ -17140,7 +17417,8 @@
     "origin_lat": "-6.992366",
     "origin_lng": "112.564989",
     "seller_rating": null,
-    "products": []
+    "products": [],
+    "alamat_toko": "Jl. Bhayangkara No.19, Kauman, Mriyunan, Kec. Sidayu, Kabupaten Gresik, Jawa Timur 61153, Indonesia"
   },
   {
     "view_uid": "66d1ed24dd098",
@@ -17169,7 +17447,8 @@
         "seen": 13,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2FVX+M7J, Doudo, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66d1eaaac59b2",
@@ -17261,7 +17540,8 @@
         "seen": 33,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2CMF+MH6, Lowayu, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia"
   },
   {
     "view_uid": "66d1df7b68a83",
@@ -17271,7 +17551,8 @@
     "origin_lat": "-6.890952",
     "origin_lng": "112.457458",
     "seller_rating": null,
-    "products": []
+    "products": [],
+    "alamat_toko": "Sidorejo RT Rt 22 Rw 07Campurejo Panceng Gresik, Area Sawah, Campurejo, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66d1cc63d3116",
@@ -17281,7 +17562,8 @@
     "origin_lat": "-7.010218",
     "origin_lng": "112.507897",
     "seller_rating": null,
-    "products": []
+    "products": [],
+    "alamat_toko": "Jl. Kh. Ma'sum Sufyan No.7-8, Kalirejo, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia"
   },
   {
     "view_uid": "66d1c704cfd3c",
@@ -18336,7 +18618,8 @@
         "seen": 4,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Raya Dukun No.3, RT.01, Sembung Anyar, Lasem, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia"
   },
   {
     "view_uid": "66d1c31c9d35f",
@@ -18356,7 +18639,8 @@
         "seen": 19,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "XGQ5+R5Q, Kalirejo, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia"
   },
   {
     "view_uid": "66d1c30b50f95",
@@ -18403,7 +18687,8 @@
         "seen": 6,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "XGQ5+R5Q, Kalirejo, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia"
   },
   {
     "view_uid": "66d1c067e4ac3",
@@ -18459,7 +18744,8 @@
         "seen": 7,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Raya Daendles No.27, Wadeng, Kec. Sidayu, Kabupaten Gresik, Jawa Timur 61153, Indonesia"
   },
   {
     "view_uid": "66d1b931ab57d",
@@ -18469,7 +18755,8 @@
     "origin_lat": "-7.010484",
     "origin_lng": "112.508148",
     "seller_rating": null,
-    "products": []
+    "products": [],
+    "alamat_toko": "XGQ5+Q7W, Jl. Embong baru, Dukunanyar, Sembungan Kidul, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia"
   },
   {
     "view_uid": "66d1abf5ba151",
@@ -18516,7 +18803,8 @@
         "seen": 28,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "XGQ5+R5Q, Kalirejo, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia"
   },
   {
     "view_uid": "66d07a040b8e7",
@@ -18572,7 +18860,8 @@
         "seen": 56,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Ps. Tradisional No.35, Cabean, Prupuh, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66d0749f193b6",
@@ -18582,7 +18871,8 @@
     "origin_lat": null,
     "origin_lng": null,
     "seller_rating": "5.0000",
-    "products": []
+    "products": [],
+    "alamat_toko": "Koordinat tidak valid"
   },
   {
     "view_uid": "66d05ce8cb565",
@@ -18620,7 +18910,8 @@
         "seen": 5,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "XGQ5+PRP, Sembungan Kidul, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia"
   },
   {
     "view_uid": "66d05aca356f3",
@@ -18847,7 +19138,8 @@
         "seen": 3,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2GV3+MPR, Jl. Raya Sekapuk, Doudo, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61154, Indonesia"
   },
   {
     "view_uid": "66d0547cf1849",
@@ -18912,7 +19204,8 @@
         "seen": 57,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "XGQ6+GCG, Jl. Kh. Ma'sum Sufyan 20, Sembungan Kidul, Dukunanyar, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia"
   },
   {
     "view_uid": "66d0530b93819",
@@ -19022,7 +19315,8 @@
         "seen": 11,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Raya Dalegan No.25, Rejodadi, Dalegan, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66d05206876f6",
@@ -19032,7 +19326,8 @@
     "origin_lat": null,
     "origin_lng": null,
     "seller_rating": null,
-    "products": []
+    "products": [],
+    "alamat_toko": "Koordinat tidak valid"
   },
   {
     "view_uid": "66d04f81b7365",
@@ -19187,7 +19482,8 @@
         "seen": 14,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "XG92+V5Q, Mulyosari, Sidomukti, Kec. Bungah, Kabupaten Gresik, Jawa Timur, Indonesia"
   },
   {
     "view_uid": "66d03ca0053f8",
@@ -19234,7 +19530,8 @@
         "seen": 15,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2CC9+QV3, Kaliagung, Bangeran, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia"
   },
   {
     "view_uid": "66d02ec600e38",
@@ -19263,7 +19560,8 @@
         "seen": 9,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2CF9+94F, Jl. Sumur Cemp., Wonokerto, Lowayu, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia"
   },
   {
     "view_uid": "66d02d49387f8",
@@ -19445,7 +19743,8 @@
         "seen": 5,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2G63+H99, Sambogunung, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61153, Indonesia"
   },
   {
     "view_uid": "66cff35f814e9",
@@ -19455,7 +19754,8 @@
     "origin_lat": "-6.971643",
     "origin_lng": "112.477600",
     "seller_rating": null,
-    "products": []
+    "products": [],
+    "alamat_toko": "2FHH+82Q, Petung, Ima An, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66cff12b76c20",
@@ -19475,7 +19775,8 @@
         "seen": 39,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Raya Dalegan No.6, Area Sawah, Prupuh, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66cf2be2a0dc5",
@@ -19531,7 +19832,8 @@
         "seen": 17,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Campurejo No.1, Karangtumpuk, Campurejo, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66cf1fbd2fe28",
@@ -19569,7 +19871,8 @@
         "seen": 32,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "3G76+CCG, Gosari, Gresik, Kabupaten Gresik, Jawa Timur 61154, Indonesia"
   },
   {
     "view_uid": "66cf1d5dcb01a",
@@ -19598,7 +19901,8 @@
         "seen": 39,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "XGR4+3WR, Jl. Raya Ps. Dukun, Kalirejo, Dukunanyar, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia"
   },
   {
     "view_uid": "66cf051a18575",
@@ -19608,7 +19912,8 @@
     "origin_lat": "-6.953924",
     "origin_lng": "112.507200",
     "seller_rating": null,
-    "products": []
+    "products": [],
+    "alamat_toko": "Jl. Let Jend. Suprapto No.43, Doudo, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61154, Indonesia"
   },
   {
     "view_uid": "66cf03e94e98b",
@@ -19618,7 +19923,8 @@
     "origin_lat": "-6.949483",
     "origin_lng": "112.515569",
     "seller_rating": null,
-    "products": []
+    "products": [],
+    "alamat_toko": "3G28+664, Slolok, Sekapuk, Kec. Ujungpangkah, Kabupaten Gresik, Jawa Timur 61154, Indonesia"
   },
   {
     "view_uid": "66cedf39e7f74",
@@ -19638,7 +19944,8 @@
         "seen": 1,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Raya Golokan No.123, Purwodadi, Kec. Sidayu, Kabupaten Gresik, Jawa Timur 61153, Indonesia"
   },
   {
     "view_uid": "66cebed77acf0",
@@ -19685,7 +19992,8 @@
         "seen": 10,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Kanjeng Sepuh No.2, Kauman, Pengulu, Gresik, Kabupaten Gresik, Jawa Timur 61153, Indonesia"
   },
   {
     "view_uid": "66ceb7da5805e",
@@ -19750,7 +20058,8 @@
         "seen": 17,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Raya Daendles No.117-121, Purwodadi, Kec. Sidayu, Kabupaten Gresik, Jawa Timur 61153, Indonesia"
   },
   {
     "view_uid": "66ceacd05ca01",
@@ -19824,7 +20133,8 @@
         "seen": 5,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2FR4+869, Tebuwung, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66ce72e5c8957",
@@ -19844,7 +20154,8 @@
         "seen": 31,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2C8Q+VXJ, Waduk, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia"
   },
   {
     "view_uid": "66ce0d368b7fb",
@@ -19891,7 +20202,8 @@
         "seen": 355,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "2GV3+Q87, Jl. Raya Deandles, Doudo, Kec. Panceng, Kabupaten Gresik, Jawa Timur, Indonesia"
   },
   {
     "view_uid": "66cddd15cc4c5",
@@ -19956,7 +20268,8 @@
         "seen": 36,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Kamboja No.237, Babakbawo, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia"
   },
   {
     "view_uid": "66cdd6dced5a8",
@@ -20039,7 +20352,8 @@
         "seen": 32,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Banyutengah No.64, Banyu Tengah, Banyutengah, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66cdcc777dff2",
@@ -20131,7 +20445,8 @@
         "seen": 13,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2GV3+P54, Jl. Raya Deandles, Doudo, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61154, Indonesia"
   },
   {
     "view_uid": "66cdca3855b0b",
@@ -20223,7 +20538,8 @@
         "seen": 17,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "4F73+VRH, Campurejo, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66cdc9d14f050",
@@ -20270,7 +20586,8 @@
         "seen": 19,
         "review_rating": "3.0000"
       }
-    ]
+    ],
+    "alamat_toko": "4CCX+FP5, Jl. Raya Weru No.419, Weru, Kec. Paciran, Kabupaten Lamongan, Jawa Timur 62264, Indonesia"
   },
   {
     "view_uid": "66cdc20249a6e",
@@ -20290,7 +20607,8 @@
         "seen": 21,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "4F73+VRH, Campurejo, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66cdabc1ae5f2",
@@ -20310,7 +20628,8 @@
         "seen": 10,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Raya Lasem Dukun, Sembung Anyar, Kec. Sidayu, Kabupaten Gresik, Jawa Timur, Indonesia"
   },
   {
     "view_uid": "66cda001995b2",
@@ -20339,7 +20658,8 @@
         "seen": 9,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Raya Dukun No.04, Sembung Anyar, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia"
   },
   {
     "view_uid": "66cd9d031ea19",
@@ -20386,7 +20706,8 @@
         "seen": 20,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Raya Prupuh No.8, Prupuh, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66cd9cc126af8",
@@ -20451,7 +20772,8 @@
         "seen": 13,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Goa Larang No.17, Petung, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66cd958222b1f",
@@ -20489,7 +20811,8 @@
         "seen": 6,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "3CMP+M2 Pantenan, Kabupaten Gresik, Jawa Timur, Indonesia"
   },
   {
     "view_uid": "66cd92fead04f",
@@ -20509,7 +20832,8 @@
         "seen": 96,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "3CGR+CVH, Jl. Raya Ketanen, Pantenan, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66b45914ce580",
@@ -20538,7 +20862,8 @@
         "seen": 621,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Raya Ps. Campurejo No.21, Area Sawah, Campurejo, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66cd82a006eb9",
@@ -20594,7 +20919,8 @@
         "seen": 12,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "XGM2+MJG, Monolelo, Karangbinangun, Kec. Karangbinangun, Kabupaten Lamongan, Jawa Timur 62293, Indonesia"
   },
   {
     "view_uid": "66cd7ede72ee9",
@@ -20695,7 +21021,8 @@
         "seen": 25,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2CXH+C5C, Jl. Kalitengah, Lowayu, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66cd791d3c61c",
@@ -20787,7 +21114,8 @@
         "seen": 3,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2CC9+QV3, Kaliagung, Bangeran, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia"
   },
   {
     "view_uid": "66cd727acff02",
@@ -20807,7 +21135,8 @@
         "seen": 135,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Kalitengah No.24, Sumurber, Siwalan, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66cd70c3d44e7",
@@ -20881,7 +21210,8 @@
         "seen": 13,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2CFC+85Q, Kaliagung, Bangeran, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia"
   },
   {
     "view_uid": "66cd70911ed35",
@@ -20955,7 +21285,8 @@
         "seen": 41,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "4F74+93Q, Jl. Campurejo, Karangtumpuk, Campurejo, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66cd6f44e44f1",
@@ -21002,7 +21333,8 @@
         "seen": 54,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2CJG+CF Lowayu, Kabupaten Gresik, Jawa Timur, Indonesia"
   },
   {
     "view_uid": "66cd6ee506c14",
@@ -21067,7 +21399,8 @@
         "seen": 4,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Bangsalsari Banyuurip No.9, Banyulegi, Banyuurip, Kec. Ujungpangkah, Kabupaten Gresik, Jawa Timur 61154, Indonesia"
   },
   {
     "view_uid": "66cd6a61003db",
@@ -21312,7 +21645,8 @@
         "seen": 4,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "Jln Raya Lasem, Ruko Saribuana no.7Sidayu, Sembung Anyar, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61153, Indonesia"
   },
   {
     "view_uid": "66cd69649900a",
@@ -21386,7 +21720,8 @@
         "seen": 28,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "XGF7+729, Jalan Raya Impres, Pucung, Sidomukti, Kec. Bungah, Kabupaten Gresik, Jawa Timur 61152, Indonesia"
   },
   {
     "view_uid": "66cd678ab2d75",
@@ -21496,7 +21831,8 @@
         "seen": 13,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "2CH9+V5G, Jl. Banyu Biru, Wonokerto, Lowayu, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia"
   },
   {
     "view_uid": "66cd542eea6aa",
@@ -21525,7 +21861,8 @@
         "seen": 38,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Raya Daendles No.33-88, Area Sawah, Wotan, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66cd48620edf8",
@@ -21535,7 +21872,8 @@
     "origin_lat": null,
     "origin_lng": null,
     "seller_rating": "5.0000",
-    "products": []
+    "products": [],
+    "alamat_toko": "Koordinat tidak valid"
   },
   {
     "view_uid": "66cd1f7b9f12c",
@@ -21654,7 +21992,8 @@
         "seen": 14,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Raya Canga'an No.Rt01 /01, Bangsalsari, Banyuurip, Kec. Ujungpangkah, Kabupaten Gresik, Jawa Timur 61154, Indonesia"
   },
   {
     "view_uid": "66cc99b5738bb",
@@ -21664,7 +22003,8 @@
     "origin_lat": "-6.977223",
     "origin_lng": "112.475542",
     "seller_rating": null,
-    "products": []
+    "products": [],
+    "alamat_toko": "Jl. Raya Ima'an No.35, Petung, Ima An, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia"
   },
   {
     "view_uid": "66cc548737fd3",
@@ -21693,7 +22033,8 @@
         "seen": 12,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "XHWJ+P47, Ngawen, Kec. Sidayu, Kabupaten Gresik, Jawa Timur 61153, Indonesia"
   },
   {
     "view_uid": "66cc482580451",
@@ -21812,7 +22153,8 @@
         "seen": 559,
         "review_rating": "4.9231"
       }
-    ]
+    ],
+    "alamat_toko": "2CH9+Q92, Jl. Banyu Biru, Wonokerto, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia"
   },
   {
     "view_uid": "66cc3bbdd8698",
@@ -21832,7 +22174,8 @@
         "seen": 6,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2H2F+7GJ, Asemanis, Mojoasem, Kec. Sidayu, Kabupaten Gresik, Jawa Timur 61153, Indonesia"
   },
   {
     "view_uid": "66cc30b74cc4c",
@@ -21879,7 +22222,8 @@
         "seen": 11,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2CP7+GP4, Jl. Raya Lowayu, Wonokerto, Lowayu, Kec. Dukun, Kabupaten Gresik, Jawa Timur, Indonesia"
   },
   {
     "view_uid": "66cc3039e4f8d",
@@ -21962,7 +22306,8 @@
         "seen": 21,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Pelita III No.20, Asempapak, Kec. Sidayu, Kabupaten Gresik, Jawa Timur 61153, Indonesia"
   },
   {
     "view_uid": "66cc21e88bdd4",
@@ -22009,7 +22354,8 @@
         "seen": 76,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2CGC+QCV, Jl. Raya Lowayu, RT.23/RW.06, Wonokerto, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia"
   },
   {
     "view_uid": "66cc1ddef1b6f",
@@ -22056,7 +22402,8 @@
         "seen": 33,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "3HJ4+RR7, Jl. Pendidikan, Kacak Kidul, Tambak, Kec. Ujungpangkah, Kabupaten Gresik, Jawa Timur 61154, Indonesia"
   },
   {
     "view_uid": "66cc09bdd964e",
@@ -22328,7 +22675,8 @@
         "seen": 13,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Dukun Anyar No.23, Sembungan Kidul, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia"
   },
   {
     "view_uid": "66cc04e933e76",
@@ -22393,7 +22741,8 @@
         "seen": 20,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2GM7+WR Wadeng, Kabupaten Gresik, Jawa Timur, Indonesia"
   },
   {
     "view_uid": "66cc04cc35afd",
@@ -22413,7 +22762,8 @@
         "seen": 29,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "49FP+C9X, Jl. Deandels, RT.01/RW.02, Kranji, Kec. Paciran, Kabupaten Lamongan, Jawa Timur 62264, Indonesia"
   },
   {
     "view_uid": "66cc02ba85706",
@@ -22423,7 +22773,8 @@
     "origin_lat": "-6.976890",
     "origin_lng": "112.468894",
     "seller_rating": "5.0000",
-    "products": []
+    "products": [],
+    "alamat_toko": "2FF9+7HW, Mojopetung, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia"
   },
   {
     "view_uid": "66cbff9ee8389",
@@ -22506,7 +22857,8 @@
         "seen": 51,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "X9X8+MR3, Sumberwudi, Kec. Karang Geneng, Kabupaten Lamongan, Jawa Timur, Indonesia"
   },
   {
     "view_uid": "66cb8ff83e3c2",
@@ -22787,7 +23139,8 @@
         "seen": 5,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2GV3+JMG, Doudo, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61154, Indonesia"
   },
   {
     "view_uid": "66cb46cae2035",
@@ -22797,7 +23150,8 @@
     "origin_lat": "-6.887029",
     "origin_lng": "112.454043",
     "seller_rating": null,
-    "products": []
+    "products": [],
+    "alamat_toko": "Jl. Raya Ps. Campurejo No.76, Karangtumpuk, Campurejo, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66c9d078aa80c",
@@ -22835,7 +23189,8 @@
         "seen": 85,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "2G57+76P, Jl. Sumur Bengawan Lasem Sidayu, Sembung Anyar, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61153, Indonesia"
   },
   {
     "view_uid": "66c9c68e2cbf2",
@@ -22936,7 +23291,8 @@
         "seen": 40,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Raya Desa Sambogunung Rt.01 Rw.01 No.rumah 5, Sambogunung, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia"
   },
   {
     "view_uid": "66c987c873b7e",
@@ -22974,7 +23330,8 @@
         "seen": 29,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "4F37+3PV, Mulyorejo, Dalegan, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66c87684cb261",
@@ -23057,7 +23414,8 @@
         "seen": 10,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "4F37+3PV, Mulyorejo, Dalegan, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66c864f4273f1",
@@ -23086,7 +23444,8 @@
         "seen": 75,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "XGR4+FX6, Jl. Raya Ps. Dukun, Kalirejo, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia"
   },
   {
     "view_uid": "66c8629a011e8",
@@ -23106,7 +23465,8 @@
         "seen": 262,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "4F64+MWF, Karangtumpuk, Campurejo, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66c85778b672b",
@@ -23135,7 +23495,8 @@
         "seen": 31,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "XGR4+7M2, Jl. Raya Ps. Dukun, Kalirejo, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia"
   },
   {
     "view_uid": "66c8550923d1e",
@@ -23155,7 +23516,8 @@
         "seen": 35,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Raya Ketanen No.1, Pantenan, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66c84624199b1",
@@ -23292,7 +23654,8 @@
         "seen": 15,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Raya Prupuh No.45, Ketanen, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66c83b7e22dd6",
@@ -23501,7 +23864,8 @@
         "seen": 11,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "3FJ3+XQ8, Jalan Raya, RT.4/RW.1, Prupuh, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66c8303db4df4",
@@ -23566,7 +23930,8 @@
         "seen": 12,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "3FQ5+QC4, Jl. Raya Prupuh, Area Sawah, Ketanen, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66c740a11557a",
@@ -23955,7 +24320,8 @@
         "seen": 56,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "3C9Q+J6P, Jl. Raya Ketanen, Sono, Siwalan, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66c73fef847a0",
@@ -24011,7 +24377,8 @@
         "seen": 34,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "4F37+3PV, Mulyorejo, Dalegan, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66c7384b0fa07",
@@ -24085,7 +24452,8 @@
         "seen": 26,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "2FFG+X9F, Petung, Ima An, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66c712a48a422",
@@ -24123,7 +24491,8 @@
         "seen": 81,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "3F3V+483, Jl. Raya Daendles, Area Sawah, Wotan, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66c703e75ce74",
@@ -24251,7 +24620,8 @@
         "seen": 37,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Raya Dalegan No.14, Area Sawah, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66c6e8ac8fa9f",
@@ -24406,7 +24776,8 @@
         "seen": 6,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2G35+6PP, Sembung Anyar, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia"
   },
   {
     "view_uid": "66c6e604a764e",
@@ -24507,7 +24878,8 @@
         "seen": 79,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Raya Daendles No.5, Area Sawah, Campurejo, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66c6d35089518",
@@ -24617,7 +24989,8 @@
         "seen": 27,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "4F74+67V, Jl. Campurejo, Karangtumpuk, Campurejo, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66c6d31ade0a0",
@@ -24627,7 +25000,8 @@
     "origin_lat": null,
     "origin_lng": null,
     "seller_rating": "5.0000",
-    "products": []
+    "products": [],
+    "alamat_toko": "Koordinat tidak valid"
   },
   {
     "view_uid": "66c6d16f4944b",
@@ -24637,7 +25011,8 @@
     "origin_lat": null,
     "origin_lng": null,
     "seller_rating": "5.0000",
-    "products": []
+    "products": [],
+    "alamat_toko": "Koordinat tidak valid"
   },
   {
     "view_uid": "66c6d0db2247f",
@@ -24666,7 +25041,8 @@
         "seen": 104,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "2G57+233, Jl. Raya Kertosono, Sembung Anyar, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61153, Indonesia"
   },
   {
     "view_uid": "66c6c5357e654",
@@ -24794,7 +25170,8 @@
         "seen": 40,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "XGX5+HFC, Sembungan Kidul, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia"
   },
   {
     "view_uid": "66c6c348a523c",
@@ -24814,7 +25191,8 @@
         "seen": 34,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2F7W+9M5, Sambogunung, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia"
   },
   {
     "view_uid": "66c6211d5b6ac",
@@ -24888,7 +25266,8 @@
         "seen": 25,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2F7X+F92, Sambogunung, Kec. Dukun, Kabupaten Gresik, Jawa Timur, Indonesia"
   },
   {
     "view_uid": "66c5e00169467",
@@ -24908,7 +25287,8 @@
         "seen": 45,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Raya Dalegan No.7, Delegan, Campurejo, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66c5d5a47a34a",
@@ -24946,7 +25326,8 @@
         "seen": 27,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "3G28+664, Slolok, Sekapuk, Kec. Ujungpangkah, Kabupaten Gresik, Jawa Timur 61154, Indonesia"
   },
   {
     "view_uid": "66c5c4f99ad91",
@@ -24984,7 +25365,8 @@
         "seen": 16,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Raya Deandles No.36, Kauman, Sidomulyo, Kec. Sidayu, Kabupaten Gresik, Jawa Timur 61153, Indonesia"
   },
   {
     "view_uid": "66c5c18eab323",
@@ -25004,7 +25386,8 @@
         "seen": 5,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "3C3J+546, Sumurber, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66c5ba04d9f76",
@@ -25177,7 +25560,8 @@
         "seen": 7,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2H56+CMJ, Kauman, Sidomulyo, Kec. Sidayu, Kabupaten Gresik, Jawa Timur 61153, Indonesia"
   },
   {
     "view_uid": "66c5aca61db63",
@@ -25233,7 +25617,8 @@
         "seen": 13,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2CVG+XGQ, Jl. Raya Lowayu, RT.33/RW.08, Lowayu, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia"
   },
   {
     "view_uid": "66c59eafa9cc3",
@@ -25271,7 +25656,8 @@
         "seen": 32,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Raya Lowayu, Lowayu, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia"
   },
   {
     "view_uid": "66c59b1835666",
@@ -25291,7 +25677,8 @@
         "seen": 25,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Raya Pahlawan No.71, Sidomulyo, Kec. Sidayu, Kabupaten Gresik, Jawa Timur 61153, Indonesia"
   },
   {
     "view_uid": "66c599de60c25",
@@ -25338,7 +25725,8 @@
         "seen": 29,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2FVX+8PC, RT.03/RW.02, Doudo, Kec. Panceng, Kabupaten Gresik, Jawa Timur, Indonesia"
   },
   {
     "view_uid": "66c59810bebaa",
@@ -25439,7 +25827,8 @@
         "seen": 42,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2CMF+P76, Lowayu, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia"
   },
   {
     "view_uid": "66c58c9c43c1e",
@@ -25504,7 +25893,8 @@
         "seen": 30,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Raya Siwalan No.3, Siwalan, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66c57b99d39d6",
@@ -25587,7 +25977,8 @@
         "seen": 271,
         "review_rating": "4.7500"
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Kalitengah No.24, Sumurber, Siwalan, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66c57ab8bc79d",
@@ -25715,7 +26106,8 @@
         "seen": 9,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2H58+J7H, Mriyunan, Kec. Sidayu, Kabupaten Gresik, Jawa Timur 61153, Indonesia"
   },
   {
     "view_uid": "66c5710ad0d6e",
@@ -25735,7 +26127,8 @@
         "seen": 42,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "3FC9+V57, Jl. Raya Daendles, Area Sawah, Surowiti, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66c52377e8c37",
@@ -25745,7 +26138,8 @@
     "origin_lat": null,
     "origin_lng": null,
     "seller_rating": "5.0000",
-    "products": []
+    "products": [],
+    "alamat_toko": "Koordinat tidak valid"
   },
   {
     "view_uid": "66c4abaeba9e8",
@@ -25783,7 +26177,8 @@
         "seen": 72,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2CF9+QJJ, Wonokerto, Lowayu, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia"
   },
   {
     "view_uid": "66c4a12364e3c",
@@ -25965,7 +26360,8 @@
         "seen": 19,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Raya Deandles No.Km.30 No.16, Wadeng, Kec. Sidayu, Kabupaten Gresik, Jawa Timur 61153, Indonesia"
   },
   {
     "view_uid": "66c485466742d",
@@ -25994,7 +26390,8 @@
         "seen": 6,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Bhayangkara No.10, Mriyunan, Kec. Sidayu, Kabupaten Gresik, Jawa Timur 61153, Indonesia"
   },
   {
     "view_uid": "66c4639c8231d",
@@ -26041,7 +26438,8 @@
         "seen": 6,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2H58+J7H, Mriyunan, Kec. Sidayu, Kabupaten Gresik, Jawa Timur 61153, Indonesia"
   },
   {
     "view_uid": "66c462ae7726f",
@@ -26061,7 +26459,8 @@
         "seen": 19,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2H58+J7H, Mriyunan, Kec. Sidayu, Kabupaten Gresik, Jawa Timur 61153, Indonesia"
   },
   {
     "view_uid": "66c461430d64b",
@@ -26108,7 +26507,8 @@
         "seen": 28,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "Dekat, 4F64+PVC, Karangtumpuk, Campurejo, Kec. Panceng, Kabupaten Gresik, Jawa Timur, Indonesia"
   },
   {
     "view_uid": "66c42c5294352",
@@ -26137,7 +26537,8 @@
         "seen": 42,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2GGM+C4J, Jl. Raya Deandles, Gerdugeneng, Golokan, Kec. Sidayu, Kabupaten Gresik, Jawa Timur 61153, Indonesia"
   },
   {
     "view_uid": "66c3f0259d263",
@@ -26166,7 +26567,8 @@
         "seen": 32,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "3FQ7+XG Prupuh, Kabupaten Gresik, Jawa Timur, Indonesia"
   },
   {
     "view_uid": "66c341d72641e",
@@ -26204,7 +26606,8 @@
         "seen": 24,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "4F37+3PV, Mulyorejo, Dalegan, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66c325f6b3b38",
@@ -26323,7 +26726,8 @@
         "seen": 26,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Raya Golokan No.33, RT.01/RW.1/rw5, Golokan, Kec. Sidayu, Kabupaten Gresik, Jawa Timur 61153, Indonesia"
   },
   {
     "view_uid": "66c32394e33e1",
@@ -26343,7 +26747,8 @@
         "seen": 31,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "Koordinat tidak valid"
   },
   {
     "view_uid": "66c321a9803c2",
@@ -26372,7 +26777,8 @@
         "seen": 43,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2CJW+G9W, Jl. Raya Tebuwung, Tebuwung, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia"
   },
   {
     "view_uid": "66c3151dd8660",
@@ -26428,7 +26834,8 @@
         "seen": 19,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2GFP+P95, Jl. Raya Daendles, Gerdugeneng, Golokan, Kec. Sidayu, Kabupaten Gresik, Jawa Timur 61153, Indonesia"
   },
   {
     "view_uid": "66c314554998a",
@@ -26691,7 +27098,8 @@
         "seen": 877,
         "review_rating": "4.8387"
       }
-    ]
+    ],
+    "alamat_toko": "2CFC+P3P, Jl.Kali Kriyan, RT.13/RW.04, Kaliagung, Lowayu, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia"
   },
   {
     "view_uid": "66c3051f33436",
@@ -26729,7 +27137,8 @@
         "seen": 29,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "Dsn Karang Tumpuk,, 4CFW+3Q2, Paloh, Campurejo, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66c2df6b23320",
@@ -26839,7 +27248,8 @@
         "seen": 10,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2FVX+6H5, RT.04/RW.02, Doudo, Kec. Panceng, Kabupaten Gresik, Jawa Timur, Indonesia"
   },
   {
     "view_uid": "66c2c1bbc3eed",
@@ -26958,7 +27368,8 @@
         "seen": 24,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Sumur Bengawan Lasem Sidayu No.34, Sambogunung, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61153, Indonesia"
   },
   {
     "view_uid": "66c20c8791407",
@@ -27005,7 +27416,8 @@
         "seen": 19,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "Koordinat tidak valid"
   },
   {
     "view_uid": "66c20b1dce2b6",
@@ -27043,7 +27455,8 @@
         "seen": 59,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2CJG+CF Lowayu, Kabupaten Gresik, Jawa Timur, Indonesia"
   },
   {
     "view_uid": "66c203614d879",
@@ -27099,7 +27512,8 @@
         "seen": 4,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "4CG3+J73, Jln maulana ishaq, Kemantren, Kec. Paciran, Kabupaten Lamongan, Jawa Timur, Indonesia"
   },
   {
     "view_uid": "66c1f3914fb09",
@@ -27109,7 +27523,8 @@
     "origin_lat": "-6.947002",
     "origin_lng": "112.430478",
     "seller_rating": null,
-    "products": []
+    "products": [],
+    "alamat_toko": "3C3J+64Q, Sumurber, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66c1f220995fa",
@@ -27237,7 +27652,8 @@
         "seen": 13,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2CP6+RQ Wonokerto, Kabupaten Gresik, Jawa Timur, Indonesia"
   },
   {
     "view_uid": "66c1d7aa7f174",
@@ -27293,7 +27709,8 @@
         "seen": 19,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Kh. Ma'sum Sufyan No.7, Kalirejo, Dukunanyar, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia"
   },
   {
     "view_uid": "66c1a43d7aa75",
@@ -27303,7 +27720,8 @@
     "origin_lat": "-6.981726",
     "origin_lng": "112.499992",
     "seller_rating": null,
-    "products": []
+    "products": [],
+    "alamat_toko": "2F9X+8XG, Sukorejo, Sambogunung, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61153, Indonesia"
   },
   {
     "view_uid": "66c045506317c",
@@ -27313,7 +27731,8 @@
     "origin_lat": null,
     "origin_lng": null,
     "seller_rating": "5.0000",
-    "products": []
+    "products": [],
+    "alamat_toko": "Koordinat tidak valid"
   },
   {
     "view_uid": "66c040205df11",
@@ -27323,7 +27742,8 @@
     "origin_lat": "-6.992156",
     "origin_lng": "112.564875",
     "seller_rating": null,
-    "products": []
+    "products": [],
+    "alamat_toko": "Jl. Bhayangkara No.30, Kauman, Kec. Sidayu, Kabupaten Gresik, Jawa Timur 61153, Indonesia"
   },
   {
     "view_uid": "66c03ac4e75ca",
@@ -27406,7 +27826,8 @@
         "seen": 10,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "Komplek Makan Syeh Maulana Ishaq Stand No.19, Kemantren, Kec. Paciran, Kabupaten Lamongan, Jawa Timur 62264, Indonesia"
   },
   {
     "view_uid": "66c0279e4f19c",
@@ -27489,7 +27910,8 @@
         "seen": 34,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Kalitengah No.24, Siwalan, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66c02124aad8b",
@@ -27554,7 +27976,8 @@
         "seen": 148,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Banyutengah No.64, Banyu Tengah, Banyutengah, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66bff571ee5f7",
@@ -27564,7 +27987,8 @@
     "origin_lat": "-6.985834",
     "origin_lng": "112.377669",
     "seller_rating": null,
-    "products": []
+    "products": [],
+    "alamat_toko": "297H+J22, Jl. Raya Kusuma Bangsa, Sawo, Karangcangkring, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia"
   },
   {
     "view_uid": "66bfcebc4e7fc",
@@ -27692,7 +28116,8 @@
         "seen": 64,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "2F7X+G7J, Sukorejo, Sambogunung, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61153, Indonesia"
   },
   {
     "view_uid": "66bf5dcdac998",
@@ -27730,7 +28155,8 @@
         "seen": 11,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "4F26+JVH, Jl. Raya Nenggala, Delegan, Campurejo, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66bf42257dd16",
@@ -27822,7 +28248,8 @@
         "seen": 56,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "4F42+29F, Jl. Raya Deandles, Banyu Tengah, Banyutengah, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66bf3f7100628",
@@ -27832,7 +28259,8 @@
     "origin_lat": "-6.895154",
     "origin_lng": "112.465313",
     "seller_rating": null,
-    "products": []
+    "products": [],
+    "alamat_toko": "4F38+W4P, Jl. Raya Dalegan, Mulyorejo, Campurejo, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66bf1d4409a70",
@@ -27870,7 +28298,8 @@
         "seen": 35,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2F6X+JF6, Sambogunung, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia"
   },
   {
     "view_uid": "66bf1bef0fcde",
@@ -27890,7 +28319,8 @@
         "seen": 9,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2F8V+3P9, Sukorejo, Sambogunung, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia"
   },
   {
     "view_uid": "66bf143c2f01c",
@@ -27955,7 +28385,8 @@
         "seen": 14,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2F7W+PW6, Jl. Raya Babakbawo, RT.01/RW.01, Sambogunung, Sukorejo, Kec. Sidayu, Kabupaten Gresik, Jawa Timur 61153, Indonesia"
   },
   {
     "view_uid": "66bf120752b7c",
@@ -27993,7 +28424,8 @@
         "seen": 7,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Sumur Bengawan Lasem Sidayu No.5, Sambogunung, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61153, Indonesia"
   },
   {
     "view_uid": "66bef64a0088f",
@@ -28031,7 +28463,8 @@
         "seen": 19,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2F7W+9M5, Sambogunung, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia"
   },
   {
     "view_uid": "66bee9ea05e6a",
@@ -28096,7 +28529,8 @@
         "seen": 16,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "4F52+8W2, Jl. Makam Islam, Banyu Tengah, Banyutengah, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66becdf1ec549",
@@ -28116,7 +28550,8 @@
         "seen": 5,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Lingkar Utara Lamongan Seksi I, Area Sawah, Sidokumpul, Kec. Lamongan, Kabupaten Lamongan, Jawa Timur, Indonesia"
   },
   {
     "view_uid": "66bec27122489",
@@ -28126,7 +28561,8 @@
     "origin_lat": "-6.941189",
     "origin_lng": "112.509066",
     "seller_rating": null,
-    "products": []
+    "products": [],
+    "alamat_toko": "3G55+CRX, Gosari, Kec. Ujungpangkah, Kabupaten Gresik, Jawa Timur 61154, Indonesia"
   },
   {
     "view_uid": "66beb1ef68dd4",
@@ -28164,7 +28600,8 @@
         "seen": 23,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Sumur Bengawan Lasem Sidayu No.6, Sambogunung, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia"
   },
   {
     "view_uid": "66be1015d5d11",
@@ -28265,7 +28702,8 @@
         "seen": 190,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "XGR6+6M3, Sembungan Kidul, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia"
   },
   {
     "view_uid": "66be0bd4dfe7b",
@@ -28294,7 +28732,8 @@
         "seen": 51,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Raya Dalegan No.25, Rejodadi, Dalegan, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66bdd631ead3a",
@@ -28323,7 +28762,8 @@
         "seen": 11,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Kalitengah No.24, Siwalan, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66bdcfce6f859",
@@ -28379,7 +28819,8 @@
         "seen": 5,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Raya Deandles No.100, Gedangan, Wadeng, Kec. Sidayu, Kabupaten Gresik, Jawa Timur 61153, Indonesia"
   },
   {
     "view_uid": "66bdc1754ccf5",
@@ -28435,7 +28876,8 @@
         "seen": 47,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Raya Dalegan No.25, Rejodadi, Dalegan, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66bda87531000",
@@ -28653,7 +29095,8 @@
         "seen": 11,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "4F37+3PV, Mulyorejo, Dalegan, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66bda5c84f257",
@@ -28781,7 +29224,8 @@
         "seen": 248,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Ki Demang Barokah No.RT.06, Area Sawah, Prupuh, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66bd9add5a01d",
@@ -28810,7 +29254,8 @@
         "seen": 7,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "3GG5+P25, Jl. Lapangan, Cangaan, Kec. Ujungpangkah, Kabupaten Gresik, Jawa Timur 61154, Indonesia"
   },
   {
     "view_uid": "66bd6bf9a5168",
@@ -28884,7 +29329,8 @@
         "seen": 24,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "4F74+944, Karangtumpuk, Campurejo, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66bcd85e7ce75",
@@ -28904,7 +29350,8 @@
         "seen": 92,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2G35+2M3, Sembung Anyar, Kec. Dukun, Kabupaten Gresik, Jawa Timur, Indonesia"
   },
   {
     "view_uid": "66bcc068c4b01",
@@ -28951,7 +29398,8 @@
         "seen": 72,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "Gg. VII No.2, RT.01/RW.RT.01, Gosari, Kec. Ujungpangkah, Kabupaten Gresik, Jawa Timur 61154, Indonesia"
   },
   {
     "view_uid": "66bcb67b78bce",
@@ -28971,7 +29419,8 @@
         "seen": 72,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Campurejo No.76, Karangtumpuk, Campurejo, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66bca938883b9",
@@ -29036,7 +29485,8 @@
         "seen": 113,
         "review_rating": "4.6000"
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Kalitengah No.24, Siwalan, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66bca19927331",
@@ -29083,7 +29533,8 @@
         "seen": 105,
         "review_rating": "0"
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Raya Canga'an No.19, Ngemboh, Cangaan, Kec. Ujungpangkah, Kabupaten Gresik, Jawa Timur 61154, Indonesia"
   },
   {
     "view_uid": "66bc92ecbb4af",
@@ -29093,7 +29544,8 @@
     "origin_lat": null,
     "origin_lng": null,
     "seller_rating": "5.0000",
-    "products": []
+    "products": [],
+    "alamat_toko": "Koordinat tidak valid"
   },
   {
     "view_uid": "66bc8deedcdcc",
@@ -29113,7 +29565,8 @@
         "seen": 33,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Raya Pasir Putih no.1 Rt.20 Rw.006 Dusun Sidorejo Desa Campurejo, Sidorejo, Dalegan, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66bc8d918b6b6",
@@ -29160,7 +29613,8 @@
         "seen": 32,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Raya Ketanen No.1, Pantenan, Ketanen, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66bc8abc7300c",
@@ -29216,7 +29670,8 @@
         "seen": 332,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "4F65+G8F, Jl. Pasir Putih, Karangtumpuk, Campurejo, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66bc87c2f0b27",
@@ -29281,7 +29736,8 @@
         "seen": 14,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "3G55+JW2, Jl. Raya PU Gosari, Gosari, Kec. Ujungpangkah, Kabupaten Gresik, Jawa Timur 61154, Indonesia"
   },
   {
     "view_uid": "66bc874f39a1c",
@@ -29553,7 +30009,8 @@
         "seen": 54,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "4F53+V5V, Area Sawah, Banyutengah, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66bc83ff6eb19",
@@ -29582,7 +30039,8 @@
         "seen": 97,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "2GV3+Q9J, Doudo, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61154, Indonesia"
   },
   {
     "view_uid": "66bc808532ab5",
@@ -29592,7 +30050,8 @@
     "origin_lat": null,
     "origin_lng": null,
     "seller_rating": null,
-    "products": []
+    "products": [],
+    "alamat_toko": "Koordinat tidak valid"
   },
   {
     "view_uid": "66bc7ecad0a7e",
@@ -29630,7 +30089,8 @@
         "seen": 15,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "4F74+4JR, Karangtumpuk, Campurejo, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66bc7bed50334",
@@ -29659,7 +30119,8 @@
         "seen": 15,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2GM7+JQV, Jl. Mangga, Wadeng, Kec. Sidayu, Kabupaten Gresik, Jawa Timur 61153, Indonesia"
   },
   {
     "view_uid": "66bc743ece73f",
@@ -29679,7 +30140,8 @@
         "seen": 15,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Sitarda No.mor 2, RT.1/RW.5, Bolo, Kec. Ujungpangkah, Kabupaten Gresik, Jawa Timur 61154, Indonesia"
   },
   {
     "view_uid": "66bc6c5b03810",
@@ -29689,7 +30151,8 @@
     "origin_lat": "-6.897197",
     "origin_lng": "112.463930",
     "seller_rating": null,
-    "products": []
+    "products": [],
+    "alamat_toko": "4F37+3PV, Mulyorejo, Dalegan, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66bc6381eda15",
@@ -29745,7 +30208,8 @@
         "seen": 45,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "4F37+3PV, Mulyorejo, Dalegan, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66bc5b9c6164e",
@@ -29864,7 +30328,8 @@
         "seen": 40,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2G46+XX7, Jalan Raya Lasem, Sidayu, Sembung Anyar, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61153, Indonesia"
   },
   {
     "view_uid": "66bc54cbb9d83",
@@ -29884,7 +30349,8 @@
         "seen": 27,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2HM2+9P6, Sidomulyo, Tanjangawan, Kec. Ujungpangkah, Kabupaten Gresik, Jawa Timur 61154, Indonesia"
   },
   {
     "view_uid": "66bc4b498b6d5",
@@ -29922,7 +30388,8 @@
         "seen": 35,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2FGG+CJ2, Jl.Sari Utomo, RT.2/RW.1, Petung, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61153, Indonesia"
   },
   {
     "view_uid": "66bc4960aeb83",
@@ -29987,7 +30454,8 @@
         "seen": 26,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "3CJQ+WRJ, Jl.Sumurgede, RT.09/RW.05, Lemahireng, Pantenan, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66bc44a0a6b13",
@@ -30025,7 +30493,8 @@
         "seen": 19,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "3FWH+98P, Dalegan, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66bc32e32338f",
@@ -30054,7 +30523,8 @@
         "seen": 34,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2HQ4+WC2, Ketapang, Ketapang Lor, Kec. Ujungpangkah, Kabupaten Gresik, Jawa Timur 61154, Indonesia"
   },
   {
     "view_uid": "66bc1bf427dd2",
@@ -30092,7 +30562,8 @@
         "seen": 23,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2HX3+7QG, Karangrejo, Ketapang Lor, Kec. Ujungpangkah, Kabupaten Gresik, Jawa Timur 61154, Indonesia"
   },
   {
     "view_uid": "66bc0efd54d88",
@@ -30102,7 +30573,8 @@
     "origin_lat": "-6.916700",
     "origin_lng": "112.549924",
     "seller_rating": null,
-    "products": []
+    "products": [],
+    "alamat_toko": "3GMX+8WX, Jl. Pendidikan, Pendilwesi, Pangkah Wetan, Kec. Ujungpangkah, Kabupaten Gresik, Jawa Timur 61154, Indonesia"
   },
   {
     "view_uid": "66bc016ca2b47",
@@ -30257,7 +30729,8 @@
         "seen": 19,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Raya Dukun No.05, Sambogunung, Sembungan Kidul, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia"
   },
   {
     "view_uid": "66bb55aad91bc",
@@ -30286,7 +30759,8 @@
         "seen": 31,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "2GV3+PM9, Doudo, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61154, Indonesia"
   },
   {
     "view_uid": "66bb52bdd302f",
@@ -30333,7 +30807,8 @@
         "seen": 25,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "3FX6+QCM, Delegan, Campurejo, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66bb45508b07f",
@@ -30371,7 +30846,8 @@
         "seen": 35,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2FRX+XC3, RT.05/RW.02, Area Sawah, Doudo, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66bb3b7d0570a",
@@ -30481,7 +30957,8 @@
         "seen": 229,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "49FQ+7GG, Jl. Raya Banjarwati, Banjaranyar, Banjarwati, Kec. Paciran, Kabupaten Lamongan, Jawa Timur 62264, Indonesia"
   },
   {
     "view_uid": "66bb39e6e86fc",
@@ -30591,7 +31068,8 @@
         "seen": 2032,
         "review_rating": "4.8793"
       }
-    ]
+    ],
+    "alamat_toko": "XGW5+86V, Sembungan Kidul, Sambogunung, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia"
   },
   {
     "view_uid": "66bb316430096",
@@ -30638,7 +31116,8 @@
         "seen": 6,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2GM7+7GH, Jl. Batam, Wadeng, Kec. Sidayu, Kabupaten Gresik, Jawa Timur 61153, Indonesia"
   },
   {
     "view_uid": "66bb2ae1155f7",
@@ -30712,7 +31191,8 @@
         "seen": 14,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "RT02 RW01, Bangsalsari, Banyuurip, Kec. Ujungpangkah, Kabupaten Gresik, Jawa Timur 61154, Indonesia"
   },
   {
     "view_uid": "66bb25cb11e33",
@@ -30732,7 +31212,8 @@
         "seen": 46,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "4F65+WM7, Jl. Tenggiri, Rejodadi, Campurejo, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66bb2383a10d4",
@@ -30797,7 +31278,8 @@
         "seen": 90,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "2G46+MQ6, Jl. Sumur Bengawan Lasem Sidayu, Sembung Anyar, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61153, Indonesia"
   },
   {
     "view_uid": "66baff590051e",
@@ -30817,7 +31299,8 @@
         "seen": 23,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "4F64+MWF, Karangtumpuk, Campurejo, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66bae7f4e0f99",
@@ -30900,7 +31383,8 @@
         "seen": 10,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Raya Sekapuk No.101, Area Sawah, Wotan, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61154, Indonesia"
   },
   {
     "view_uid": "66bae0b34f5fd",
@@ -30920,7 +31404,8 @@
         "seen": 39,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "RT02 RW01, Bangsalsari, Banyuurip, Kec. Ujungpangkah, Kabupaten Gresik, Jawa Timur 61154, Indonesia"
   },
   {
     "view_uid": "66bada81dcf09",
@@ -30940,7 +31425,8 @@
         "seen": 65,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "RT02 RW01, Bangsalsari, Banyuurip, Kec. Ujungpangkah, Kabupaten Gresik, Jawa Timur 61154, Indonesia"
   },
   {
     "view_uid": "66bad622406dc",
@@ -30950,7 +31436,8 @@
     "origin_lat": "-7.048025",
     "origin_lng": "112.562001",
     "seller_rating": null,
-    "products": []
+    "products": [],
+    "alamat_toko": "XH26+PRR, Karangpoh, Bungah, Kec. Bungah, Kabupaten Gresik, Jawa Timur 61152, Indonesia"
   },
   {
     "view_uid": "66bad5528fd64",
@@ -31087,7 +31574,8 @@
         "seen": 53,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "4F63+377, Jl. Banyutengah, Area Sawah, Campurejo, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66bab45acc40e",
@@ -31107,7 +31595,8 @@
         "seen": 75,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "2GX4+XJP, Area Sawah, Sekapuk, Kec. Ujungpangkah, Kabupaten Gresik, Jawa Timur 61154, Indonesia"
   },
   {
     "view_uid": "66ba2c07eb283",
@@ -31244,7 +31733,8 @@
         "seen": 87,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Raya Ketanen No.1, Pantenan, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66ba2080cb09a",
@@ -31291,7 +31781,8 @@
         "seen": 51,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Kalitengah No.24, Siwalan, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66ba1064955a2",
@@ -31365,7 +31856,8 @@
         "seen": 31,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "4F64+RQC, Mbabrik, Karangtumpuk, Campurejo, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66b9ff9694d23",
@@ -31375,7 +31867,8 @@
     "origin_lat": null,
     "origin_lng": null,
     "seller_rating": null,
-    "products": []
+    "products": [],
+    "alamat_toko": "Koordinat tidak valid"
   },
   {
     "view_uid": "66b9fb7200def",
@@ -31385,7 +31878,8 @@
     "origin_lat": "-6.961456",
     "origin_lng": "112.522047",
     "seller_rating": null,
-    "products": []
+    "products": [],
+    "alamat_toko": "2GQC+9RR, Bolo, Kec. Ujungpangkah, Kabupaten Gresik, Jawa Timur 61154, Indonesia"
   },
   {
     "view_uid": "66b9eecaa3e49",
@@ -31567,7 +32061,8 @@
         "seen": 2,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2H67+MX6, Pengulu, Kec. Sidayu, Kabupaten Gresik, Jawa Timur 61153, Indonesia"
   },
   {
     "view_uid": "66b9e2498e0d0",
@@ -31614,7 +32109,8 @@
         "seen": 27,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "Rt. 4C Rw 01, Karangtumpuk, Campurejo, Kec. Panceng, Kabupaten Gresik, Jawa Timur, Indonesia"
   },
   {
     "view_uid": "66b9de7e3e56a",
@@ -31624,7 +32120,8 @@
     "origin_lat": "-6.879395",
     "origin_lng": "112.448085",
     "seller_rating": null,
-    "products": []
+    "products": [],
+    "alamat_toko": "4CCX+674, Campurejo, Weru, Kec. Paciran, Kabupaten Lamongan, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66b9da37d4d66",
@@ -31644,7 +32141,8 @@
         "seen": 47,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "4F74+4JR, Karangtumpuk, Campurejo, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66b9d7aea5d5e",
@@ -31691,7 +32189,8 @@
         "seen": 177,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "3C5M+82M, Siwalan, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66b9d6be1581c",
@@ -31711,7 +32210,8 @@
         "seen": 73,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "3C5M+82M, Siwalan, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66b9bd1ce7c7f",
@@ -31794,7 +32294,8 @@
         "seen": 1051,
         "review_rating": "4.9636"
       }
-    ]
+    ],
+    "alamat_toko": "4F26+4P8, Delegan, Campurejo, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66b9aaae587b0",
@@ -31994,7 +32495,8 @@
         "seen": 8,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Raya Nenggala No.7, Delegan, Dalegan, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66b997aeb61e7",
@@ -32050,7 +32552,8 @@
         "seen": 34,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "2FQP+MC4, Wotan, Kec. Panceng, Kabupaten Gresik, Jawa Timur, Indonesia"
   },
   {
     "view_uid": "66b98fcdb68d2",
@@ -32133,7 +32636,8 @@
         "seen": 17,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Kalitengah No.24, Siwalan, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66b972950f6d6",
@@ -32180,7 +32684,8 @@
         "seen": 31,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "3CHP+RWR, Pantenan, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66b952858129b",
@@ -32190,7 +32695,8 @@
     "origin_lat": "-6.986250",
     "origin_lng": "112.517594",
     "seller_rating": null,
-    "products": []
+    "products": [],
+    "alamat_toko": "2G78+CRC, Lasem, Kec. Sidayu, Kabupaten Gresik, Jawa Timur 61153, Indonesia"
   },
   {
     "view_uid": "66b9079136c64",
@@ -32200,7 +32706,8 @@
     "origin_lat": null,
     "origin_lng": null,
     "seller_rating": null,
-    "products": []
+    "products": [],
+    "alamat_toko": "Koordinat tidak valid"
   },
   {
     "view_uid": "66b90730ddfc9",
@@ -32210,7 +32717,8 @@
     "origin_lat": null,
     "origin_lng": null,
     "seller_rating": null,
-    "products": []
+    "products": [],
+    "alamat_toko": "Koordinat tidak valid"
   },
   {
     "view_uid": "66b8cc7340ff1",
@@ -32329,7 +32837,8 @@
         "seen": 16,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "4F48+PJC, Jl. Raya Dalegan, Rejodadi, Campurejo, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66b8b9eaaed24",
@@ -32339,7 +32848,8 @@
     "origin_lat": null,
     "origin_lng": null,
     "seller_rating": null,
-    "products": []
+    "products": [],
+    "alamat_toko": "Koordinat tidak valid"
   },
   {
     "view_uid": "66b8b9162de3c",
@@ -32368,7 +32878,8 @@
         "seen": 4,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "4F83+P4F, Jl. Campurejo, Campurejo, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66b8a94d28f40",
@@ -32378,7 +32889,8 @@
     "origin_lat": null,
     "origin_lng": null,
     "seller_rating": "5.0000",
-    "products": []
+    "products": [],
+    "alamat_toko": "Koordinat tidak valid"
   },
   {
     "view_uid": "66b8a7c8959e4",
@@ -32425,7 +32937,8 @@
         "seen": 84,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2FH2+5WR, Rejosari, Tebuwung, Mentaras, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia"
   },
   {
     "view_uid": "66b8a59ace489",
@@ -32481,7 +32994,8 @@
         "seen": 12,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "Jalan pendidikan RT/RW 5/10 dusun, Jl. Druju, Sitarda, Pangkahkulon, Kec. Ujungpangkah, Kabupaten Gresik, Jawa Timur 61154, Indonesia"
   },
   {
     "view_uid": "66b8a59347f5d",
@@ -32501,7 +33015,8 @@
         "seen": 117,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Raya Sekapuk No.19, Doudo, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61154, Indonesia"
   },
   {
     "view_uid": "66b89ff721cd0",
@@ -32521,7 +33036,8 @@
         "seen": 72,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "3HM2+5QC, Jl. Pendidikan Jl. Tegalsari, Pendilwesi, Pangkah Wetan, Kec. Ujungpangkah, Kabupaten Gresik, Jawa Timur 61154, Indonesia"
   },
   {
     "view_uid": "66b892b7bd725",
@@ -32568,7 +33084,8 @@
         "seen": 115,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2FFG+33V, Jalan Raya, Petung, Ima An, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia"
   },
   {
     "view_uid": "66b8921639796",
@@ -32588,7 +33105,8 @@
         "seen": 40,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2FVX+9V6, Doudo, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66b8540bca6f6",
@@ -32598,7 +33116,8 @@
     "origin_lat": null,
     "origin_lng": null,
     "seller_rating": "5.0000",
-    "products": []
+    "products": [],
+    "alamat_toko": "Koordinat tidak valid"
   },
   {
     "view_uid": "66b851debb941",
@@ -32654,7 +33173,8 @@
         "seen": 137,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "3FQ8+2P8, Sebero, Prupuh, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66b84c0c450ad",
@@ -32683,7 +33203,8 @@
         "seen": 57,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2GJ8+VFF, Wadeng, Kec. Sidayu, Kabupaten Gresik, Jawa Timur 61153, Indonesia"
   },
   {
     "view_uid": "66b8467c7d228",
@@ -32693,7 +33214,8 @@
     "origin_lat": "-6.883151",
     "origin_lng": "112.454179",
     "seller_rating": null,
-    "products": []
+    "products": [],
+    "alamat_toko": "4F83+PJX, Waru Lor, Warulor, Kec. Paciran, Kabupaten Lamongan, Jawa Timur 62264, Indonesia"
   },
   {
     "view_uid": "66b841c903f2a",
@@ -32703,7 +33225,8 @@
     "origin_lat": "-6.935062",
     "origin_lng": "112.436204",
     "seller_rating": null,
-    "products": []
+    "products": [],
+    "alamat_toko": "3C7P+XC2, Sono, Siwalan, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66b73ab46dbe1",
@@ -32732,7 +33255,8 @@
         "seen": 55,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Raya Dukun No.04, Sembung Anyar, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia"
   },
   {
     "view_uid": "66b72c2caa405",
@@ -32815,7 +33339,8 @@
         "seen": 11,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Raya Dukun No.5, RW.1, Sembung Anyar, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia"
   },
   {
     "view_uid": "66b728d919dfe",
@@ -32844,7 +33369,8 @@
         "seen": 81,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Sitarda Gg. Simpang No.2, Sitarda, Pangkahkulon, Kec. Ujungpangkah, Kabupaten Gresik, Jawa Timur 61154, Indonesia"
   },
   {
     "view_uid": "66b716896c0d5",
@@ -32864,7 +33390,8 @@
         "seen": 28,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "3HJ4+RWG Air Mancur Pangkahwetan, Jl. Ujung Pangkah, Kacak Kidul, Tambak, Kec. Ujungpangkah, Kabupaten Gresik, Jawa Timur 61154, Indonesia"
   },
   {
     "view_uid": "66b70ef5380eb",
@@ -32938,7 +33465,8 @@
         "seen": 144,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "3GMX+CJP, Sitarda, Pangkahkulon, Kec. Ujungpangkah, Kabupaten Gresik, Jawa Timur 61154, Indonesia"
   },
   {
     "view_uid": "66b70821c8fe3",
@@ -32948,7 +33476,8 @@
     "origin_lat": null,
     "origin_lng": null,
     "seller_rating": "5.0000",
-    "products": []
+    "products": [],
+    "alamat_toko": "Koordinat tidak valid"
   },
   {
     "view_uid": "66b705e40895c",
@@ -32995,7 +33524,8 @@
         "seen": 44,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "2FRP+X43, Sukodono, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66b633fd4dd31",
@@ -33005,7 +33535,8 @@
     "origin_lat": "-6.894209",
     "origin_lng": "112.450518",
     "seller_rating": null,
-    "products": []
+    "products": [],
+    "alamat_toko": "01 Panceng, Jl. Raya Deandles No.1, Banyu Tengah, Banyutengah, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66b625b040a46",
@@ -33106,7 +33637,8 @@
         "seen": 87,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Raya Dalegan No.25, Rejodadi, Campurejo, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66b618dbec9d0",
@@ -33189,7 +33721,8 @@
         "seen": 180,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "2CH9+GG6, Jl. Banyu Biru, RT.27/RW.07, Wonokerto, Lowayu, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia"
   },
   {
     "view_uid": "66b6146e81eba",
@@ -33209,7 +33742,8 @@
         "seen": 64,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "2GV3+RPH, Jl. Raya Sekapuk, Doudo, 13DoudoKec, PancengKabupaten, Kabupaten Gresik, Jawa Timur 61154, Indonesia"
   },
   {
     "view_uid": "66b5f8274db3f",
@@ -33256,7 +33790,8 @@
         "seen": 17,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Raya Sekapuk No.101, Area Sawah, Wotan, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61154, Indonesia"
   },
   {
     "view_uid": "66b5e51299531",
@@ -33276,7 +33811,8 @@
         "seen": 479,
         "review_rating": "4.8571"
       }
-    ]
+    ],
+    "alamat_toko": "3FP4+RRX, Ketanen, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66b5b446917dd",
@@ -33332,7 +33868,8 @@
         "seen": 4,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "3HM3+74V, Jalan Sunber Agung, RT.1/RW.1, Pendilwesi, Pangkahkulon, Kec. Ujungpangkah, Kabupaten Gresik, Jawa Timur 61154, Indonesia"
   },
   {
     "view_uid": "66b5a87b3801e",
@@ -33415,7 +33952,8 @@
         "seen": 49,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "3GMX+5QJ, Sitarda, Pangkahkulon, Kec. Ujungpangkah, Kabupaten Gresik, Jawa Timur 61154, Indonesia"
   },
   {
     "view_uid": "66b5980b2b9c4",
@@ -33435,7 +33973,8 @@
         "seen": 31,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Sitarda No.01, Sitarda, Pangkahkulon, Kec. Ujungpangkah, Kabupaten Gresik, Jawa Timur 61154, Indonesia"
   },
   {
     "view_uid": "66b4e58000fde",
@@ -33959,7 +34498,8 @@
         "seen": 76,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "3FM3+5VF, Prupuh, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66b4b31bb131a",
@@ -33969,7 +34509,8 @@
     "origin_lat": "-6.887141",
     "origin_lng": "112.442041",
     "seller_rating": "5.0000",
-    "products": []
+    "products": [],
+    "alamat_toko": "4C7R+4RP, Tlogosadang, Kec. Paciran, Kabupaten Lamongan, Jawa Timur, Indonesia"
   },
   {
     "view_uid": "66b4a9ccd2c50",
@@ -34151,7 +34692,8 @@
         "seen": 47,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "4C7R+4RP, Tlogosadang, Kec. Paciran, Kabupaten Lamongan, Jawa Timur, Indonesia"
   },
   {
     "view_uid": "66b49d40cb804",
@@ -34216,7 +34758,8 @@
         "seen": 634,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "XGR4+JW7, Jl. Raya Ps. Dukun, Kalirejo, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia"
   },
   {
     "view_uid": "66b497d2c8228",
@@ -34443,7 +34986,8 @@
         "seen": 10,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Dukun Anyar No.3, Sembungan Kidul, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia"
   },
   {
     "view_uid": "66b48e9475a82",
@@ -34517,7 +35061,8 @@
         "seen": 15,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2GV3+QQ6, Doudo, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61154, Indonesia"
   },
   {
     "view_uid": "66b48cf430e94",
@@ -34546,7 +35091,8 @@
         "seen": 56,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Raya Ima'an No.1, Petung, Ima An, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia"
   },
   {
     "view_uid": "66b478ec8553e",
@@ -34692,7 +35238,8 @@
         "seen": 109,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "Jl. Raya Ps. Campurejo No.76, Karangtumpuk, Campurejo, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66b450a4b7502",
@@ -34802,7 +35349,8 @@
         "seen": 50,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "4F42+6FF, Jl. Raya Deandles, Banyu Tengah, Banyutengah, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66b44b5fe2181",
@@ -34822,7 +35370,8 @@
         "seen": 10,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2H67+6Q5, Jl. Kanjeng Sepuh, Pengulu, Gresik, Kabupaten Gresik, Jawa Timur 61153, Indonesia"
   },
   {
     "view_uid": "66b444a2993ce",
@@ -34878,7 +35427,8 @@
         "seen": 53,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "3GQJ+33R, Jl. Bangsalsari Banyuurip, kaklak, Banyuurip, Kec. Ujungpangkah, Kabupaten Gresik, Jawa Timur 61154, Indonesia"
   },
   {
     "view_uid": "66b4422fcb948",
@@ -34970,7 +35520,8 @@
         "seen": 37,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "XGR4+HW3, Jl. Raya Ps. Dukun, Kalirejo, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia"
   },
   {
     "view_uid": "66b43818a6344",
@@ -34999,7 +35550,8 @@
         "seen": 1,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2H88+343, Gg. Ustman Bin Affan, Sedagaran, Kec. Sidayu, Kabupaten Gresik, Jawa Timur 61153, Indonesia"
   },
   {
     "view_uid": "66b3458777e45",
@@ -35046,7 +35598,8 @@
         "seen": 38,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "2G56+HC7, Jl. Sumur Bengawan Lasem Sidayu, Sembung Anyar, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61153, Indonesia"
   },
   {
     "view_uid": "66b32f3d808ea",
@@ -35102,7 +35655,8 @@
         "seen": 214,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "2CJV+CGP, Petiyin Tunggal, Petiyintunggal, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia"
   },
   {
     "view_uid": "66b2ec2de548f",
@@ -35230,7 +35784,8 @@
         "seen": 120,
         "review_rating": "5.0000"
       }
-    ]
+    ],
+    "alamat_toko": "Jln raya dukunanyar sembungan kidul, Sembungan Kidul, Dukunanyar, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia"
   },
   {
     "view_uid": "66b2eafc61d05",
@@ -35313,7 +35868,8 @@
         "seen": 1536,
         "review_rating": "4.8688"
       }
-    ]
+    ],
+    "alamat_toko": "Koordinat tidak valid"
   },
   {
     "view_uid": "66b2dd12842d0",
@@ -35342,7 +35898,8 @@
         "seen": 49,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "3G35+F7M, Slolok, Sekapuk, Kec. Ujungpangkah, Kabupaten Gresik, Jawa Timur 61154, Indonesia"
   },
   {
     "view_uid": "66b1a7edbd8b2",
@@ -35398,7 +35955,8 @@
         "seen": 30,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "3C2V+QJ2, Sumurber, Gresik, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66b1a540312f6",
@@ -35436,7 +35994,8 @@
         "seen": 17,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "3C3H+6XJ, Sumurber, Kec. Panceng, Kabupaten Gresik, Jawa Timur, Indonesia"
   },
   {
     "view_uid": "66b1a1f33bb90",
@@ -35492,7 +36051,8 @@
         "seen": 75,
         "review_rating": null
       }
-    ]
+    ],
+    "alamat_toko": "4F64+MWF, Karangtumpuk, Campurejo, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   },
   {
     "view_uid": "66b082900a86f",
@@ -35620,6 +36180,7 @@
         "seen": 416,
         "review_rating": "4.8421"
       }
-    ]
+    ],
+    "alamat_toko": "4F53+RFJ, Jl. Sumur Kebo, Area Sawah, Campurejo, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia"
   }
 ]
