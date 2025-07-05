@@ -7,7 +7,7 @@
         "link_produk": "action://p/685786af4160d",
         "item_stock": "0",
         "item_sold": "0",
-        "item_seen": "17",
+        "item_seen": "18",
         "item_description": ""
     },
     {
@@ -29,7 +29,7 @@
         "link_produk": "action://p/6847a5e503f1d",
         "item_stock": "0",
         "item_sold": "0",
-        "item_seen": "17",
+        "item_seen": "18",
         "item_description": ""
     },
     {
@@ -40,7 +40,7 @@
         "link_produk": "action://p/6847a5579ecc6",
         "item_stock": "0",
         "item_sold": "0",
-        "item_seen": "12",
+        "item_seen": "13",
         "item_description": ""
     },
     {
@@ -73,7 +73,7 @@
         "link_produk": "action://p/67cfd79dca011",
         "item_stock": "0",
         "item_sold": "0",
-        "item_seen": "75",
+        "item_seen": "76",
         "item_description": ""
     },
     {
@@ -36483,7 +36483,7 @@
         "link_produk": "action://p/6867f404cca2a",
         "item_stock": "0",
         "item_sold": "0",
-        "item_seen": "0",
+        "item_seen": "1",
         "item_description": ""
     }
 ]
