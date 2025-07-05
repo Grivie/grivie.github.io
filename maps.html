@@ -1,161 +1,47 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pilih Lokasi</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <style>
-        html, body {
-            margin: 0;
-            padding: 0;
-            height: 100%;
-            font-family: 'Poppins', sans-serif;
-            background-color: #e9e9e9;
-        }
-        #map-container {
-            width: 100%;
-            height: 100%;
-            display: flex;
-            flex-direction: column;
-        }
-        #map {
-            flex-grow: 1;
-            background-color: #ccc;
-        }
-        #confirm-button-wrapper {
-            padding: 15px;
-            background-color: #FFFFFF;
-            box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
-            text-align: center;
-        }
-        #confirm-location-btn {
-            width: 100%;
-            padding: 12px 20px;
-            font-size: 1em;
-            font-weight: 600;
-            color: #FFFFFF;
-            background-color: #BD0100;
-            border: none;
-            border-radius: 25px;
-            cursor: pointer;
-        }
-        #confirm-location-btn:disabled {
-            background-color: #9E9E9E;
-            cursor: not-allowed;
-        }
-        .info-text {
-             position: absolute;
-             top: 10px;
-             left: 10px;
-             right: 10px;
-             background: rgba(255, 255, 255, 0.9);
-             padding: 8px 12px;
-             border-radius: 8px;
-             font-size: 14px;
-             text-align: center;
-             z-index: 10;
-             pointer-events: none; /* Agar tidak mengganggu drag peta */
-        }
-    </style>
+    <title>Geocode Service</title>
+    <script src="userlocation.js"></script>
 </head>
 <body>
 
-    <div id="map-container">
-        <div id="map"></div>
-        <p class="info-text">Geser Peta dan letakkan penanda di lokasi Anda</p>
-        <div id="confirm-button-wrapper">
-            <button id="confirm-location-btn" disabled>Konfirmasi Lokasi</button>
-        </div>
-    </div>
+<script>
+window.addEventListener('load', async () => {
+    // Ambil parameter 'location' dari URL
+    const params = new URLSearchParams(window.location.search);
+    const locationNameToFind = params.get('location');
 
-    <script>
-        let map, marker, geocoder;
+    // Default object jika tidak ada data yang valid
+    let resultData = {
+        lat: -7.5563, // Fallback ke Solo
+        lng: 110.8318,
+        name: 'Lokasi Tidak Ditemukan',
+        error: true
+    };
 
-        function initMap() {
-            // Default location (tengah Indonesia)
-            const defaultLocation = { lat: -2.548926, lng: 118.0148634 };
-            
-            map = new google.maps.Map(document.getElementById('map'), {
-                center: defaultLocation,
-                zoom: 5,
-                disableDefaultUI: true,
-                zoomControl: true
-            });
-
-            marker = new google.maps.Marker({
-                position: defaultLocation,
-                map: map,
-                draggable: true,
-                title: "Geser saya!"
-            });
-
-            geocoder = new google.maps.Geocoder();
-
-            // Coba dapatkan lokasi pengguna untuk posisi awal marker (opsional)
-             if (navigator.geolocation) {
-                navigator.geolocation.getCurrentPosition(position => {
-                    const userPos = {
-                        lat: position.coords.latitude,
-                        lng: position.coords.longitude
-                    };
-                    marker.setPosition(userPos);
-                    map.setCenter(userPos);
-                    map.setZoom(15);
-                });
-            }
-
-
-            // Aktifkan tombol setelah peta selesai dimuat
-            google.maps.event.addListenerOnce(map, 'idle', function(){
-                $('#confirm-location-btn').prop('disabled', false);
-            });
-
-            $('#confirm-location-btn').on('click', function() {
-                $(this).prop('disabled', true).text('Memproses...');
-                const currentPosition = marker.getPosition();
-                const lat = currentPosition.lat();
-                const lng = currentPosition.lng();
-
-                geocoder.geocode({ 'location': { lat, lng } }, (results, status) => {
-                    let locationName = 'Lokasi Terpilih';
-                    if (status === 'OK' && results[0]) {
-                        let village = '';
-                        let city = '';
-                        for (const component of results[0].address_components) {
-                            if (component.types.includes('administrative_area_level_4')) {
-                                village = component.long_name;
-                            }
-                            if (component.types.includes('locality')) {
-                                city = component.long_name;
-                            }
-                        }
-                        locationName = village || city || results[0].formatted_address.split(',')[0] || 'Lokasi Terpilih';
-                    } else {
-                        console.warn("Geocoding gagal:", status);
-                    }
-
-                    // Kirim data ke halaman utama
-                    const selectionData = {
-                        lat: lat,
-                        lng: lng,
-                        name: locationName
-                    };
-                    
-                    // Gunakan window.parent untuk mengakses fungsi di halaman utama
-                    if (window.parent && typeof window.parent.handleMapSelection === 'function') {
-                        window.parent.handleMapSelection(selectionData);
-                    } else {
-                        alert('Gagal mengirim lokasi. Silakan tutup dan coba lagi.');
-                        $(this).prop('disabled', false).text('Konfirmasi Lokasi');
-                    }
-                });
-            });
+    if (locationNameToFind) {
+        console.log(`[maps.html] Menerima tugas geocoding untuk: "${locationNameToFind}"`);
+        // Panggil fungsi dari userlocation.js
+        const geocodedResult = await geocodeLocationName(locationNameToFind);
+        
+        if (geocodedResult) {
+            // Jika berhasil, gunakan hasilnya
+            resultData = geocodedResult;
         }
-    </script>
-    <script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDx9hMrHNEGbAMMpuWiVRotvReC6eHRVWw&callback=initMap&libraries=geometry&language=id">
-        // Ganti 'YOUR_API_KEY' dengan kunci API Google Maps Anda
-    </script>
+    } else {
+        console.log("[maps.html] Tidak ada parameter 'location' di URL.");
+    }
+
+    // Kirim hasil (baik yang berhasil maupun fallback) kembali ke halaman utama
+    if (window.parent) {
+        console.log('[maps.html] Mengirim data kembali ke parent:', resultData);
+        // '*' bisa diganti dengan domain aplikasi utama Anda untuk keamanan ekstra
+        window.parent.postMessage(resultData, '*');
+    }
+});
+</script>
+
 </body>
 </html>
